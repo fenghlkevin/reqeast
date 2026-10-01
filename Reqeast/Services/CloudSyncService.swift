@@ -142,6 +142,13 @@ final class CloudSyncService {
     func start() {
         guard syncEngine == nil else { return }
 
+        #if os(macOS) && DEBUG
+        guard CloudSyncLocalBuildSupport.canInitializeCloudKit else {
+            logger.notice("CloudKit unavailable: this local build has no iCloud signing entitlements.")
+            return
+        }
+        #endif
+
         let container = CKContainer(identifier: containerID)
         let database = container.privateCloudDatabase
 

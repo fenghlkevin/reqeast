@@ -79,14 +79,8 @@ struct HttpUrlBar: View, RequestDataBindable {
     }
 
     private var urlField: some View {
-        TextField("Enter URL", text: binding(\.url))
-            .textFieldStyle(.roundedBorder)
-            .font(.system(.body, design: .monospaced))
+        HttpUrlInputField(store: store, request: request, isReadOnly: isReadOnly, onSubmit: sendRequest)
             .focused($isUrlFocused)
-            .onSubmit { sendRequest() }
-            .devTextInput()
-            .disabled(isReadOnly)
-            .accessibilityIdentifier("http-request-url-field")
     }
 
     @ViewBuilder

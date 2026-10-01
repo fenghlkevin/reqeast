@@ -73,7 +73,7 @@ enum ImportRequestService {
 
     private static func extractFirstToken(_ input: String) -> String {
         let trimmed = input.trimmingCharacters(in: .whitespacesAndNewlines)
-        let words = trimmed.split(separator: " ", maxSplits: 2, omittingEmptySubsequences: true)
+        let words = trimmed.split(maxSplits: 2, omittingEmptySubsequences: true, whereSeparator: { $0.isWhitespace })
         guard let first = words.first else { return "" }
         let stripped = stripPrompt(String(first))
         if stripped.isEmpty, words.count > 1 {
