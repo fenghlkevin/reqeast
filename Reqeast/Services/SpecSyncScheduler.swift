@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SpecSyncScheduler.swift
 //  Reqeast
@@ -213,7 +214,7 @@ final class SpecSyncScheduler {
         let content = UNMutableNotificationContent()
         content.title = String(localized: "Spec updates available")
         content.body = String(
-            localized: "\(projectName) has spec changes. Open Reqeast to review and apply them."
+            localized: "\(projectName) has spec changes. Open RHEQ to review and apply them."
         )
         content.sound = .default
         content.userInfo = ["projectId": projectId.uuidString]

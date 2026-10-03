@@ -33,7 +33,7 @@ pub use http::{
 pub use jq::jq_filter;
 pub use sse::{SseClient, SseConfig, SseEvent, SseEventHandler};
 pub use tcp::{TcpClient, TcpConfig, TcpEvent, TcpEventHandler};
-pub use types::{HttpBody, HttpMethod, KeyValuePair};
+pub use types::{HttpBody, HttpMethod, HttpVersion, KeyValuePair, MultipartField};
 pub use udp::{UdpClient, UdpConfig, UdpEvent, UdpEventHandler};
 pub use ws::{WsClient, WsConfig, WsEvent, WsEventHandler};
 

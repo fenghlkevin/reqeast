@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07A37C4B2F49967500B28FBF /* Reqeast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reqeast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07A37C4B2F49967500B28FBF /* Reqeast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHEQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA000002AAAA000200000002 /* reqeast_core.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = reqeast_core.xcframework; path = ReqeastCore/reqeast_core.xcframework; sourceTree = "<group>"; };
 		CC000001CCCC000100000001 /* ReqeastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReqeastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC000002CCCC000200000002 /* ReqeastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReqeastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -472,7 +472,8 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reqeast/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Reqeast;
+				INFOPLIST_KEY_CFBundleDisplayName = RHEQ;
+				INFOPLIST_KEY_CFBundleName = RHEQ;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -491,7 +492,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = app.reqeast;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RHEQ;
+				PRODUCT_MODULE_NAME = Reqeast;
+				EXECUTABLE_NAME = Reqeast;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -533,7 +536,8 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Reqeast/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Reqeast;
+				INFOPLIST_KEY_CFBundleDisplayName = RHEQ;
+				INFOPLIST_KEY_CFBundleName = RHEQ;
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -552,7 +556,9 @@
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = app.reqeast;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RHEQ;
+				PRODUCT_MODULE_NAME = Reqeast;
+				EXECUTABLE_NAME = Reqeast;
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -586,7 +592,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reqeast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reqeast";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHEQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reqeast";
 			};
 			name = Debug;
 		};
@@ -608,7 +614,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reqeast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reqeast";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RHEQ.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reqeast";
 			};
 			name = Release;
 		};

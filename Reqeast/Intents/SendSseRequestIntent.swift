@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SendSseRequestIntent.swift
 //  Reqeast
@@ -9,7 +10,7 @@ import Foundation
 struct SendSseRequestIntent: AppIntent {
     static var title: LocalizedStringResource = "Listen to SSE Stream"
     static var description = IntentDescription(
-        "Connect to a Server-Sent Events stream from Reqeast and return the first event."
+        "Connect to a Server-Sent Events stream from RHEQ and return the first event."
     )
     static var openAppWhenRun: Bool = false
 

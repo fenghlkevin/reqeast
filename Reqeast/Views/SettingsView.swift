@@ -1,3 +1,4 @@
+// Modified for RHEQ: selectable system, light and dark appearance.
 //
 //  SettingsView.swift
 //  Reqeast
@@ -6,6 +7,7 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @AppStorage("rheqAppearance") private var appearance: WorkspaceAppearance = .system
     @AppStorage("defaultTimeout") private var defaultTimeout: Int = 30
     @AppStorage("followRedirects") private var followRedirects: Bool = true
     @AppStorage("jsonIndentSpaces") private var jsonIndentSpaces: Int = 2
@@ -30,11 +32,15 @@ struct SettingsView: View {
     @State private var showingResetSheet = false
     #endif
 
+    @State private var showingWorkflowGuide = false
+
     @State private var trustedHosts = SafeFetchTrustedHosts.hosts
     @State private var newTrustedHost = ""
 
     var body: some View {
         generalSettings
+        .modifier(WorkspaceAppearanceModifier())
+        .sheet(isPresented: $showingWorkflowGuide) { HttpWorkflowGuide(initialTopic: 0) }
         #if os(macOS)
         .frame(width: 450, height: 620)
         #else
@@ -48,6 +54,21 @@ struct SettingsView: View {
 
     private var generalSettings: some View {
         Form {
+            Section("Appearance") {
+                Picker("Theme", selection: $appearance) {
+                    ForEach(WorkspaceAppearance.allCases, id: \.self) { option in
+                        Text(option.localizedName).tag(option)
+                    }
+                }.tint(.primary)
+            }
+            Section("Help") {
+                Button { showingWorkflowGuide = true } label: {
+                    Label("User Manual", systemImage: "book")
+                }.buttonStyle(.glass)
+            }
+            #if os(macOS)
+            IdeaBridgeSettingsSection()
+            #endif
             Section("HTTP Defaults") {
                 Stepper("Timeout: \(defaultTimeout)s", value: $defaultTimeout, in: 5...120)
                 Toggle("Follow Redirects", isOn: $followRedirects)

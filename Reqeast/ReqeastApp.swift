@@ -109,8 +109,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     /// and is what made Mac marketing shots look “weird” vs the real app and
     /// `screenshots/references/mac-1.png`.
     private func applyMarketingScreenshotWindowChrome(to window: NSWindow) {
-        // Intentionally empty — do not touch title bar, toolbar, or size.
-        _ = window
+        // The manual fixture uses a deterministic visible window on the first display.
+        // Normal application and marketing launches retain their existing window chrome.
+        guard WorkflowGuideDemo.isRequested, let screen = NSScreen.screens.first else { return }
+        let visible = screen.visibleFrame
+        let frame = NSRect(x: visible.midX - 550, y: visible.midY - 440, width: 1100, height: 880)
+        if window.frame != frame { window.setFrame(frame, display: true) }
     }
 
     /// When SwiftUI never materializes a WindowGroup scene (common under CLI launch), host
@@ -254,9 +258,10 @@ struct ReqeastApp: App {
             await HttpService.warmUp()
         }
         #if DEBUG
-        if ProcessInfo.processInfo.arguments.contains("-screenshotMode") {
+        if ProcessInfo.processInfo.arguments.contains("-screenshotMode") || WorkflowGuideDemo.isRequested {
             // Load synchronously so UITests and screenshot capture see demo data on first frame.
             _ = DemoDataService.load(into: .shared)
+            WorkflowGuideDemo.loadIfRequested(store: .shared)
         } else if ProcessInfo.processInfo.arguments.contains("-screenshotEmpty") {
             ProjectStore.shared.resetAllData()
         }

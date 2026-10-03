@@ -23,7 +23,8 @@ struct HttpFocusedValuesModifier: ViewModifier {
                 execution.send(
                     request: request,
                     environment: store.activeEnvironment(for: request.projectId),
-                    sessionStore: sessionStore
+                    sessionStore: sessionStore,
+                    store: store
                 ) { name in
                     store.renameRequest(request, to: name)
                 }

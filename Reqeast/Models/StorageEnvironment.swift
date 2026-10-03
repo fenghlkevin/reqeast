@@ -11,6 +11,7 @@ enum StorageEnvironment {
     static var isScreenshotMode: Bool {
         let args = ProcessInfo.processInfo.arguments
         return args.contains("-screenshotMode")
+            || WorkflowGuideDemo.isRequested
             || args.contains("-screenshotEmpty")
             || args.contains("-screenshotReload")
     }

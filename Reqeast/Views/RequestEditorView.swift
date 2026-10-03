@@ -12,6 +12,7 @@ struct RequestEditorView: View {
     @State private var showingCodeSnippet = false
     @State private var showingImportRequest = false
     @State private var showingHistory = false
+    @State private var showingWorkflow = false
 
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
@@ -45,6 +46,13 @@ struct RequestEditorView: View {
                     )
                 }
                 if request.type == .http {
+                    ToolbarItem(placement: .automatic) {
+                        Button { showingWorkflow = true } label: {
+                            Label("HTTP Workflows", systemImage: "flowchart")
+                        }
+                        .help("Response variables, comparisons, and batch runs")
+                        .accessibilityIdentifier("http-workflow-button")
+                    }
                     if horizontalSizeClass == .compact {
                         ToolbarItem(placement: .automatic) {
                             Button { showingHistory.toggle() } label: {
@@ -78,6 +86,9 @@ struct RequestEditorView: View {
                         }
                     }
                 }
+            }
+            .sheet(isPresented: $showingWorkflow) {
+                HttpWorkflowSheet(store: store, requestId: requestId)
             }
             .sheet(isPresented: $showingImportRequest) {
                 ImportRequestSheet(store: store, request: request)

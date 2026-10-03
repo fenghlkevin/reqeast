@@ -23,6 +23,7 @@ struct ProjectManagerSheets: ViewModifier {
     @Binding var selectedRequestId: Request.ID?
     @Binding var specExportTarget: SpecExportTarget?
     var addRequest: (RequestType) -> Void
+    @State private var ideaImport: IdeaImportFile?
 
     func body(content: Content) -> some View {
         content
@@ -69,12 +70,17 @@ struct ProjectManagerSheets: ViewModifier {
                     selectProjectAfterSpecImport(project)
                 }
             }
+            .sheet(item: $ideaImport) { file in
+                IdeaBridgeImportSheet(store: store, url: file.url, preferredProjectId: selectedProjectId) { project in
+                    selectProjectAfterSpecImport(project)
+                }
+            }
             .sheet(item: $specExportTarget) { target in
                 ExportSpecSheet(store: store, project: target.project, kind: target.kind)
             }
             .fileImporter(
                 isPresented: $showingFilePicker,
-                allowedContentTypes: [.reqeastExport],
+                allowedContentTypes: [.reqeastExport, .rheqControllerImport],
                 allowsMultipleSelection: false
             ) { result in
                 if case .success(let urls) = result, let url = urls.first {
@@ -82,6 +88,10 @@ struct ProjectManagerSheets: ViewModifier {
                 }
             }
             .onOpenURL { url in
+                if url.pathExtension.lowercased() == "rheqapi" {
+                    ideaImport = IdeaImportFile(url: url)
+                    return
+                }
                 guard url.pathExtension == "reqeast" else { return }
                 handleParsedImport(at: url)
             }
@@ -116,6 +126,10 @@ struct ProjectManagerSheets: ViewModifier {
     }
 
     private func handleParsedImport(at url: URL) {
+        if url.pathExtension.lowercased() == "rheqapi" {
+            ideaImport = IdeaImportFile(url: url)
+            return
+        }
         guard let parsed = ImportExportService.parseImportFile(at: url) else { return }
         switch parsed {
         case .single(let result):
@@ -133,4 +147,9 @@ struct ProjectManagerSheets: ViewModifier {
             selectedRequestId = firstHttpId
         }
     }
+}
+
+private struct IdeaImportFile: Identifiable {
+    let id = UUID()
+    let url: URL
 }

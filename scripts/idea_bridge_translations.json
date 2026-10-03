@@ -1,0 +1,382 @@
+{
+  "IDEA Integration": [
+    "IDEA 集成",
+    "IDEA 整合",
+    "IDEA 連携",
+    "Intégration IDEA",
+    "Integração com IDEA",
+    "Integración con IDEA",
+    "IDEA 연동",
+    "IDEA-Integration"
+  ],
+  "IDEA Controller Import": [
+    "从 IDEA 导入 Controller",
+    "從 IDEA 匯入 Controller",
+    "IDEA から Controller を読み込む",
+    "Importer des Controller depuis IDEA",
+    "Importar Controller do IDEA",
+    "Importar Controller desde IDEA",
+    "IDEA에서 Controller 가져오기",
+    "Controller aus IDEA importieren"
+  ],
+  "Import from IDEA": [
+    "从 IDEA 导入",
+    "從 IDEA 匯入",
+    "IDEA から読み込む",
+    "Importer depuis IDEA",
+    "Importar do IDEA",
+    "Importar desde IDEA",
+    "IDEA에서 가져오기",
+    "Aus IDEA importieren"
+  ],
+  "Export IDEA Plugin": [
+    "导出 IDEA 插件",
+    "匯出 IDEA 外掛",
+    "IDEA プラグインを書き出す",
+    "Exporter le plugin IDEA",
+    "Exportar plugin do IDEA",
+    "Exportar complemento de IDEA",
+    "IDEA 플러그인 내보내기",
+    "IDEA-Plugin exportieren"
+  ],
+  "Installation and Import Guide": [
+    "安装与导入指南",
+    "安裝與匯入指南",
+    "インストールと読み込みガイド",
+    "Guide d’installation et d’importation",
+    "Guia de instalação e importação",
+    "Guía de instalación e importación",
+    "설치 및 가져오기 안내",
+    "Installations- und Importanleitung"
+  ],
+  "Target Project": [
+    "目标项目",
+    "目標專案",
+    "読み込み先のプロジェクト",
+    "Projet de destination",
+    "Projeto de destino",
+    "Proyecto de destino",
+    "대상 프로젝트",
+    "Zielprojekt"
+  ],
+  "Base URL": [
+    "基础地址",
+    "基礎位址",
+    "ベース URL",
+    "URL de base",
+    "URL base",
+    "URL base",
+    "기본 URL",
+    "Basis-URL"
+  ],
+  "Select All": [
+    "全选",
+    "全選",
+    "すべて選択",
+    "Tout sélectionner",
+    "Selecionar tudo",
+    "Seleccionar todo",
+    "모두 선택",
+    "Alle auswählen"
+  ],
+  "Select None": [
+    "取消全选",
+    "取消全選",
+    "選択を解除",
+    "Tout désélectionner",
+    "Desmarcar tudo",
+    "Deseleccionar todo",
+    "선택 해제",
+    "Auswahl aufheben"
+  ],
+  "Matching interfaces are refreshed. Your credentials, test values, and workflow links are preserved. Missing interfaces are retained.": [
+    "匹配的接口会更新。认证信息、测试值和工作流引用会保留。代码中消失的接口不会删除。",
+    "符合的介面會更新。認證資訊、測試值及工作流程參照會保留。程式碼中消失的介面不會刪除。",
+    "一致するインターフェースを更新します。認証情報、テスト値、ワークフローの参照は保持されます。見つからないインターフェースも残ります。",
+    "Les interfaces correspondantes sont actualisées. Les identifiants, valeurs de test et références des workflows sont conservés, ainsi que les interfaces absentes.",
+    "As interfaces correspondentes são atualizadas. Credenciais, valores de teste e referências dos fluxos são preservados. Interfaces ausentes são mantidas.",
+    "Se actualizan las interfaces coincidentes. Se conservan las credenciales, los valores de prueba y las referencias de los flujos. Las interfaces ausentes se mantienen.",
+    "일치하는 인터페이스를 갱신합니다. 인증 정보, 테스트 값, 워크플로 참조를 유지합니다. 코드에서 사라진 인터페이스도 보존합니다.",
+    "Passende Schnittstellen werden aktualisiert. Zugangsdaten, Testwerte und Workflow-Verweise bleiben erhalten. Fehlende Schnittstellen werden beibehalten."
+  ],
+  "Invalid IDEA interface export.": [
+    "IDEA 接口导出文件无效。",
+    "IDEA 介面匯出檔案無效。",
+    "IDEA のインターフェース書き出しファイルが無効です。",
+    "Le fichier d’interfaces IDEA est invalide.",
+    "O arquivo de interfaces do IDEA é inválido.",
+    "El archivo de interfaces de IDEA no es válido.",
+    "IDEA 인터페이스 내보내기 파일이 올바르지 않습니다.",
+    "Ungültige IDEA-Schnittstellendatei."
+  ],
+  "No interfaces to import.": [
+    "没有可导入的接口。",
+    "沒有可匯入的介面。",
+    "読み込めるインターフェースがありません。",
+    "Aucune interface à importer.",
+    "Não há interfaces para importar.",
+    "No hay interfaces para importar.",
+    "가져올 인터페이스가 없습니다.",
+    "Keine Schnittstellen zum Importieren."
+  ],
+  "IDEA exports must be smaller than 5 MB.": [
+    "IDEA 导出文件不能超过 5 MB。",
+    "IDEA 匯出檔案不能超過 5 MB。",
+    "IDEA の書き出しファイルは 5 MB 以下にしてください。",
+    "Le fichier IDEA ne doit pas dépasser 5 Mo.",
+    "O arquivo do IDEA não pode exceder 5 MB.",
+    "El archivo de IDEA no puede superar 5 MB.",
+    "IDEA 내보내기 파일은 5 MB를 초과할 수 없습니다.",
+    "Die IDEA-Datei darf 5 MB nicht überschreiten."
+  ],
+  "Choose a local project and a valid base URL.": [
+    "请选择本地项目并填写有效的基础地址。",
+    "請選擇本機專案並填入有效的基礎位址。",
+    "ローカルプロジェクトと有効なベース URL を指定してください。",
+    "Choisissez un projet local et une URL de base valide.",
+    "Escolha um projeto local e uma URL base válida.",
+    "Elige un proyecto local y una URL base válida.",
+    "로컬 프로젝트와 올바른 기본 URL을 선택하세요.",
+    "Wählen Sie ein lokales Projekt und eine gültige Basis-URL."
+  ],
+  "Duplicate interface links. Resolve them before refreshing.": [
+    "接口关联重复，请处理后再刷新。",
+    "介面關聯重複，請處理後再更新。",
+    "インターフェースの関連付けが重複しています。修正してから更新してください。",
+    "Les liens d’interfaces sont en double. Corrigez-les avant l’actualisation.",
+    "Há vínculos de interfaces duplicados. Resolva-os antes de atualizar.",
+    "Hay enlaces de interfaces duplicados. Corrígelos antes de actualizar.",
+    "인터페이스 연결이 중복되었습니다. 해결한 후 갱신하세요.",
+    "Doppelte Schnittstellenverknüpfungen. Vor dem Aktualisieren korrigieren."
+  ],
+  "Another import is in progress.": [
+    "另一个导入正在进行。",
+    "另一個匯入正在進行。",
+    "別の読み込みが実行中です。",
+    "Une autre importation est en cours.",
+    "Outra importação está em andamento.",
+    "Hay otra importación en curso.",
+    "다른 가져오기가 진행 중입니다.",
+    "Ein anderer Import läuft bereits."
+  ],
+  "IDEA plugin package is missing.": [
+    "缺少 IDEA 插件安装包。",
+    "缺少 IDEA 外掛安裝套件。",
+    "IDEA プラグインのパッケージがありません。",
+    "Le paquet du plugin IDEA est introuvable.",
+    "O pacote do plugin IDEA não foi encontrado.",
+    "No se encuentra el paquete del complemento de IDEA.",
+    "IDEA 플러그인 설치 패키지가 없습니다.",
+    "Das IDEA-Plugin-Paket fehlt."
+  ],
+  "Install the IDEA plugin": [
+    "安装 IDEA 插件",
+    "安裝 IDEA 外掛",
+    "IDEA プラグインをインストール",
+    "Installer le plugin IDEA",
+    "Instalar o plugin do IDEA",
+    "Instalar el complemento de IDEA",
+    "IDEA 플러그인 설치",
+    "IDEA-Plugin installieren"
+  ],
+  "Choose what to import": [
+    "选择导入范围",
+    "選擇匯入範圍",
+    "読み込む範囲を選ぶ",
+    "Choisir les éléments à importer",
+    "Escolher o que importar",
+    "Elegir qué importar",
+    "가져올 범위 선택",
+    "Importumfang auswählen"
+  ],
+  "Enter the API base URL": [
+    "填写接口基础地址",
+    "填入介面基礎位址",
+    "API のベース URL を入力",
+    "Saisir l’URL de base de l’API",
+    "Informar a URL base da API",
+    "Introducir la URL base de la API",
+    "API 기본 URL 입력",
+    "API-Basis-URL eingeben"
+  ],
+  "Review and confirm the import": [
+    "预览并确认导入",
+    "預覽並確認匯入",
+    "確認して読み込む",
+    "Vérifier et confirmer l’importation",
+    "Revisar e confirmar a importação",
+    "Revisar y confirmar la importación",
+    "미리 보고 가져오기 확인",
+    "Import prüfen und bestätigen"
+  ],
+  "Prepare and send the first request": [
+    "准备并发送第一个请求",
+    "準備並傳送第一個請求",
+    "最初のリクエストを準備して送信",
+    "Préparer et envoyer la première requête",
+    "Preparar e enviar a primeira requisição",
+    "Preparar y enviar la primera solicitud",
+    "첫 요청 준비 및 전송",
+    "Erste Anfrage vorbereiten und senden"
+  ],
+  "Refresh after changing code": [
+    "代码修改后刷新接口",
+    "程式碼修改後更新介面",
+    "コード変更後に更新",
+    "Actualiser après une modification du code",
+    "Atualizar após alterar o código",
+    "Actualizar después de cambiar el código",
+    "코드 변경 후 갱신",
+    "Nach Codeänderungen aktualisieren"
+  ],
+  "Check unsupported mappings": [
+    "检查不支持的映射",
+    "檢查不支援的對應",
+    "未対応のマッピングを確認",
+    "Vérifier les mappings non pris en charge",
+    "Verificar mapeamentos não suportados",
+    "Revisar asignaciones no compatibles",
+    "지원하지 않는 매핑 확인",
+    "Nicht unterstützte Zuordnungen prüfen"
+  ],
+  "Rendered app view with fictional data. Click to enlarge.": [
+    "程序界面渲染图，使用虚构示例数据。点击放大。",
+    "程式介面繪製圖，使用虛構範例資料。點擊放大。",
+    "架空のデータで描画したアプリ画面です。クリックすると拡大します。",
+    "Vue de l’application rendue avec des données fictives. Cliquez pour agrandir.",
+    "Tela do aplicativo renderizada com dados fictícios. Clique para ampliar.",
+    "Vista de la aplicación con datos ficticios. Haz clic para ampliar.",
+    "가상 데이터로 렌더링한 앱 화면입니다. 클릭하여 확대하세요.",
+    "Gerenderte App-Ansicht mit Beispieldaten. Zum Vergrößern klicken."
+  ],
+  "Import Java Spring Controller interfaces from IDEA without starting the backend. The plugin reads declarations and DTO fields, then opens a local export in RHEQ for review. It never sends API requests.": [
+    "无需启动后端，即可从 IDEA 导入 Java Spring Controller 接口。插件读取接口声明和 DTO 字段，将本地导出文件交给 RHEQ 预览，不会发送接口请求。",
+    "無需啟動後端，即可從 IDEA 匯入 Java Spring Controller 介面。外掛讀取介面宣告及 DTO 欄位，將本機匯出檔案交給 RHEQ 預覽，不會傳送介面請求。",
+    "バックエンドを起動せず、IDEA から Java Spring Controller を読み込めます。プラグインは宣言と DTO フィールドを読み取り、ローカルファイルを RHEQ で確認します。API リクエストは送信しません。",
+    "Importez les interfaces Java Spring Controller depuis IDEA sans lancer le serveur. Le plugin lit les déclarations et les champs DTO, puis ouvre un fichier local dans RHEQ pour vérification. Il n’envoie aucune requête API.",
+    "Importe interfaces Java Spring Controller do IDEA sem iniciar o servidor. O plugin lê declarações e campos DTO e abre um arquivo local no RHEQ para revisão. Nenhuma requisição à API é enviada.",
+    "Importa interfaces Java Spring Controller desde IDEA sin iniciar el servidor. El complemento lee declaraciones y campos DTO y abre un archivo local en RHEQ para revisarlo. No envía solicitudes a la API.",
+    "백엔드를 실행하지 않고 IDEA의 Java Spring Controller 인터페이스를 가져옵니다. 플러그인은 선언과 DTO 필드를 읽어 로컬 파일을 RHEQ에서 검토하도록 엽니다. API 요청은 보내지 않습니다.",
+    "Importieren Sie Java-Spring-Controller aus IDEA, ohne das Backend zu starten. Das Plugin liest Deklarationen und DTO-Felder und öffnet eine lokale Datei zur Prüfung in RHEQ. Es sendet keine API-Anfragen."
+  ],
+  "In RHEQ Settings, open IDEA Integration and click Export IDEA Plugin. In IDEA Settings → Plugins, use the gear menu → Install Plugin from Disk. Select the ZIP and restart IDEA. The package supports IDEA 2026.2 on macOS with the Java plugin enabled.": [
+    "在 RHEQ 设置的「IDEA 集成」中点击「导出 IDEA 插件」。在 IDEA 的 Settings → Plugins 中打开齿轮菜单，选择 Install Plugin from Disk，选中 ZIP 并重启 IDEA。安装包支持 macOS 上的 IDEA 2026.2，需启用 Java 插件。",
+    "在 RHEQ 設定的「IDEA 整合」中點擊「匯出 IDEA 外掛」。在 IDEA 的 Settings → Plugins 中開啟齒輪選單，選擇 Install Plugin from Disk，選取 ZIP 並重新啟動 IDEA。套件支援 macOS 的 IDEA 2026.2，需啟用 Java 外掛。",
+    "RHEQ の設定で IDEA 連携からプラグインを書き出します。IDEA の Settings → Plugins の歯車メニューで Install Plugin from Disk を選び、ZIP を指定して再起動します。macOS の IDEA 2026.2 と有効な Java プラグインが必要です。",
+    "Dans les réglages RHEQ, ouvrez Intégration IDEA et exportez le plugin. Dans IDEA : Settings → Plugins → menu engrenage → Install Plugin from Disk. Choisissez le ZIP et redémarrez IDEA. Le paquet prend en charge IDEA 2026.2 sur macOS avec le plugin Java activé.",
+    "Nas configurações do RHEQ, abra Integração com IDEA e exporte o plugin. No IDEA: Settings → Plugins → engrenagem → Install Plugin from Disk. Escolha o ZIP e reinicie o IDEA. O pacote suporta IDEA 2026.2 no macOS com o plugin Java ativado.",
+    "En los ajustes de RHEQ, abre Integración con IDEA y exporta el complemento. En IDEA: Settings → Plugins → engranaje → Install Plugin from Disk. Selecciona el ZIP y reinicia IDEA. Requiere IDEA 2026.2 en macOS con el complemento Java activado.",
+    "RHEQ 설정의 IDEA 연동에서 플러그인을 내보냅니다. IDEA의 Settings → Plugins → 톱니바퀴 메뉴 → Install Plugin from Disk에서 ZIP을 선택하고 재시작합니다. macOS용 IDEA 2026.2와 활성화된 Java 플러그인이 필요합니다.",
+    "Exportieren Sie das Plugin in den RHEQ-Einstellungen unter IDEA-Integration. In IDEA: Settings → Plugins → Zahnradmenü → Install Plugin from Disk. ZIP auswählen und IDEA neu starten. Unterstützt wird IDEA 2026.2 auf macOS mit aktiviertem Java-Plugin."
+  ],
+  "Wait for IDEA indexing to finish. Right-click inside a Java Controller method and choose RHEQ → Import Method into RHEQ. Use Import Controller into RHEQ for the current class, or select a module in the Project tree and choose Import Module into RHEQ.": [
+    "等待 IDEA 索引完成。在 Java Controller 方法内部右键，选择 RHEQ → 导入当前方法到 RHEQ。导入整个类时选择「导入 Controller 到 RHEQ」；导入模块时，在 Project 树选中模块，再选择「导入模块到 RHEQ」。",
+    "等待 IDEA 索引完成。在 Java Controller 方法內按右鍵，選擇 RHEQ → 匯入目前方法至 RHEQ。匯入整個類別時選擇 Controller 動作；匯入模組時，在 Project 樹選取模組再選擇模組匯入動作。",
+    "IDEA のインデックス作成完了を待ちます。Java Controller のメソッド内を右クリックし、RHEQ のメソッド読み込みを選びます。クラス全体は Controller、Project ツリーで選んだモジュール全体は Module の読み込みを使います。",
+    "Attendez la fin de l’indexation IDEA. Dans une méthode Java Controller, faites un clic droit et choisissez RHEQ → Import Method into RHEQ. Utilisez l’action Controller pour la classe, ou sélectionnez un module dans Project et utilisez l’action Module.",
+    "Aguarde a indexação do IDEA. Clique com o botão direito dentro de um método Java Controller e escolha a ação Method do RHEQ. Use Controller para a classe ou selecione um módulo na árvore Project e use Module.",
+    "Espera a que termine la indexación de IDEA. Haz clic derecho dentro de un método Java Controller y elige la acción Method de RHEQ. Usa Controller para la clase o selecciona un módulo en Project y usa Module.",
+    "IDEA 색인이 끝날 때까지 기다립니다. Java Controller 메서드 안에서 우클릭하여 RHEQ의 Method 가져오기를 선택합니다. 클래스 전체는 Controller, Project 트리에서 선택한 모듈 전체는 Module 작업을 사용합니다.",
+    "Warten Sie, bis IDEA die Indizierung beendet hat. Rechtsklicken Sie in eine Java-Controller-Methode und wählen Sie die RHEQ-Aktion Method. Für die Klasse verwenden Sie Controller; für ein in Project ausgewähltes Modul die Aktion Module."
+  ],
+  "Enter the server address, port, and application context path. This address is independent of the Java package and module name. Review the interface count and warnings, then click Open in RHEQ.": [
+    "输入服务器地址、端口和应用的 context-path，不要把 Java 包名或模块名当作地址。检查接口数量和警告，点击「在 RHEQ 中打开」。",
+    "輸入伺服器位址、連接埠及應用程式的 context-path，不要把 Java 套件名或模組名當作位址。檢查介面數量及警告後，在 RHEQ 中開啟。",
+    "サーバーアドレス、ポート、アプリの context-path を入力します。Java のパッケージ名やモジュール名とは別です。件数と警告を確認し、RHEQ で開きます。",
+    "Saisissez l’adresse du serveur, le port et le context-path de l’application, indépendamment du package Java et du module. Vérifiez le nombre d’interfaces et les avertissements, puis ouvrez dans RHEQ.",
+    "Informe endereço do servidor, porta e context-path da aplicação, independentemente do pacote Java e do módulo. Revise a quantidade de interfaces e os avisos e abra no RHEQ.",
+    "Introduce la dirección del servidor, el puerto y el context-path de la aplicación, independientes del paquete Java y del módulo. Revisa el número de interfaces y los avisos y abre en RHEQ.",
+    "서버 주소, 포트, 애플리케이션의 context-path를 입력합니다. Java 패키지나 모듈 이름과는 별개입니다. 인터페이스 수와 경고를 확인하고 RHEQ에서 엽니다.",
+    "Geben Sie Serveradresse, Port und context-path der Anwendung ein. Java-Paket und Modulname sind davon unabhängig. Prüfen Sie Anzahl und Warnungen und öffnen Sie den Export in RHEQ."
+  ],
+  "In the RHEQ preview, choose New Project or an existing local project. Check the base URL, request list, and warnings. Uncheck interfaces you do not need. The + count means new requests; ↻ means matching requests will change. Click Import only after reviewing.": [
+    "在 RHEQ 预览中选择新项目或已有本地项目。检查基础地址、请求列表和警告，取消勾选不需要的接口。+ 表示新增请求，↻ 表示匹配请求会更新。检查后点击「导入」。",
+    "在 RHEQ 預覽中選擇新專案或既有本機專案。檢查基礎位址、請求清單及警告，取消勾選不需要的介面。+ 表示新增請求，↻ 表示符合的請求會更新。檢查後點擊「匯入」。",
+    "RHEQ のプレビューで新規または既存のローカルプロジェクトを選びます。ベース URL、一覧、警告を確認し、不要な項目を外します。+ は追加、↻ は更新するリクエストです。確認後に読み込みます。",
+    "Dans RHEQ, choisissez un nouveau projet ou un projet local existant. Vérifiez URL, liste et avertissements, puis décochez les interfaces inutiles. + indique les ajouts et ↻ les requêtes à actualiser. Confirmez ensuite l’importation.",
+    "No RHEQ, escolha um projeto novo ou local existente. Revise URL, lista e avisos e desmarque interfaces desnecessárias. + indica novas requisições e ↻ as que serão atualizadas. Confirme a importação após revisar.",
+    "En RHEQ, elige un proyecto nuevo o local existente. Revisa URL, lista y avisos y desmarca las interfaces innecesarias. + indica solicitudes nuevas y ↻ las que se actualizarán. Confirma la importación después de revisar.",
+    "RHEQ 미리보기에서 새 프로젝트 또는 기존 로컬 프로젝트를 선택합니다. 기본 URL, 목록, 경고를 확인하고 불필요한 항목을 해제합니다. +는 신규 요청, ↻는 갱신될 요청입니다. 확인 후 가져옵니다.",
+    "Wählen Sie in RHEQ ein neues oder vorhandenes lokales Projekt. Prüfen Sie URL, Liste und Warnungen und wählen Sie unnötige Schnittstellen ab. + zeigt neue Anfragen, ↻ Aktualisierungen. Bestätigen Sie danach den Import."
+  ],
+  "Select an imported request. Replace path variables such as {{id}} with test values, or define them in the active environment. Check query parameters, headers, and the generated body. DTO examples are placeholders. Configure authentication, start your backend, and click Send when ready.": [
+    "选中已导入的请求。把 {{id}} 等路径变量替换成测试值，或在当前环境中定义它们。检查查询参数、请求头和自动生成的请求体。DTO 示例只是占位值。配置认证，启动后端，准备好后点击「发送」。",
+    "選取已匯入的請求。將 {{id}} 等路徑變數替換成測試值，或在目前環境中定義。檢查查詢參數、標頭及產生的本文。DTO 範例僅為預填值。設定認證、啟動後端，準備好後傳送。",
+    "読み込んだリクエストを選びます。{{id}} などをテスト値に置換するか、環境に定義します。クエリ、ヘッダー、生成されたボディを確認します。DTO の例は仮の値です。認証を設定し、バックエンドを起動してから送信します。",
+    "Sélectionnez une requête importée. Remplacez {{id}} et les autres variables par des valeurs de test ou définissez-les dans l’environnement actif. Vérifiez paramètres, en-têtes et corps généré. Les exemples DTO sont provisoires. Configurez l’authentification, lancez le serveur puis envoyez.",
+    "Selecione uma requisição importada. Substitua {{id}} e outras variáveis por valores de teste ou defina-as no ambiente ativo. Confira parâmetros, cabeçalhos e corpo gerado. Os exemplos DTO são provisórios. Configure a autenticação, inicie o servidor e envie.",
+    "Selecciona una solicitud importada. Sustituye {{id}} y otras variables por valores de prueba o defínelas en el entorno activo. Revisa parámetros, cabeceras y cuerpo generado. Los ejemplos DTO son provisionales. Configura la autenticación, inicia el servidor y envía.",
+    "가져온 요청을 선택합니다. {{id}} 같은 경로 변수를 테스트 값으로 바꾸거나 활성 환경에 정의합니다. 쿼리, 헤더, 생성된 본문을 확인합니다. DTO 예시는 임시 값입니다. 인증을 설정하고 백엔드를 실행한 뒤 전송합니다.",
+    "Wählen Sie eine importierte Anfrage. Ersetzen Sie {{id}} und andere Variablen durch Testwerte oder definieren Sie sie in der aktiven Umgebung. Prüfen Sie Parameter, Header und generierten Body. DTO-Beispiele sind Platzhalter. Richten Sie die Authentifizierung ein, starten Sie das Backend und senden Sie die Anfrage."
+  ],
+  "Run the same IDEA action again and select the same RHEQ project. Matching interfaces keep request IDs, authentication, test parameter values, and workflow references. Locally edited URLs and bodies are retained. Missing interfaces are not deleted. Renaming a class or method, changing its parameter signature, or moving the project may create new requests; review old requests manually.": [
+    "修改代码后，再执行同一个 IDEA 动作，并选择同一个 RHEQ 项目。匹配接口会保留请求 ID、认证、测试参数值和工作流引用。本地改过的地址及请求体保留，消失的接口不删除。类名、方法名、参数签名变化或项目目录移动可能产生新请求，请手动核对旧请求。",
+    "修改程式碼後，再執行相同的 IDEA 動作並選擇相同的 RHEQ 專案。符合的介面保留請求 ID、認證、測試參數及工作流程參照。本機修改的位址及本文保留，消失的介面不刪除。名稱、參數簽章或專案位置變更可能新增請求，請手動檢查舊請求。",
+    "変更後は同じ IDEA アクションと RHEQ プロジェクトを使います。一致したリクエストの ID、認証、テスト値、ワークフロー参照は保持します。編集済み URL とボディ、消えたインターフェースも残ります。名前、引数の型、プロジェクト位置が変わると新規扱いになる場合があるため、古いリクエストを確認してください。",
+    "Relancez la même action IDEA et choisissez le même projet RHEQ. Les ID, l’authentification, les valeurs de test et références de workflows sont conservés. Les URL et corps modifiés localement restent, ainsi que les interfaces absentes. Un changement de nom, signature ou emplacement du projet peut créer de nouvelles requêtes : vérifiez les anciennes.",
+    "Execute a mesma ação no IDEA e escolha o mesmo projeto RHEQ. IDs, autenticação, valores de teste e referências dos fluxos são preservados. URLs e corpos editados localmente permanecem, assim como interfaces ausentes. Mudanças de nome, assinatura ou local do projeto podem criar novas requisições; revise as antigas.",
+    "Repite la misma acción de IDEA y elige el mismo proyecto RHEQ. Se conservan los ID, autenticación, valores de prueba y referencias de flujos. Se mantienen las URL y cuerpos editados y las interfaces ausentes. Cambiar nombres, firmas o la ubicación del proyecto puede crear solicitudes nuevas; revisa las antiguas.",
+    "같은 IDEA 작업을 다시 실행하고 같은 RHEQ 프로젝트를 선택합니다. 일치하는 요청의 ID, 인증, 테스트 값, 워크플로 참조를 유지합니다. 수정한 URL과 본문 및 사라진 인터페이스도 보존합니다. 이름, 매개변수 시그니처, 프로젝트 위치가 바뀌면 새 요청이 생길 수 있으므로 기존 요청을 확인하세요.",
+    "Führen Sie dieselbe IDEA-Aktion für dasselbe RHEQ-Projekt aus. IDs, Authentifizierung, Testwerte und Workflow-Verweise bleiben erhalten. Lokal bearbeitete URLs und Bodys sowie fehlende Schnittstellen bleiben bestehen. Neue Namen, Signaturen oder Projektpfade können neue Anfragen erzeugen; prüfen Sie alte Anfragen manuell."
+  ],
+  "This integration supports Java and common Spring web annotations. Kotlin, custom annotation aliases, wildcard or regex paths, and runtime path expressions need manual configuration. Inherited parameter annotations and mapping conditions require review. DTO nesting is limited to 8 levels and 100 fields per type; exports are limited to 2000 interfaces and 5 MB. If no preview opens, check that RHEQ is installed in /Applications and inspect the error in IDEA.": [
+    "支持 Java 和常见 Spring Web 注解。Kotlin、自定义注解别名、通配符或正则路径及运行时路径表达式需要手动配置。继承参数注解和映射条件需要核对。DTO 最多 8 层、每种类型 100 个字段；每次最多 2000 个接口、5 MB。预览未打开时，请检查 /Applications 中的 RHEQ，并查看 IDEA 报错。",
+    "支援 Java 及常見 Spring Web 註解。Kotlin、自訂註解別名、萬用字元或正規表示式路徑及執行時期路徑需手動設定。繼承參數註解及對應條件需核對。DTO 最多 8 層、每類型 100 欄位；匯出最多 2000 介面、5 MB。無法開啟預覽時請檢查 /Applications 中的 RHEQ 及 IDEA 錯誤。",
+    "Java と一般的な Spring Web 注釈に対応します。Kotlin、独自注釈、ワイルドカード・正規表現・実行時のパスは手動設定が必要です。継承した引数注釈とマッピング条件も確認してください。DTO は 8 階層、型ごとに 100 フィールド、書き出しは 2000 件・5 MB までです。開かない場合は /Applications の RHEQ と IDEA のエラーを確認します。",
+    "Java et les annotations Spring Web courantes sont pris en charge. Kotlin, alias personnalisés, chemins à jokers, regex ou expressions dynamiques nécessitent une configuration manuelle. Vérifiez les annotations héritées et conditions de mapping. Limites : DTO sur 8 niveaux, 100 champs par type, 2000 interfaces et 5 Mo. Si rien ne s’ouvre, vérifiez RHEQ dans /Applications et l’erreur IDEA.",
+    "Suporta Java e anotações Spring Web comuns. Kotlin, aliases personalizados, caminhos com curingas, regex ou expressões dinâmicas exigem configuração manual. Revise anotações herdadas e condições de mapeamento. Limites: 8 níveis DTO, 100 campos por tipo, 2000 interfaces e 5 MB. Se a prévia não abrir, confira RHEQ em /Applications e o erro no IDEA.",
+    "Admite Java y anotaciones Spring Web comunes. Kotlin, alias personalizados, rutas con comodines, regex o expresiones dinámicas requieren configuración manual. Revisa anotaciones heredadas y condiciones. Límites: DTO de 8 niveles, 100 campos por tipo, 2000 interfaces y 5 MB. Si no se abre la vista previa, comprueba RHEQ en /Applications y el error de IDEA.",
+    "Java와 일반적인 Spring Web 어노테이션을 지원합니다. Kotlin, 사용자 정의 별칭, 와일드카드·정규식·동적 경로는 수동 설정이 필요합니다. 상속한 매개변수 어노테이션과 매핑 조건을 검토하세요. DTO는 8단계, 타입별 100필드, 내보내기는 2000개와 5 MB까지입니다. 미리보기가 안 열리면 /Applications의 RHEQ와 IDEA 오류를 확인하세요.",
+    "Java und übliche Spring-Web-Annotationen werden unterstützt. Kotlin, eigene Aliase, Platzhalter-, Regex- und dynamische Pfade müssen manuell konfiguriert werden. Prüfen Sie geerbte Parameterannotationen und Bedingungen. Grenzen: 8 DTO-Ebenen, 100 Felder pro Typ, 2000 Schnittstellen und 5 MB. Falls keine Vorschau erscheint, prüfen Sie RHEQ in /Applications und den IDEA-Fehler."
+  ],
+  "Import using the method icon": [
+    "点击方法图标导入",
+    "點擊方法圖示匯入",
+    "メソッドのアイコンから読み込む",
+    "Importer avec l’icône de la méthode",
+    "Importar pelo ícone do método",
+    "Importar con el icono del método",
+    "메서드 아이콘으로 가져오기",
+    "Über das Methodensymbol importieren"
+  ],
+  "Import this interface into RHEQ": [
+    "导入此接口到 RHEQ",
+    "匯入此介面至 RHEQ",
+    "このインターフェースを RHEQ に読み込む",
+    "Importer cette interface dans RHEQ",
+    "Importar esta interface no RHEQ",
+    "Importar esta interfaz en RHEQ",
+    "이 인터페이스를 RHEQ로 가져오기",
+    "Diese Schnittstelle in RHEQ importieren"
+  ],
+  "Click the RHEQ icon beside the method to import only that interface.": [
+    "点击方法左侧的 RHEQ 图标，仅导入该接口。",
+    "點擊方法左側的 RHEQ 圖示，僅匯入該介面。",
+    "メソッドの横にある RHEQ アイコンをクリックすると、そのインターフェースだけを読み込みます。",
+    "Cliquez sur l’icône RHEQ à côté de la méthode pour importer uniquement cette interface.",
+    "Clique no ícone RHEQ ao lado do método para importar somente essa interface.",
+    "Haz clic en el icono RHEQ junto al método para importar solo esa interfaz.",
+    "메서드 옆 RHEQ 아이콘을 클릭하면 해당 인터페이스만 가져옵니다.",
+    "Klicken Sie auf das RHEQ-Symbol neben der Methode, um nur diese Schnittstelle zu importieren."
+  ],
+  "Illustration of the method import icon. Click to enlarge.": [
+    "方法导入图标的位置示意。点击放大。",
+    "方法匯入圖示的位置示意。點擊放大。",
+    "メソッド読み込みアイコンの位置を示す図です。クリックすると拡大します。",
+    "Illustration de l’icône d’importation de méthode. Cliquez pour agrandir.",
+    "Ilustração do ícone de importação de método. Clique para ampliar.",
+    "Ilustración del icono de importación de método. Haz clic para ampliar.",
+    "메서드 가져오기 아이콘 위치 안내 그림입니다. 클릭하여 확대하세요.",
+    "Darstellung des Methodensymbols für den Import. Zum Vergrößern klicken."
+  ],
+  "After IDEA indexing finishes, a RHEQ icon appears in the left gutter beside each supported Controller method. Hover over it to see Import this interface into RHEQ, then click the icon. Only that method is exported, regardless of the caret position. Enter the base URL and continue to the RHEQ preview. If the icon is hidden, open IDEA Settings → Editor → General → Gutter Icons and enable RHEQ Interface Import.": [
+    "IDEA 索引完成后，每个支持的 Controller 方法左侧会出现 RHEQ 图标。悬停显示「导入此接口到 RHEQ」，点击即可导入。只导出图标所在的方法，不受光标位置影响。填写基础地址后进入 RHEQ 预览。图标未显示时，在 IDEA Settings → Editor → General → Gutter Icons 中启用 RHEQ Interface Import（RHEQ 接口导入）。",
+    "IDEA 索引完成後，每個支援的 Controller 方法左側會顯示 RHEQ 圖示。懸停顯示「匯入此介面至 RHEQ」，點擊即可匯入。僅匯出該方法，不受游標位置影響。填入基礎位址後進入 RHEQ 預覽。圖示未顯示時，在 IDEA Settings → Editor → General → Gutter Icons 中啟用 RHEQ Interface Import。",
+    "IDEA のインデックス作成完了後、対応する Controller メソッドの左側に RHEQ アイコンが表示されます。カーソルを重ねると読み込みの説明が出ます。クリックすると、エディター内のカーソル位置に関係なくそのメソッドだけを書き出します。ベース URL を入力し、RHEQ のプレビューに進みます。非表示の場合は IDEA の Settings → Editor → General → Gutter Icons で RHEQ Interface Import を有効にしてください。",
+    "Après l’indexation IDEA, une icône RHEQ apparaît dans la marge gauche de chaque méthode Controller prise en charge. Survolez-la pour voir l’action, puis cliquez. Seule cette méthode est exportée, quelle que soit la position du curseur. Saisissez l’URL de base et ouvrez l’aperçu RHEQ. Si l’icône est masquée, activez RHEQ Interface Import dans Settings → Editor → General → Gutter Icons.",
+    "Após a indexação do IDEA, um ícone RHEQ aparece na margem esquerda de cada método Controller suportado. Passe o mouse para ver a ação e clique. Somente esse método é exportado, independentemente da posição do cursor. Informe a URL base e abra a prévia do RHEQ. Se o ícone estiver oculto, ative RHEQ Interface Import em Settings → Editor → General → Gutter Icons.",
+    "Al terminar la indexación de IDEA, aparece un icono RHEQ en el margen izquierdo de cada método Controller compatible. Pasa el puntero para ver la acción y haz clic. Solo se exporta ese método, independientemente de la posición del cursor. Introduce la URL base y abre la vista previa de RHEQ. Si está oculto, activa RHEQ Interface Import en Settings → Editor → General → Gutter Icons.",
+    "IDEA 색인이 완료되면 지원하는 Controller 메서드 왼쪽에 RHEQ 아이콘이 표시됩니다. 포인터를 올려 동작을 확인한 뒤 클릭합니다. 커서 위치와 관계없이 해당 메서드만 내보냅니다. 기본 URL을 입력하여 RHEQ 미리보기를 엽니다. 아이콘이 숨겨져 있으면 Settings → Editor → General → Gutter Icons에서 RHEQ Interface Import를 활성화하세요.",
+    "Nach der IDEA-Indizierung erscheint links neben jeder unterstützten Controller-Methode ein RHEQ-Symbol. Bewegen Sie den Mauszeiger darüber und klicken Sie darauf. Unabhängig von der Cursorposition wird nur diese Methode exportiert. Geben Sie die Basis-URL ein und öffnen Sie die RHEQ-Vorschau. Falls das Symbol fehlt, aktivieren Sie RHEQ Interface Import unter Settings → Editor → General → Gutter Icons."
+  ]
+}

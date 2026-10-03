@@ -7,6 +7,7 @@ import Foundation
 import UniformTypeIdentifiers
 
 extension UTType {
+    static let rheqControllerImport = UTType(exportedAs: "app.rheq.controller-import", conformingTo: .json)
     static let reqeastExport = UTType(exportedAs: "app.reqeast.project-export", conformingTo: .json)
 }
 

@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SendUdpMessageIntent.swift
 //  Reqeast
@@ -8,7 +9,7 @@ import Foundation
 
 struct SendUdpMessageIntent: AppIntent {
     static var title: LocalizedStringResource = "Send UDP Message"
-    static var description = IntentDescription("Send a UDP datagram from Reqeast and return the response.")
+    static var description = IntentDescription("Send a UDP datagram from RHEQ and return the response.")
     static var openAppWhenRun: Bool = false
 
     @Parameter(title: "Project")

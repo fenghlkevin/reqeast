@@ -1,3 +1,4 @@
+// Modified for RHEQ: compact request tab navigation.
 //
 //  HttpRequestTabs.swift
 //  Reqeast
@@ -6,11 +7,11 @@
 import SwiftUI
 
 enum HttpRequestTab: String, CaseIterable, Codable {
-    case params
-    case headers
-    case body
-    case auth
     case settings
+    case auth
+    case headers
+    case params
+    case body
 
     static func availableTabs(method: HttpMethod, strictMode: Bool) -> [HttpRequestTab] {
         if strictMode && !method.conventionallyHasBody {
@@ -59,7 +60,7 @@ struct HttpRequestTabs: View, RequestDataBindable {
         VStack(spacing: 0) {
             tabPicker
                 .padding(.horizontal, 12)
-                .padding(.vertical, 8)
+                .padding(.vertical, 0)
 
             Divider()
 
@@ -80,38 +81,8 @@ struct HttpRequestTabs: View, RequestDataBindable {
         }
     }
 
-    @ViewBuilder
     private var tabPicker: some View {
-        if horizontalSizeClass == .compact {
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 6) {
-                    ForEach(availableTabs, id: \.self) { tab in
-                        tabButton(tab)
-                    }
-                }
-            }
-        } else {
-            Picker("", selection: $selectedTab) {
-                ForEach(availableTabs, id: \.self) { tab in
-                    Text(tab.localizedName).tag(tab)
-                }
-            }
-            .pickerStyle(.segmented)
-        }
-    }
-
-    @ViewBuilder
-    private func tabButton(_ tab: HttpRequestTab) -> some View {
-        let label = Text(tab.localizedName).font(.subheadline)
-        if selectedTab == tab {
-            Button { selectedTab = tab } label: { label }
-                .buttonStyle(.glassProminent)
-                .controlSize(.small)
-        } else {
-            Button { selectedTab = tab } label: { label }
-                .buttonStyle(.glass)
-                .controlSize(.small)
-        }
+        WorkspaceTabs(items: availableTabs.map { (value: $0, title: $0.localizedName) }, selection: $selectedTab)
     }
 
     private var tabNeedsFullExpansion: Bool {

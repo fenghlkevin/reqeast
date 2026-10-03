@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  GitOAuthDeviceFlowSheet.swift
 //  Reqeast
@@ -76,7 +77,7 @@ struct GitOAuthDeviceFlowSheet: View {
     @ViewBuilder
     private var content: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Authorize Reqeast to read private Git repositories for \(account.owner) on \(account.displayHost).")
+            Text("Authorize RHEQ to read private Git repositories for \(account.owner) on \(account.displayHost).")
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
 

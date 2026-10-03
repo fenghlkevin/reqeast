@@ -1,3 +1,4 @@
+// Modified for RHEQ: JSON color palette.
 //
 //  JSONHighlighter.swift
 //  Reqeast
@@ -289,71 +290,3 @@ struct JSONHighlightNSTheme {
     )
 }
 #endif
-
-// MARK: - SwiftUI Theme
-
-struct JSONHighlightTheme {
-    let defaultText: Color
-    private let colors: [JSONToken: Color]
-
-    init(defaultText: Color, _ colors: [JSONToken: Color]) {
-        self.defaultText = defaultText
-        self.colors = colors
-    }
-
-    func color(for token: JSONToken) -> Color {
-        colors[token] ?? defaultText
-    }
-
-    // MARK: - Request (editable)
-
-    static let darkSwiftUI = JSONHighlightTheme(
-        defaultText: Color(red: 0.92, green: 0.92, blue: 0.94),
-        [
-            .key:          Color(red: 0.70, green: 0.55, blue: 0.92),
-            .stringValue:  Color(red: 0.99, green: 0.42, blue: 0.35),
-            .numberValue:  Color(red: 0.82, green: 0.75, blue: 0.50),
-            .booleanValue: Color(red: 0.99, green: 0.42, blue: 0.62),
-            .nullValue:    Color(red: 0.99, green: 0.42, blue: 0.62),
-            .punctuation:  .secondary,
-        ]
-    )
-
-    static let lightSwiftUI = JSONHighlightTheme(
-        defaultText: Color(red: 0.10, green: 0.10, blue: 0.12),
-        [
-            .key:          Color(red: 0.33, green: 0.22, blue: 0.62),
-            .stringValue:  Color(red: 0.77, green: 0.10, blue: 0.09),
-            .numberValue:  Color(red: 0.11, green: 0.00, blue: 0.81),
-            .booleanValue: Color(red: 0.72, green: 0.21, blue: 0.62),
-            .nullValue:    Color(red: 0.72, green: 0.21, blue: 0.62),
-            .punctuation:  .secondary,
-        ]
-    )
-
-    // MARK: - Response (read-only)
-
-    static let responseDarkSwiftUI = JSONHighlightTheme(
-        defaultText: Color(red: 0.92, green: 0.92, blue: 0.94),
-        [
-            .key:          Color(red: 0.55, green: 0.78, blue: 0.88),
-            .stringValue:  Color(red: 0.45, green: 0.78, blue: 0.65),
-            .numberValue:  Color(red: 0.78, green: 0.72, blue: 0.50),
-            .booleanValue: Color(red: 0.90, green: 0.45, blue: 0.65),
-            .nullValue:    Color(red: 0.90, green: 0.45, blue: 0.65),
-            .punctuation:  .secondary,
-        ]
-    )
-
-    static let responseLightSwiftUI = JSONHighlightTheme(
-        defaultText: Color(red: 0.10, green: 0.10, blue: 0.12),
-        [
-            .key:          Color(red: 0.38, green: 0.28, blue: 0.52),
-            .stringValue:  Color(red: 0.18, green: 0.55, blue: 0.42),
-            .numberValue:  Color(red: 0.13, green: 0.05, blue: 0.72),
-            .booleanValue: Color(red: 0.65, green: 0.22, blue: 0.55),
-            .nullValue:    Color(red: 0.65, green: 0.22, blue: 0.55),
-            .punctuation:  .secondary,
-        ]
-    )
-}

@@ -1,3 +1,4 @@
+// Modified for RHEQ: compact status badge.
 //
 //  HttpStatusBadge.swift
 //  Reqeast
@@ -19,6 +20,8 @@ struct HttpStatusBadge: View {
                     .font(.subheadline)
                     .foregroundStyle(.secondary)
             }
+            .padding(.horizontal, 8).padding(.vertical, 4)
+            .glassEffect(.regular.tint(response.statusColor.opacity(0.12)), in: .rect(cornerRadius: 6))
         }
         .buttonStyle(.plain)
         .accessibilityLabel(Text("Status \(response.statusCode) \(response.statusText)"))

@@ -1,3 +1,4 @@
+// Modified for RHEQ: visual workflows and HTTP diagnostics.
 use thiserror::Error;
 
 #[derive(Debug, Error, uniffi::Error)]
@@ -32,7 +33,7 @@ pub enum ReqeastError {
 
 impl From<reqwest::Error> for ReqeastError {
   fn from(err: reqwest::Error) -> Self {
-    let msg = err.to_string();
+    let msg = full_error_chain(&err).join("\nCaused by: ");
 
     if err.is_timeout() {
       ReqeastError::Timeout(msg)
@@ -58,11 +59,23 @@ impl From<reqwest::Error> for ReqeastError {
 pub(crate) fn map_connect_error(err: &(dyn std::error::Error + 'static)) -> ReqeastError {
   let chain = full_error_chain(err);
   if is_tls_error(&chain) {
-    ReqeastError::TlsError(extract_tls_detail(&chain))
+    ReqeastError::TlsError(format!(
+      "{}\n{}",
+      extract_tls_detail(&chain),
+      chain.join("\nCaused by: ")
+    ))
   } else if is_dns_error(&chain) {
-    ReqeastError::ConnectionFailed(extract_dns_detail(&chain))
+    ReqeastError::ConnectionFailed(format!(
+      "{}\n{}",
+      extract_dns_detail(&chain),
+      chain.join("\nCaused by: ")
+    ))
   } else {
-    ReqeastError::ConnectionFailed(extract_connect_detail(&chain))
+    ReqeastError::ConnectionFailed(format!(
+      "{}\n{}",
+      extract_connect_detail(&chain),
+      chain.join("\nCaused by: ")
+    ))
   }
 }
 

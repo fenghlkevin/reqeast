@@ -57,6 +57,7 @@ struct EnvironmentVariable: Codable, Identifiable, Hashable {
     var value: String
     var isSecret: Bool
     var enabled: Bool
+    var source: ResponseVariableSource?
 
     init(
         id: UUID = UUID(),

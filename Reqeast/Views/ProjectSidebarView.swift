@@ -1,3 +1,4 @@
+// Modified for RHEQ: sidebar brand and navigation.
 //
 //  ProjectSidebarView.swift
 //  Reqeast
@@ -27,6 +28,7 @@ struct ProjectSidebarView: View {
             onExportSpec: onExportSpec
         )
         .listStyle(.sidebar)
+        .modifier(WorkspaceSidebarChrome())
         .overlay {
             SidebarEmptyStateOverlay(
                 store: store,

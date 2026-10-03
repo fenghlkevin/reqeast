@@ -1,3 +1,4 @@
+// Modified for RHEQ: upstream license and attribution remain available.
 //
 //  LicensesSettingsView.swift
 //  Reqeast
@@ -10,20 +11,22 @@ struct LicensesSettingsView: View {
 
     var body: some View {
         NavigationStack {
-            List(licenses) { entry in
-                NavigationLink {
-                    LicenseDetailView(entry: entry)
-                } label: {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text(entry.packageName)
-                            .font(.body)
-                        HStack(spacing: 8) {
-                            Text(entry.packageVersion)
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                            Text(entry.license)
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
+            List {
+                Section {
+                    NavigationLink("Project License") { ProjectLicenseView() }
+                } footer: {
+                    Text("Based on Reqeast by Felipe Lima. Licensed under Apache License 2.0.")
+                }
+                ForEach(licenses) { entry in
+                    NavigationLink {
+                        LicenseDetailView(entry: entry)
+                    } label: {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(entry.packageName).font(.body)
+                            HStack(spacing: 8) {
+                                Text(entry.packageVersion).font(.caption).foregroundStyle(.secondary)
+                                Text(entry.license).font(.caption).foregroundStyle(.secondary)
+                            }
                         }
                     }
                 }

@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SendWebSocketMessageIntent.swift
 //  Reqeast
@@ -8,7 +9,7 @@ import Foundation
 
 struct SendWebSocketMessageIntent: AppIntent {
     static var title: LocalizedStringResource = "Send WebSocket Message"
-    static var description = IntentDescription("Send a message over WebSocket from Reqeast and return the response.")
+    static var description = IntentDescription("Send a message over WebSocket from RHEQ and return the response.")
     static var openAppWhenRun: Bool = false
 
     @Parameter(title: "Project")

@@ -148,7 +148,9 @@ Manual: `cd rust && ./build-xcframework.sh`, then build in Xcode.
 
 ## Local Delivery
 
-After completing each feature request or bug fix, build the macOS app and install the updated `.app` in `/Applications/Reqeast.app`. This is part of delivery, not an optional follow-up. Rebuild Rust first only when Rust code or its API changes. Prefer the existing signing configuration. When the app's provisioning profile is unavailable, a local ad hoc Debug build can use the existing installation's sandbox entitlements; `CloudSyncLocalBuildSupport` prevents CloudKit initialization from crashing that build. Keep the repository's iCloud and push entitlements intact. Verify the installed executable matches the new build, launch it, and confirm its process remains alive. If building or installing fails, report the concrete blocker and do not claim delivery is complete.
+RHEQ is the only local deployment. Do not install or recreate `/Applications/Reqeast.app`, including compatibility symlinks. Preserve existing user data and internal identifiers during updates. Never automate the user's mouse or keyboard.
+
+After completing each feature request or bug fix, build the macOS app and install the updated `.app` in `/Applications/RHEQ.app`. This is part of delivery, not an optional follow-up. Rebuild Rust first only when Rust code or its API changes. Prefer the existing signing configuration. When the app's provisioning profile is unavailable, a local ad hoc Debug build can use the existing installation's sandbox entitlements; `CloudSyncLocalBuildSupport` prevents CloudKit initialization from crashing that build. Keep the repository's iCloud and push entitlements intact. Verify the installed executable matches the new build, launch it, and confirm its process remains alive. If building or installing fails, report the concrete blocker and do not claim delivery is complete.
 
 ## Marketing screenshots — never fight the image
 

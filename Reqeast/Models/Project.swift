@@ -17,6 +17,7 @@ struct Project: Codable, Identifiable, Hashable {
     var updatedAt: Date
     var deletedAt: Date?
     var specLink: SpecLink?
+    var httpWorkflows: [SavedHttpWorkflow] = []
     var schemaVersion: Int = CloudSyncableSchema.currentVersion
 
     /// Supported image extensions for icon URLs.
@@ -53,6 +54,7 @@ struct Project: Codable, Identifiable, Hashable {
         updatedAt = try container.decodeIfPresent(Date.self, forKey: .updatedAt) ?? .distantPast
         deletedAt = try container.decodeIfPresent(Date.self, forKey: .deletedAt)
         specLink = try container.decodeIfPresent(SpecLink.self, forKey: .specLink)
+        httpWorkflows = try container.decodeIfPresent([SavedHttpWorkflow].self, forKey: .httpWorkflows) ?? []
         schemaVersion = try CloudSyncableSchema.decodeVersion(from: container, forKey: .schemaVersion)
     }
 }

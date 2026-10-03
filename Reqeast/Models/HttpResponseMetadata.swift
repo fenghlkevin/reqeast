@@ -1,3 +1,4 @@
+// Modified for RHEQ: visual workflows and HTTP diagnostics.
 //
 //  HttpResponseMetadata.swift
 //  Reqeast
@@ -14,7 +15,7 @@ struct StoredTimingBreakdown: Codable, Hashable {
     var phases: [(String, Double)] {
         [
             (String(localized: "DNS Lookup"), dnsLookupMs),
-            (String(localized: "Connection"), connectionMs),
+            (String(localized: "Connect, TLS & Server Wait"), connectionMs),
             (String(localized: "Download"), downloadMs),
         ].filter { $0.1 > 0.01 }
     }

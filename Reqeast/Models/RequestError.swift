@@ -26,7 +26,8 @@ enum RequestErrorKind: String, Codable {
     case cloudRecordTooLarge
 }
 
-struct RequestError: Codable, Equatable {
+nonisolated struct RequestError: LocalizedError, Codable, Equatable {
+    var errorDescription: String? { message }
     let kind: RequestErrorKind
     let message: String
 
@@ -75,6 +76,7 @@ struct RequestError: Codable, Equatable {
     }
 
     static func from(_ error: Error) -> RequestError {
+        if let requestError = error as? RequestError { return requestError }
         if let reqeastError = error as? ReqeastError {
             return from(reqeastError)
         }

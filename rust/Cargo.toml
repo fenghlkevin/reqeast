@@ -27,7 +27,12 @@ spec-openapi = [
 name = "uniffi-bindgen"
 path = "uniffi-bindgen.rs"
 
+[[bin]]
+name = "reqeast-cli"
+path = "src/cli/main.rs"
+
 [dependencies]
+base64 = "0.22"
 # HTTP client
 reqwest = { version = "0.13", default-features = false, features = ["rustls", "json", "multipart", "form", "stream", "http2", "gzip", "brotli", "deflate", "zstd"] }
 

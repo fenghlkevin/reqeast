@@ -1,3 +1,4 @@
+// Modified for RHEQ: explicit Send action and neutral method control.
 //
 //  HttpUrlBar.swift
 //  Reqeast
@@ -68,12 +69,12 @@ struct HttpUrlBar: View, RequestDataBindable {
         Picker("Method", selection: binding(\.method)) {
             ForEach(HttpMethod.allCases, id: \.self) { method in
                 Text(method.shortLabel)
-                    .foregroundStyle(method.color)
+                    .foregroundStyle(.primary)
                     .tag(method)
             }
         }
         .labelsHidden()
-        .tint(httpData.method.color)
+        .tint(.primary)
         .fixedSize()
         .disabled(isReadOnly)
     }
@@ -96,10 +97,11 @@ struct HttpUrlBar: View, RequestDataBindable {
             .accessibilityLabel("Cancel request")
         } else {
             Button(action: sendRequest) {
-                Text("\u{200B}")
-                    .hidden()
-                    .overlay { Image(systemName: "paperplane.fill") }
-                    .frame(width: 46)
+                if isCompact {
+                    Image(systemName: "arrow.up").frame(width: 30)
+                } else {
+                    Text("Send").fontWeight(.semibold).frame(minWidth: 54)
+                }
             }
             .buttonStyle(.glassProminent)
             .disabled(httpData.url.isEmpty)
@@ -143,7 +145,8 @@ struct HttpUrlBar: View, RequestDataBindable {
         execution.send(
             request: request,
             environment: store.activeEnvironment(for: request.projectId),
-            sessionStore: sessionStore
+            sessionStore: sessionStore,
+            store: store
         ) { name in
             store.renameRequest(request, to: name)
         }

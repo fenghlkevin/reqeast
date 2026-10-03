@@ -1,3 +1,4 @@
+// Modified for RHEQ: neutral protocol cards with readable labels.
 //
 //  ProtocolPickerSheet.swift
 //  Reqeast
@@ -106,12 +107,13 @@ struct ProtocolPickerSheet: View {
             HStack(spacing: 12) {
                 Image(systemName: type.iconName)
                     .font(.title2)
-                    .foregroundStyle(Color.accentColor)
+                    .foregroundStyle(.primary)
                     .frame(width: 36, height: 36)
 
                 VStack(alignment: .leading, spacing: 2) {
                     Text(type.localizedName)
                         .font(.headline)
+                        .foregroundStyle(.primary)
                     Text(description)
                         .font(.caption)
                         .foregroundStyle(.secondary)
@@ -126,8 +128,9 @@ struct ProtocolPickerSheet: View {
             .padding(.horizontal, 12)
             .padding(.vertical, 10)
             .contentShape(.rect)
+            .glassEffect(.regular, in: .rect(cornerRadius: 10))
         }
-        .buttonStyle(.glass)
+        .buttonStyle(.plain)
         .accessibilityIdentifier("protocol-picker-\(type.rawValue)")
     }
 }

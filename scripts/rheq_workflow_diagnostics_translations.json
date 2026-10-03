@@ -1,0 +1,362 @@
+{
+  "Workflow Overview": {
+    "zh-Hans": "流程概览",
+    "zh-Hant": "流程概覽",
+    "ja": "ワークフローの概要",
+    "fr": "Vue du scénario",
+    "pt-BR": "Visão do fluxo",
+    "es": "Resumen del flujo",
+    "ko": "워크플로 개요",
+    "de": "Ablaufübersicht"
+  },
+  "Diagnostics": {
+    "zh-Hans": "调试诊断",
+    "zh-Hant": "偵錯診斷",
+    "ja": "診断",
+    "fr": "Diagnostic",
+    "pt-BR": "Diagnóstico",
+    "es": "Diagnóstico",
+    "ko": "진단",
+    "de": "Diagnose"
+  },
+  "Connect, TLS & Server Wait": {
+    "zh-Hans": "连接、TLS 与服务端等待",
+    "zh-Hant": "連線、TLS 與伺服器等待",
+    "ja": "接続・TLS・サーバー待機",
+    "fr": "Connexion, TLS et attente serveur",
+    "pt-BR": "Conexão, TLS e espera do servidor",
+    "es": "Conexión, TLS y espera del servidor",
+    "ko": "연결, TLS 및 서버 대기",
+    "de": "Verbindung, TLS und Serverwartezeit"
+  },
+  "Sent Request": {
+    "zh-Hans": "发送时的请求",
+    "zh-Hant": "傳送時的請求",
+    "ja": "送信したリクエスト",
+    "fr": "Requête envoyée",
+    "pt-BR": "Requisição enviada",
+    "es": "Solicitud enviada",
+    "ko": "전송한 요청",
+    "de": "Gesendete Anfrage"
+  },
+  "Copy Redacted Diagnostics": {
+    "zh-Hans": "复制脱敏诊断信息",
+    "zh-Hant": "複製已遮蔽的診斷資訊",
+    "ja": "機密情報を除いて診断をコピー",
+    "fr": "Copier le diagnostic sans données sensibles",
+    "pt-BR": "Copiar diagnóstico sem dados sensíveis",
+    "es": "Copiar diagnóstico sin datos sensibles",
+    "ko": "민감 정보를 가린 진단 복사",
+    "de": "Diagnose ohne sensible Daten kopieren"
+  },
+  "Send a request to view diagnostics.": {
+    "zh-Hans": "发送一次请求后即可查看诊断。",
+    "zh-Hant": "傳送一次請求後即可查看診斷。",
+    "ja": "リクエストを送信すると診断を確認できます。",
+    "fr": "Envoyez une requête pour voir le diagnostic.",
+    "pt-BR": "Envie uma requisição para ver o diagnóstico.",
+    "es": "Envía una solicitud para ver el diagnóstico.",
+    "ko": "요청을 전송하면 진단을 볼 수 있습니다.",
+    "de": "Senden Sie eine Anfrage, um die Diagnose zu sehen."
+  },
+  "No captured request is available. Send the request again.": {
+    "zh-Hans": "没有保存发送时的请求，请重新发送。",
+    "zh-Hant": "沒有儲存傳送時的請求，請重新傳送。",
+    "ja": "送信時の記録がありません。再送信してください。",
+    "fr": "Aucune requête capturée. Envoyez-la à nouveau.",
+    "pt-BR": "Não há registro da requisição. Envie novamente.",
+    "es": "No hay una solicitud registrada. Envíala de nuevo.",
+    "ko": "전송 기록이 없습니다. 요청을 다시 보내세요.",
+    "de": "Keine Anfrage aufgezeichnet. Senden Sie sie erneut."
+  },
+  "Connection, TLS handshake, redirects, and server wait are measured together. Separate TCP and TLS timings are unavailable.": {
+    "zh-Hans": "连接、TLS 握手、重定向和服务端等待合并计时，尚不支持独立的 TCP 与 TLS 耗时。",
+    "zh-Hant": "連線、TLS 握手、重新導向和伺服器等待合併計時，尚不支援獨立的 TCP 與 TLS 耗時。",
+    "ja": "接続、TLS、リダイレクト、サーバー待機はまとめて計測します。TCP と TLS の個別時間は取得できません。",
+    "fr": "Connexion, TLS, redirections et attente serveur sont mesurés ensemble. Les durées TCP et TLS séparées ne sont pas disponibles.",
+    "pt-BR": "Conexão, TLS, redirecionamentos e espera do servidor são medidos juntos. Tempos separados de TCP e TLS não estão disponíveis.",
+    "es": "Conexión, TLS, redirecciones y espera del servidor se miden juntos. No hay tiempos separados de TCP y TLS.",
+    "ko": "연결, TLS, 리디렉션, 서버 대기를 함께 측정합니다. TCP와 TLS의 개별 시간은 제공되지 않습니다.",
+    "de": "Verbindung, TLS, Weiterleitungen und Serverwartezeit werden gemeinsam gemessen. Separate TCP- und TLS-Zeiten sind nicht verfügbar."
+  },
+  "Copied reports omit bodies, cookies, credentials, and URL query values. Review the report before sharing.": {
+    "zh-Hans": "复制的报告不包含正文、Cookie、凭据及 URL 查询参数值，分享前请检查内容。",
+    "zh-Hant": "複製的報告不包含本文、Cookie、憑證及 URL 查詢參數值，分享前請檢查內容。",
+    "ja": "コピーするレポートには本文、Cookie、認証情報、URL パラメータ値を含めません。共有前に内容を確認してください。",
+    "fr": "Les rapports copiés excluent les corps, cookies, identifiants et valeurs des paramètres URL. Vérifiez-les avant partage.",
+    "pt-BR": "Os relatórios copiados omitem corpos, cookies, credenciais e valores dos parâmetros da URL. Revise antes de compartilhar.",
+    "es": "Los informes copiados omiten cuerpos, cookies, credenciales y valores de parámetros URL. Revísalos antes de compartir.",
+    "ko": "복사한 보고서에는 본문, 쿠키, 인증 정보, URL 매개변수 값이 포함되지 않습니다. 공유 전에 검토하세요.",
+    "de": "Kopierte Berichte enthalten keine Inhalte, Cookies, Zugangsdaten oder URL-Parameterwerte. Prüfen Sie den Bericht vor dem Teilen."
+  },
+  "Check the certificate hostname, expiry, and trusted issuer. The full TLS error is shown below.": {
+    "zh-Hans": "检查证书域名、有效期和受信任的签发机构，下方显示完整 TLS 错误。",
+    "zh-Hant": "檢查憑證網域、有效期和受信任的簽發機構，下方顯示完整 TLS 錯誤。",
+    "ja": "証明書のホスト名、有効期限、信頼できる発行者を確認してください。TLS エラー全文を下に表示します。",
+    "fr": "Vérifiez le nom d’hôte, la validité et l’émetteur du certificat. L’erreur TLS complète figure ci-dessous.",
+    "pt-BR": "Verifique o host, a validade e o emissor confiável do certificado. O erro TLS completo aparece abaixo.",
+    "es": "Comprueba el host, la caducidad y el emisor del certificado. El error TLS completo aparece abajo.",
+    "ko": "인증서의 호스트 이름, 만료일, 신뢰할 수 있는 발급자를 확인하세요. 전체 TLS 오류는 아래에 표시됩니다.",
+    "de": "Prüfen Sie Hostname, Gültigkeit und vertrauenswürdigen Aussteller des Zertifikats. Der vollständige TLS-Fehler steht unten."
+  },
+  "Check the hostname, port, DNS, VPN, and whether the server is listening.": {
+    "zh-Hans": "检查主机名、端口、DNS、VPN，以及服务端是否正在监听。",
+    "zh-Hant": "檢查主機名稱、連接埠、DNS、VPN，以及伺服器是否正在接聽。",
+    "ja": "ホスト名、ポート、DNS、VPN、サーバーの待ち受け状態を確認してください。",
+    "fr": "Vérifiez l’hôte, le port, le DNS, le VPN et l’écoute du serveur.",
+    "pt-BR": "Verifique host, porta, DNS, VPN e se o servidor está ouvindo.",
+    "es": "Comprueba host, puerto, DNS, VPN y si el servidor acepta conexiones.",
+    "ko": "호스트 이름, 포트, DNS, VPN과 서버 수신 상태를 확인하세요.",
+    "de": "Prüfen Sie Hostname, Port, DNS, VPN und ob der Server Verbindungen annimmt."
+  },
+  "The timeout does not identify a single failed phase. Check connectivity and server response time.": {
+    "zh-Hans": "超时无法确定具体失败阶段，请检查网络连接和服务端响应时间。",
+    "zh-Hant": "逾時無法確定具體失敗階段，請檢查網路連線和伺服器回應時間。",
+    "ja": "タイムアウトだけでは失敗した段階を特定できません。接続とサーバー応答時間を確認してください。",
+    "fr": "Le délai dépassé ne précise pas la phase en échec. Vérifiez la connexion et le temps de réponse du serveur.",
+    "pt-BR": "O tempo limite não identifica a etapa que falhou. Verifique a conexão e o tempo de resposta do servidor.",
+    "es": "El tiempo de espera no identifica la fase fallida. Comprueba la conexión y la respuesta del servidor.",
+    "ko": "시간 초과만으로 실패 단계를 알 수 없습니다. 연결과 서버 응답 시간을 확인하세요.",
+    "de": "Eine Zeitüberschreitung identifiziert keine einzelne Fehlerphase. Prüfen Sie Verbindung und Serverantwortzeit."
+  },
+  "Check the URL, headers, required variables, and attached files before sending again.": {
+    "zh-Hans": "重新发送前检查 URL、请求头、必需变量和附件。",
+    "zh-Hant": "重新傳送前檢查 URL、請求標頭、必要變數和附件。",
+    "ja": "再送信前に URL、ヘッダー、必要な変数、添付ファイルを確認してください。",
+    "fr": "Avant de renvoyer, vérifiez URL, en-têtes, variables requises et fichiers joints.",
+    "pt-BR": "Antes de reenviar, verifique URL, cabeçalhos, variáveis obrigatórias e anexos.",
+    "es": "Antes de reenviar, comprueba URL, cabeceras, variables y archivos adjuntos.",
+    "ko": "다시 전송하기 전에 URL, 헤더, 필수 변수, 첨부 파일을 확인하세요.",
+    "de": "Prüfen Sie vor dem erneuten Senden URL, Header, erforderliche Variablen und Anhänge."
+  },
+  "Review the error chain and response status before retrying.": {
+    "zh-Hans": "重试前检查完整错误链和响应状态。",
+    "zh-Hant": "重試前檢查完整錯誤鏈和回應狀態。",
+    "ja": "再試行前にエラーの詳細と応答状態を確認してください。",
+    "fr": "Vérifiez la chaîne d’erreurs et le statut de réponse avant de réessayer.",
+    "pt-BR": "Revise a cadeia de erros e o status antes de tentar novamente.",
+    "es": "Revisa la cadena de errores y el estado antes de reintentar.",
+    "ko": "다시 시도하기 전에 오류 원인과 응답 상태를 확인하세요.",
+    "de": "Prüfen Sie vor einem erneuten Versuch die Fehlerkette und den Antwortstatus."
+  },
+  "Use Response in Another Request": {
+    "zh-Hans": "在其他请求中使用响应",
+    "zh-Hant": "在其他請求中使用回應",
+    "ja": "別のリクエストで応答を使う",
+    "fr": "Utiliser la réponse dans une autre requête",
+    "pt-BR": "Usar resposta em outra requisição",
+    "es": "Usar respuesta en otra solicitud",
+    "ko": "다른 요청에서 응답 사용",
+    "de": "Antwort in anderer Anfrage verwenden"
+  },
+  "Create Response Link": {
+    "zh-Hans": "创建响应引用",
+    "zh-Hant": "建立回應引用",
+    "ja": "応答への参照を作成",
+    "fr": "Créer une référence à la réponse",
+    "pt-BR": "Criar referência à resposta",
+    "es": "Crear referencia a la respuesta",
+    "ko": "응답 참조 만들기",
+    "de": "Antwortreferenz erstellen"
+  },
+  "Response link saved. Run the source request before the target.": {
+    "zh-Hans": "响应引用已保存，请先运行来源请求，再运行目标请求。",
+    "zh-Hant": "回應引用已儲存，請先執行來源請求，再執行目標請求。",
+    "ja": "参照を保存しました。参照元のリクエストを先に実行してください。",
+    "fr": "Référence enregistrée. Exécutez la source avant la cible.",
+    "pt-BR": "Referência salva. Execute a origem antes do destino.",
+    "es": "Referencia guardada. Ejecuta el origen antes del destino.",
+    "ko": "참조를 저장했습니다. 대상 요청보다 원본 요청을 먼저 실행하세요.",
+    "de": "Referenz gespeichert. Führen Sie die Quellanfrage vor dem Ziel aus."
+  },
+  "Target Request": {
+    "zh-Hans": "目标请求",
+    "zh-Hant": "目標請求",
+    "ja": "対象リクエスト",
+    "fr": "Requête cible",
+    "pt-BR": "Requisição de destino",
+    "es": "Solicitud de destino",
+    "ko": "대상 요청",
+    "de": "Zielanfrage"
+  },
+  "Choose two editable HTTP requests and valid variable and header names.": {
+    "zh-Hans": "请选择两个可编辑的 HTTP 请求，并填写有效的变量名和请求头名称。",
+    "zh-Hant": "請選擇兩個可編輯的 HTTP 請求，並填寫有效的變數名稱和標頭名稱。",
+    "ja": "編集可能な HTTP リクエストを2つ選び、有効な変数名とヘッダー名を入力してください。",
+    "fr": "Choisissez deux requêtes HTTP modifiables et des noms de variable et d’en-tête valides.",
+    "pt-BR": "Escolha duas requisições HTTP editáveis e nomes válidos de variável e cabeçalho.",
+    "es": "Elige dos solicitudes HTTP editables y nombres válidos de variable y cabecera.",
+    "ko": "편집 가능한 HTTP 요청 두 개와 유효한 변수 및 헤더 이름을 선택하세요.",
+    "de": "Wählen Sie zwei bearbeitbare HTTP-Anfragen und gültige Variablen- und Headernamen."
+  },
+  "Choose a JSON field and a target request. RHEQ creates a secret extraction rule and a header reference. Authorization uses Bearer. Other headers use the variable directly.": {
+    "zh-Hans": "选择 JSON 字段和目标请求。RHEQ 会创建秘密变量提取规则及请求头引用，Authorization 使用 Bearer，其他请求头直接使用变量。",
+    "zh-Hant": "選擇 JSON 欄位和目標請求。RHEQ 會建立機密變數擷取規則及標頭引用，Authorization 使用 Bearer，其他標頭直接使用變數。",
+    "ja": "JSON フィールドと対象を選びます。RHEQ は機密変数の抽出規則とヘッダー参照を作成します。Authorization には Bearer、それ以外には変数を直接使います。",
+    "fr": "Choisissez un champ JSON et une cible. RHEQ crée une extraction secrète et une référence dans un en-tête. Authorization utilise Bearer ; les autres en-têtes utilisent directement la variable.",
+    "pt-BR": "Escolha um campo JSON e um destino. RHEQ cria uma extração secreta e uma referência no cabeçalho. Authorization usa Bearer; outros cabeçalhos usam a variável diretamente.",
+    "es": "Elige un campo JSON y un destino. RHEQ crea una extracción secreta y una referencia en la cabecera. Authorization usa Bearer; las otras cabeceras usan la variable directamente.",
+    "ko": "JSON 필드와 대상 요청을 선택하세요. RHEQ가 비밀 변수 추출 규칙과 헤더 참조를 만듭니다. Authorization은 Bearer를, 다른 헤더는 변수를 직접 사용합니다.",
+    "de": "Wählen Sie JSON-Feld und Ziel. RHEQ erstellt eine geheime Extraktion und eine Headerreferenz. Authorization verwendet Bearer, andere Header verwenden die Variable direkt."
+  },
+  "Build a numbered flow and follow each variable back to the response that provides it.": {
+    "zh-Hans": "建立带编号的请求流程，并查看每个变量来自哪一步响应。",
+    "zh-Hant": "建立有編號的請求流程，並查看每個變數來自哪一步回應。",
+    "ja": "番号付きのフローを作り、各変数の参照元の応答を確認します。",
+    "fr": "Créez un scénario numéroté et retrouvez la réponse source de chaque variable.",
+    "pt-BR": "Crie um fluxo numerado e identifique a resposta de origem de cada variável.",
+    "es": "Crea un flujo numerado y consulta la respuesta de origen de cada variable.",
+    "ko": "번호가 있는 흐름을 만들고 각 변수의 원본 응답을 확인합니다.",
+    "de": "Erstellen Sie einen nummerierten Ablauf und verfolgen Sie Variablen zu ihrer Quellantwort."
+  },
+  "Send the source request once. Open HTTP Workflows → Variables & Checks → Use Response in Another Request.": {
+    "zh-Hans": "先发送一次来源请求，再打开 HTTP 工作流 → 变量与检查 → 在其他请求中使用响应。",
+    "zh-Hant": "先傳送一次來源請求，再開啟 HTTP 工作流程 → 變數與檢查 → 在其他請求中使用回應。",
+    "ja": "参照元を一度送信し、HTTP ワークフロー → 変数と検証 → 別のリクエストで応答を使うを開きます。",
+    "fr": "Envoyez la source une fois. Ouvrez les scénarios HTTP → Variables et vérifications → Utiliser la réponse dans une autre requête.",
+    "pt-BR": "Envie a origem uma vez. Abra fluxos HTTP → Variáveis e verificações → Usar resposta em outra requisição.",
+    "es": "Envía el origen una vez. Abre flujos HTTP → Variables y comprobaciones → Usar respuesta en otra solicitud.",
+    "ko": "원본 요청을 한 번 보내세요. HTTP 워크플로 → 변수 및 검사 → 다른 요청에서 응답 사용을 엽니다.",
+    "de": "Senden Sie die Quelle einmal. Öffnen Sie HTTP-Abläufe → Variablen und Prüfungen → Antwort in anderer Anfrage verwenden."
+  },
+  "Open Run Requests, select the requests, and move the source above the target. Save the workflow. The overview lists variable sources and marks missing values.": {
+    "zh-Hans": "打开“运行请求”，选择请求并把来源移到目标之前，保存流程。概览会列出变量来源并标记缺失值。",
+    "zh-Hant": "開啟「執行請求」，選擇請求並把來源移到目標之前，儲存流程。概覽會列出變數來源並標示缺少的值。",
+    "ja": "リクエスト実行を開き、対象を選んで参照元を先に並べます。保存すると概要で変数の参照元と不足を確認できます。",
+    "fr": "Ouvrez l’exécution des requêtes, sélectionnez-les et placez la source avant la cible. Enregistrez. La vue indique les sources et valeurs manquantes.",
+    "pt-BR": "Abra a execução, selecione as requisições e coloque a origem antes do destino. Salve. A visão mostra origens e valores ausentes.",
+    "es": "Abre la ejecución, selecciona las solicitudes y coloca el origen antes del destino. Guarda. El resumen muestra los orígenes y valores faltantes.",
+    "ko": "요청 실행에서 요청을 선택하고 원본을 대상 앞에 놓은 뒤 저장하세요. 개요에 변수 원본과 누락된 값이 표시됩니다.",
+    "de": "Öffnen Sie die Anfrageausführung, wählen Sie Anfragen und ordnen Sie die Quelle vor dem Ziel an. Speichern Sie. Die Übersicht zeigt Quellen und fehlende Werte."
+  },
+  "Run the workflow. The active step shows progress. A failed step shows its error and failed checks. Fix that step before running again.": {
+    "zh-Hans": "运行流程，当前步骤显示进度；失败步骤显示错误和未通过的检查。修正该步骤后再运行。",
+    "zh-Hant": "執行流程，目前步驟會顯示進度；失敗步驟會顯示錯誤和未通過的檢查。修正後再執行。",
+    "ja": "実行中のステップには進捗、失敗したステップにはエラーと不合格の検証が表示されます。修正して再実行します。",
+    "fr": "Exécutez le scénario. L’étape active montre la progression, les échecs montrent erreurs et vérifications échouées. Corrigez avant de relancer.",
+    "pt-BR": "Execute o fluxo. A etapa ativa mostra o progresso; falhas mostram erros e verificações reprovadas. Corrija antes de executar novamente.",
+    "es": "Ejecuta el flujo. El paso activo muestra progreso; los fallidos muestran errores y comprobaciones fallidas. Corrige antes de repetir.",
+    "ko": "실행 중인 단계에 진행 상태가 표시됩니다. 실패한 단계에는 오류와 실패한 검사가 표시됩니다. 수정 후 다시 실행하세요.",
+    "de": "Starten Sie den Ablauf. Der aktive Schritt zeigt den Fortschritt, ein fehlgeschlagener Schritt Fehler und Prüfungen. Beheben Sie ihn vor dem nächsten Lauf."
+  },
+  "Inspect a completed or failed HTTP request without sending it again.": {
+    "zh-Hans": "无需重新发送，即可诊断已完成或失败的 HTTP 请求。",
+    "zh-Hant": "無需重新傳送，即可診斷已完成或失敗的 HTTP 請求。",
+    "ja": "完了または失敗した HTTP リクエストを再送信せずに診断します。",
+    "fr": "Diagnostiquez une requête HTTP terminée ou échouée sans la renvoyer.",
+    "pt-BR": "Diagnostique uma requisição HTTP concluída ou com falha sem reenviar.",
+    "es": "Diagnostica una solicitud HTTP completada o fallida sin reenviarla.",
+    "ko": "다시 전송하지 않고 완료되거나 실패한 HTTP 요청을 진단합니다.",
+    "de": "Untersuchen Sie abgeschlossene oder fehlgeschlagene HTTP-Anfragen ohne erneutes Senden."
+  },
+  "After sending, click Diagnostics above the response, or open HTTP Workflows → Inspect Request. Sent Request records the configuration at send time; Request Preview reflects current edits.": {
+    "zh-Hans": "发送后点击响应上方“调试诊断”，或打开 HTTP 工作流 → 检查请求。“发送时的请求”记录当时配置；“请求预览”反映当前修改。",
+    "zh-Hant": "傳送後點擊回應上方「偵錯診斷」，或開啟 HTTP 工作流程 → 檢查請求。「傳送時的請求」記錄當時設定；「請求預覽」反映目前修改。",
+    "ja": "送信後に応答の上の診断を開くか、HTTP ワークフロー → リクエスト確認を開きます。送信記録は送信時、プレビューは現在の設定です。",
+    "fr": "Après envoi, cliquez sur Diagnostic au-dessus de la réponse ou ouvrez les scénarios HTTP → Inspecter. La requête envoyée conserve la configuration d’envoi ; l’aperçu utilise les modifications actuelles.",
+    "pt-BR": "Após enviar, clique em Diagnóstico acima da resposta ou abra fluxos HTTP → Inspecionar. A requisição enviada registra a configuração usada; a prévia reflete as edições atuais.",
+    "es": "Tras enviar, pulsa Diagnóstico sobre la respuesta o abre flujos HTTP → Inspeccionar. La solicitud enviada conserva la configuración usada; la vista previa refleja las ediciones actuales.",
+    "ko": "전송 후 응답 위의 진단을 누르거나 HTTP 워크플로 → 요청 검사를 여세요. 전송한 요청은 전송 당시 설정을, 미리보기는 현재 수정을 보여줍니다.",
+    "de": "Öffnen Sie nach dem Senden Diagnose über der Antwort oder HTTP-Abläufe → Anfrage prüfen. Die gesendete Anfrage zeigt die damalige Konfiguration, die Vorschau aktuelle Änderungen."
+  },
+  "Actual": {
+    "zh-Hans": "实际值",
+    "zh-Hant": "實際值",
+    "ja": "実際の値",
+    "fr": "Valeur réelle",
+    "pt-BR": "Valor real",
+    "es": "Valor real",
+    "ko": "실제 값",
+    "de": "Istwert"
+  },
+  "Expected": {
+    "zh-Hans": "期望值",
+    "zh-Hant": "預期值",
+    "ja": "期待値",
+    "fr": "Valeur attendue",
+    "pt-BR": "Valor esperado",
+    "es": "Valor esperado",
+    "ko": "예상 값",
+    "de": "Sollwert"
+  },
+  "Captured before redirects; transport-generated headers are not included.": {
+    "zh-Hans": "记录的是重定向前的请求配置，不含网络层自动生成的请求头。",
+    "zh-Hant": "記錄的是重新導向前的請求設定，不含網路層自動產生的標頭。",
+    "ja": "リダイレクト前の設定です。通信層が自動生成するヘッダーは含まれません。",
+    "fr": "Configuration avant redirections ; les en-têtes générés par le transport ne sont pas inclus.",
+    "pt-BR": "Configuração antes dos redirecionamentos; cabeçalhos gerados pelo transporte não estão incluídos.",
+    "es": "Configuración anterior a las redirecciones; no incluye las cabeceras generadas por el transporte.",
+    "ko": "리디렉션 전의 설정이며 전송 계층이 자동 생성한 헤더는 포함하지 않습니다.",
+    "de": "Konfiguration vor Weiterleitungen; automatisch erzeugte Transportheader sind nicht enthalten."
+  },
+  "Choose & Reorder Requests": {
+    "zh-Hans": "选择请求与调整顺序",
+    "zh-Hant": "選擇請求與調整順序",
+    "ja": "リクエストの選択と並べ替え",
+    "fr": "Choisir et réordonner les requêtes",
+    "pt-BR": "Escolher e ordenar requisições",
+    "es": "Elegir y ordenar solicitudes",
+    "ko": "요청 선택 및 순서 변경",
+    "de": "Anfragen auswählen und anordnen"
+  },
+  "Create two HTTP requests in one project and select an environment. Configure the login URL, method and body, then send it. Confirm a successful JSON response with a non-null token field. These paths are examples; use your API's actual fields.": {
+    "zh-Hans": "在同一项目中新建两个 HTTP 请求并选择环境。配置登录接口的 URL、方法和正文后发送，确认成功响应是 JSON 且 token 不为 null。以下路径仅为示例，请使用真实接口字段。",
+    "zh-Hant": "在同一專案中建立兩個 HTTP 請求並選擇環境。設定登入的 URL、方法和本文後傳送，確認成功回應為 JSON 且 token 不為 null。以下路徑僅為範例，請使用實際欄位。",
+    "ja": "同じプロジェクトに HTTP リクエストを2つ作り、環境を選びます。ログインの URL、メソッド、本文を設定して送信し、成功した JSON 応答に null でない token があることを確認します。パスは例です。実際の API のフィールドを使ってください。",
+    "fr": "Créez deux requêtes HTTP dans un projet et choisissez un environnement. Configurez URL, méthode et corps de connexion, puis envoyez. Vérifiez une réponse JSON réussie avec un token non nul. Les chemins sont des exemples ; utilisez vos champs réels.",
+    "pt-BR": "Crie duas requisições HTTP no mesmo projeto e selecione um ambiente. Configure URL, método e corpo do login e envie. Confirme uma resposta JSON bem-sucedida com token não nulo. Os caminhos são exemplos; use os campos reais da API.",
+    "es": "Crea dos solicitudes HTTP en el mismo proyecto y selecciona un entorno. Configura URL, método y cuerpo del inicio de sesión y envía. Confirma una respuesta JSON correcta con token no nulo. Las rutas son ejemplos; usa los campos reales.",
+    "ko": "같은 프로젝트에 HTTP 요청 두 개를 만들고 환경을 선택하세요. 로그인 URL, 메서드, 본문을 설정하고 전송한 뒤 성공한 JSON 응답에 null이 아닌 token이 있는지 확인하세요. 경로는 예시이므로 실제 API 필드를 사용하세요.",
+    "de": "Erstellen Sie zwei HTTP-Anfragen im selben Projekt und wählen Sie eine Umgebung. Konfigurieren Sie Login-URL, Methode und Inhalt und senden Sie. Prüfen Sie eine erfolgreiche JSON-Antwort mit einem nicht leeren token. Pfade sind Beispiele; verwenden Sie Ihre API-Felder."
+  },
+  "Set the response field to /data/token, variable name to token, target to Orders, and header to Authorization. Click Create Response Link. This saves rules, not the current token. Run Login again before Orders. Authorization replaces the target's previous automatic authentication; other headers keep it.": {
+    "zh-Hans": "响应字段填 /data/token，变量名填 token，目标选择订单请求，请求头填 Authorization，再点击“创建响应引用”。保存的是规则，不是当前 token，请重新运行登录后再运行订单请求。Authorization 引用会替换目标原有的自动认证，其他请求头保留原认证。",
+    "zh-Hant": "回應欄位填 /data/token，變數名稱填 token，目標選擇訂單請求，標頭填 Authorization，再點擊「建立回應引用」。儲存的是規則而非目前 token，請重新執行登入再執行訂單。Authorization 引用會取代原有自動驗證，其他標頭保留原驗證。",
+    "ja": "フィールドを /data/token、変数名を token、対象を Orders、ヘッダーを Authorization にして参照を作成します。保存されるのは規則です。現在の token は保存されないので、Login を再実行してから Orders を実行します。Authorization は既存の自動認証を置き換えます。他のヘッダーでは認証を維持します。",
+    "fr": "Choisissez /data/token, la variable token, la cible Orders et l’en-tête Authorization, puis créez la référence. Seules les règles sont enregistrées. Relancez Login avant Orders. Authorization remplace l’authentification automatique existante ; les autres en-têtes la conservent.",
+    "pt-BR": "Use /data/token, variável token, destino Orders e cabeçalho Authorization; crie a referência. Isso salva regras, não o token atual. Execute Login novamente antes de Orders. Authorization substitui a autenticação automática anterior; outros cabeçalhos a mantêm.",
+    "es": "Usa /data/token, variable token, destino Orders y cabecera Authorization; crea la referencia. Se guardan reglas, no el token actual. Ejecuta Login otra vez antes de Orders. Authorization reemplaza la autenticación automática anterior; otras cabeceras la conservan.",
+    "ko": "필드는 /data/token, 변수는 token, 대상은 Orders, 헤더는 Authorization으로 설정하고 참조를 만드세요. 현재 토큰이 아닌 규칙이 저장됩니다. Login을 다시 실행한 뒤 Orders를 실행하세요. Authorization은 기존 자동 인증을 대체하고 다른 헤더는 유지합니다.",
+    "de": "Wählen Sie /data/token, Variable token, Ziel Orders und Header Authorization und erstellen Sie die Referenz. Es werden Regeln gespeichert, nicht der aktuelle Token. Führen Sie Login erneut vor Orders aus. Authorization ersetzt die bisherige automatische Authentifizierung; andere Header behalten sie bei."
+  },
+  "In Run Requests, expand Choose & Reorder Requests. Check Login and Orders, uncheck unrelated requests, and move Login above Orders with the arrows. Numbers show the actual run order. Enter a workflow name, select its environment, and click Save Workflow.": {
+    "zh-Hans": "在“运行请求”中展开“选择请求与调整顺序”。勾选登录和订单，取消无关请求，用箭头把登录移到订单之前。编号就是实际顺序。填写流程名称，选择环境，点击“保存流程”。",
+    "zh-Hant": "在「執行請求」中展開「選擇請求與調整順序」。勾選登入和訂單，取消無關請求，用箭頭把登入移到訂單之前。編號就是實際順序。填寫流程名稱、選擇環境並儲存。",
+    "ja": "リクエスト実行で選択と並べ替えを開きます。Login と Orders を選び、無関係な項目を外し、矢印で Login を先に移動します。番号が実行順です。名前と環境を指定して保存します。",
+    "fr": "Dans l’exécution, développez le choix et l’ordre des requêtes. Cochez Login et Orders, décochez les autres et placez Login avant Orders avec les flèches. Les numéros donnent l’ordre réel. Nommez le scénario, choisissez l’environnement et enregistrez.",
+    "pt-BR": "Na execução, expanda a seleção e ordenação. Marque Login e Orders, desmarque as demais e mova Login antes de Orders com as setas. Os números indicam a ordem real. Informe o nome, selecione o ambiente e salve.",
+    "es": "En la ejecución, abre la selección y ordenación. Marca Login y Orders, desmarca las demás y mueve Login antes de Orders con las flechas. Los números indican el orden real. Introduce nombre y entorno y guarda.",
+    "ko": "요청 실행에서 요청 선택 및 순서 변경을 펼치세요. Login과 Orders를 선택하고 나머지는 해제한 뒤 화살표로 Login을 앞에 놓으세요. 번호가 실제 실행 순서입니다. 이름과 환경을 지정하고 저장하세요.",
+    "de": "Öffnen Sie in der Ausführung die Auswahl und Reihenfolge. Aktivieren Sie Login und Orders, deaktivieren Sie andere und verschieben Sie Login mit den Pfeilen vor Orders. Zahlen zeigen die tatsächliche Reihenfolge. Geben Sie Namen und Umgebung an und speichern Sie."
+  },
+  "If a variable is missing, check the selected environment, enabled extraction rule, spelling, and source order. If no response fields appear, send the source first and check that its response is valid JSON under 1 MB. Field paths start with /; nested fields use /data/token. Links create headers; URL and body references must be entered as {{token}} manually.": {
+    "zh-Hans": "变量缺失时检查所选环境、已启用的提取规则、名称拼写和来源顺序。没有响应字段时，先发送来源请求，确认响应为有效 JSON 且小于 1 MB。字段路径以 / 开头，例如 /data/token。自动引用只创建请求头；URL 和正文中的 {{token}} 需手动填写。",
+    "zh-Hant": "變數缺少時檢查所選環境、啟用的擷取規則、拼字和來源順序。沒有回應欄位時，先傳送來源請求，確認回應是有效 JSON 且小於 1 MB。路徑以 / 開頭，例如 /data/token。自動引用只建立標頭；URL 和本文的 {{token}} 需手動填入。",
+    "ja": "変数不足なら環境、抽出規則の有効状態、名前、順序を確認します。フィールドが表示されない場合は参照元を送信し、1 MB 未満の有効な JSON か確認します。パスは / で始めます。参照作成はヘッダーのみで、URL や本文の {{token}} は手入力します。",
+    "fr": "Si une variable manque, vérifiez environnement, extraction activée, orthographe et ordre. Sans champs, envoyez la source et vérifiez un JSON valide de moins de 1 Mo. Les chemins commencent par /, comme /data/token. Les références créent des en-têtes ; saisissez {{token}} manuellement dans URL et corps.",
+    "pt-BR": "Se faltar variável, verifique ambiente, extração ativa, nome e ordem. Sem campos, envie a origem e confirme JSON válido abaixo de 1 MB. Caminhos começam com /, como /data/token. Referências criam cabeçalhos; insira {{token}} manualmente na URL e no corpo.",
+    "es": "Si falta una variable, comprueba entorno, extracción activa, nombre y orden. Sin campos, envía el origen y verifica JSON válido de menos de 1 MB. Las rutas empiezan por /, como /data/token. Las referencias crean cabeceras; introduce {{token}} manualmente en URL y cuerpo.",
+    "ko": "변수가 없으면 환경, 활성 추출 규칙, 이름, 순서를 확인하세요. 필드가 없으면 원본을 보내고 1 MB 미만의 유효한 JSON인지 확인하세요. 경로는 /로 시작하며 예시는 /data/token입니다. 참조는 헤더만 만들며 URL과 본문의 {{token}}은 직접 입력합니다.",
+    "de": "Bei fehlenden Variablen prüfen Sie Umgebung, aktive Extraktion, Namen und Reihenfolge. Ohne Felder senden Sie die Quelle und prüfen gültiges JSON unter 1 MB. Pfade beginnen mit /, etwa /data/token. Referenzen erstellen Header; {{token}} in URL und Inhalt tragen Sie manuell ein."
+  },
+  "Expand Sent Request to review the prepared URL, headers and body from that send. Editing the environment afterward does not change this record. It excludes transport-added headers and later redirects. After restarting RHEQ, send again to recreate the record. Opening Diagnostics or Inspect Request never sends a request.": {
+    "zh-Hans": "展开“发送时的请求”，查看当时准备的 URL、请求头和正文。之后修改环境不会改变记录。记录不含网络层自动请求头和后续重定向。重启 RHEQ 后需重新发送才能生成记录。打开诊断或检查请求不会发送请求。",
+    "zh-Hant": "展開「傳送時的請求」，查看當時準備的 URL、標頭和本文。之後修改環境不會改變記錄。記錄不含網路層自動標頭和後續重新導向。重啟 RHEQ 後需重新傳送。開啟診斷或檢查請求不會傳送請求。",
+    "ja": "送信したリクエストを開くと、その時点の URL、ヘッダー、本文を確認できます。後の環境編集では記録は変わりません。自動ヘッダーと後続リダイレクトは含みません。再起動後は再送信が必要です。診断を開くだけでは送信しません。",
+    "fr": "Développez la requête envoyée pour voir URL, en-têtes et corps préparés. Modifier l’environnement ne change pas ce relevé. Il exclut en-têtes automatiques et redirections ultérieures. Après redémarrage, renvoyez pour le recréer. Ouvrir le diagnostic ou l’inspection n’envoie rien.",
+    "pt-BR": "Expanda a requisição enviada para ver URL, cabeçalhos e corpo preparados. Editar o ambiente não altera o registro. Ele exclui cabeçalhos automáticos e redirecionamentos posteriores. Após reiniciar, envie de novo. Abrir diagnóstico ou inspeção não envia requisições.",
+    "es": "Abre la solicitud enviada para ver URL, cabeceras y cuerpo preparados. Editar el entorno no cambia el registro. Excluye cabeceras automáticas y redirecciones posteriores. Tras reiniciar, vuelve a enviar. Abrir diagnóstico o inspección no envía solicitudes.",
+    "ko": "전송한 요청을 펼쳐 당시 URL, 헤더, 본문을 확인하세요. 이후 환경 수정은 기록을 바꾸지 않습니다. 자동 헤더와 후속 리디렉션은 포함되지 않습니다. 재시작 후에는 다시 보내야 기록됩니다. 진단이나 검사 화면을 여는 것만으로는 전송되지 않습니다.",
+    "de": "Öffnen Sie die gesendete Anfrage für vorbereitete URL, Header und Inhalt. Spätere Umgebungsänderungen ändern die Aufzeichnung nicht. Automatische Header und spätere Weiterleitungen fehlen. Nach einem Neustart müssen Sie erneut senden. Diagnose und Prüfung senden keine Anfragen."
+  },
+  "For connection errors, check DNS, host, port and VPN. For TLS errors, read the certificate cause. A timeout cannot identify one failed phase. HTTP 4xx or 5xx means a response arrived; check status and body. Redirect and certificate details appear only when the completed response includes them. Total duration includes the response download.": {
+    "zh-Hans": "连接错误先检查 DNS、主机、端口和 VPN；TLS 错误查看证书原因。超时无法确定具体阶段。HTTP 4xx 或 5xx 表示已收到响应，应检查状态码和正文。只有完成的响应带有相应数据时才显示重定向和证书详情。总耗时包含响应下载。",
+    "zh-Hant": "連線錯誤先檢查 DNS、主機、連接埠和 VPN；TLS 錯誤查看憑證原因。逾時無法確定具體階段。HTTP 4xx 或 5xx 表示已收到回應，請檢查狀態碼和本文。只有完成回應帶有資料時才顯示重新導向和憑證詳情。總耗時包含下載。",
+    "ja": "接続エラーでは DNS、ホスト、ポート、VPN を確認し、TLS エラーでは証明書の原因を読みます。タイムアウトだけでは段階は特定できません。HTTP 4xx/5xx は応答を受信済みなので状態と本文を確認します。リダイレクトと証明書は応答に情報がある場合のみ表示します。総時間にはダウンロードを含みます。",
+    "fr": "Pour une erreur de connexion, vérifiez DNS, hôte, port et VPN ; pour TLS, la cause du certificat. Un délai dépassé n’identifie pas une phase. HTTP 4xx/5xx signifie qu’une réponse est arrivée : vérifiez statut et corps. Redirections et certificat nécessitent des données dans la réponse terminée. La durée inclut le téléchargement.",
+    "pt-BR": "Em erro de conexão, verifique DNS, host, porta e VPN; em TLS, a causa do certificado. Tempo limite não identifica uma etapa. HTTP 4xx/5xx indica resposta recebida: verifique status e corpo. Redirecionamentos e certificado aparecem quando há dados na resposta concluída. O total inclui o download.",
+    "es": "En errores de conexión, comprueba DNS, host, puerto y VPN; en TLS, la causa del certificado. El tiempo de espera no identifica una fase. HTTP 4xx/5xx indica respuesta recibida: revisa estado y cuerpo. Redirecciones y certificado aparecen si la respuesta completa los incluye. El total incluye la descarga.",
+    "ko": "연결 오류는 DNS, 호스트, 포트, VPN을, TLS 오류는 인증서 원인을 확인하세요. 시간 초과만으로 단계는 알 수 없습니다. HTTP 4xx/5xx는 응답을 받았다는 뜻이므로 상태와 본문을 확인하세요. 리디렉션과 인증서는 완료된 응답에 정보가 있을 때만 표시됩니다. 총 시간은 다운로드를 포함합니다.",
+    "de": "Bei Verbindungsfehlern prüfen Sie DNS, Host, Port und VPN, bei TLS die Zertifikatsursache. Eine Zeitüberschreitung identifiziert keine Phase. HTTP 4xx/5xx bedeutet eine empfangene Antwort: prüfen Sie Status und Inhalt. Weiterleitungen und Zertifikat erscheinen nur mit Daten in einer abgeschlossenen Antwort. Die Gesamtdauer enthält den Download."
+  }
+}

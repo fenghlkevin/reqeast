@@ -24,6 +24,7 @@ struct KeyValueEntry: Codable, Identifiable, Hashable {
 }
 
 struct HttpRequestData: Codable, Hashable {
+    var workflow: HttpWorkflow = HttpWorkflow()
     var method: HttpMethod
     var url: String
     var params: [KeyValueEntry]
@@ -130,6 +131,7 @@ struct HttpRequestData: Codable, Hashable {
 
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
+        workflow = try container.decodeIfPresent(HttpWorkflow.self, forKey: .workflow) ?? HttpWorkflow()
         method = try container.decode(HttpMethod.self, forKey: .method)
         url = try container.decode(String.self, forKey: .url)
         params = try container.decode([KeyValueEntry].self, forKey: .params)

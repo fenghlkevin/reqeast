@@ -1,3 +1,4 @@
+// Modified for RHEQ: neutral surfaces and cobalt actions.
 //
 //  BrandTheme.swift
 //  Reqeast
@@ -6,17 +7,13 @@
 import SwiftUI
 
 enum BrandTheme {
-    // MARK: - Brand Colors
-
-    static let brand = Color(red: 64 / 255, green: 145 / 255, blue: 195 / 255)        // #4091C3
-    static let brandDark = Color(red: 26 / 255, green: 77 / 255, blue: 107 / 255)     // #1A4D6B
-    static let brandLight = Color(red: 130 / 255, green: 196 / 255, blue: 232 / 255)  // #82C4E8
-
-    static let brandGradient = LinearGradient(
-        colors: [brandDark, brand, brandLight],
-        startPoint: .topLeading,
-        endPoint: .bottomTrailing
-    )
+    static let brand = Color.primary
+    static let brandDark = Color(red: 0.10, green: 0.10, blue: 0.12)
+    static let brandLight = Color(red: 0.94, green: 0.94, blue: 0.92)
+    static let action = Color("AccentColor")
+    static let workspace = Color("WorkspaceBackground")
+    static let sidebar = Color("SidebarBackground")
+    static let panel = Color("PanelBackground")
 
     // MARK: - Animation Curves
 

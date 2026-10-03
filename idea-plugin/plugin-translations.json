@@ -1,0 +1,122 @@
+{
+  "base.prompt": [
+    "接口基础地址（包括应用的 context-path）：",
+    "介面基礎位址（包含應用程式的 context-path）：",
+    "API のベース URL（context-path を含む）：",
+    "URL de base de l’API (avec le context-path) :",
+    "URL base da API (inclua o context-path):",
+    "URL base de la API (incluye el context-path):",
+    "API 기본 URL(context-path 포함):",
+    "API-Basis-URL (einschließlich context-path):"
+  ],
+  "base.invalid": [
+    "请输入 HTTP 或 HTTPS 地址，不要包含凭据、查询参数或片段。",
+    "請輸入 HTTP 或 HTTPS 位址，不含憑證、查詢參數或片段。",
+    "認証情報、クエリ、フラグメントを含まない HTTP または HTTPS URL を入力してください。",
+    "Saisissez une URL HTTP ou HTTPS sans identifiants, paramètres ni fragment.",
+    "Informe uma URL HTTP ou HTTPS sem credenciais, consulta ou fragmento.",
+    "Introduce una URL HTTP o HTTPS sin credenciales, consulta ni fragmento.",
+    "인증 정보, 쿼리, 프래그먼트가 없는 HTTP 또는 HTTPS URL을 입력하세요.",
+    "HTTP- oder HTTPS-URL ohne Zugangsdaten, Abfrage oder Fragment eingeben."
+  ],
+  "preview": [
+    "接口数量：{0}。RHEQ 将先展示请求预览，确认后才导入。不会发送接口请求。",
+    "介面數量：{0}。RHEQ 會先顯示請求預覽，確認後才匯入。不會傳送介面請求。",
+    "インターフェース数：{0}。RHEQ でプレビューを確認してから読み込みます。API リクエストは送信しません。",
+    "Interfaces : {0}. RHEQ affiche un aperçu avant confirmation. Aucune requête API n’est envoyée.",
+    "Interfaces: {0}. RHEQ mostra uma prévia antes de confirmar. Nenhuma requisição à API é enviada.",
+    "Interfaces: {0}. RHEQ muestra una vista previa antes de confirmar. No se envían solicitudes a la API.",
+    "인터페이스: {0}개. RHEQ에서 미리 확인한 뒤 가져옵니다. API 요청은 전송하지 않습니다.",
+    "Schnittstellen: {0}. RHEQ zeigt vor dem Import eine Vorschau. Es werden keine API-Anfragen gesendet."
+  ],
+  "empty": [
+    "未找到支持的 Java Spring Controller 接口，请检查注解和模块依赖。",
+    "未找到支援的 Java Spring Controller 介面，請檢查註解及模組相依性。",
+    "対応する Java Spring Controller が見つかりません。注釈とモジュール依存関係を確認してください。",
+    "Aucune interface Java Spring Controller prise en charge. Vérifiez les annotations et dépendances du module.",
+    "Nenhuma interface Java Spring Controller suportada. Confira anotações e dependências do módulo.",
+    "No se encontraron interfaces Java Spring Controller compatibles. Revisa anotaciones y dependencias.",
+    "지원하는 Java Spring Controller 인터페이스가 없습니다. 어노테이션과 모듈 의존성을 확인하세요.",
+    "Keine unterstützten Java-Spring-Controller gefunden. Annotationen und Modulabhängigkeiten prüfen."
+  ],
+  "send": [
+    "在 RHEQ 中打开",
+    "在 RHEQ 中開啟",
+    "RHEQ で開く",
+    "Ouvrir dans RHEQ",
+    "Abrir no RHEQ",
+    "Abrir en RHEQ",
+    "RHEQ에서 열기",
+    "In RHEQ öffnen"
+  ],
+  "cancel": [
+    "取消",
+    "取消",
+    "キャンセル",
+    "Annuler",
+    "Cancelar",
+    "Cancelar",
+    "취소",
+    "Abbrechen"
+  ],
+  "missing": [
+    "请先将 RHEQ 安装到 /Applications。导出文件保存在：{0}",
+    "請先將 RHEQ 安裝至 /Applications。匯出檔案位於：{0}",
+    "RHEQ を /Applications にインストールしてください。書き出し先：{0}",
+    "Installez RHEQ dans /Applications. Fichier enregistré : {0}",
+    "Instale RHEQ em /Applications. Arquivo salvo em: {0}",
+    "Instala RHEQ en /Applications. Archivo guardado: {0}",
+    "RHEQ를 /Applications에 설치하세요. 저장된 파일: {0}",
+    "RHEQ unter /Applications installieren. Export gespeichert: {0}"
+  ],
+  "action.Rheq.ExportMethod.text": [
+    "导入当前方法到 RHEQ",
+    "匯入目前方法至 RHEQ",
+    "メソッドを RHEQ に読み込む",
+    "Importer la méthode dans RHEQ",
+    "Importar método no RHEQ",
+    "Importar método en RHEQ",
+    "메서드를 RHEQ로 가져오기",
+    "Methode in RHEQ importieren"
+  ],
+  "action.Rheq.ExportController.text": [
+    "导入 Controller 到 RHEQ",
+    "匯入 Controller 至 RHEQ",
+    "Controller を RHEQ に読み込む",
+    "Importer le Controller dans RHEQ",
+    "Importar Controller no RHEQ",
+    "Importar Controller en RHEQ",
+    "Controller를 RHEQ로 가져오기",
+    "Controller in RHEQ importieren"
+  ],
+  "action.Rheq.ExportModule.text": [
+    "导入模块到 RHEQ",
+    "匯入模組至 RHEQ",
+    "モジュールを RHEQ に読み込む",
+    "Importer le module dans RHEQ",
+    "Importar módulo no RHEQ",
+    "Importar módulo en RHEQ",
+    "모듈을 RHEQ로 가져오기",
+    "Modul in RHEQ importieren"
+  ],
+  "gutter.name": [
+    "RHEQ 接口导入",
+    "RHEQ 介面匯入",
+    "RHEQ インターフェース読み込み",
+    "Importation d’interfaces RHEQ",
+    "Importação de interfaces RHEQ",
+    "Importación de interfaces RHEQ",
+    "RHEQ 인터페이스 가져오기",
+    "RHEQ-Schnittstellenimport"
+  ],
+  "gutter.import": [
+    "导入此接口到 RHEQ",
+    "匯入此介面至 RHEQ",
+    "このインターフェースを RHEQ に読み込む",
+    "Importer cette interface dans RHEQ",
+    "Importar esta interface no RHEQ",
+    "Importar esta interfaz en RHEQ",
+    "이 인터페이스를 RHEQ로 가져오기",
+    "Diese Schnittstelle in RHEQ importieren"
+  ]
+}

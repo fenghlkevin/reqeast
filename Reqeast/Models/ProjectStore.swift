@@ -29,6 +29,7 @@ class ProjectStore {
     /// True while `SpecSyncService.apply` is mutating store arrays (P2).
     var syncApplyInProgress = false
     private let mockMode: Bool
+    var isInMemory: Bool { mockMode }
 
     #if DEBUG
     /// Incremented by `saveLocalOrThrow()` while `importInProgress` during unit tests (AC17).

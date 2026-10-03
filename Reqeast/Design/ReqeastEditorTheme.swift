@@ -1,92 +1,39 @@
-//
-//  ReqeastEditorTheme.swift
-//  Reqeast
-//
-
+// Modified for RHEQ: neutral editor surfaces and restrained, readable syntax colors.
 #if os(macOS)
 import AppKit
 import CodeEditSourceEditor
 
 enum ReqeastEditorTheme {
+    static let dark = make(dark: true, response: false)
+    static let light = make(dark: false, response: false)
+    static let responseDark = make(dark: true, response: true)
+    static let responseLight = make(dark: false, response: true)
 
-    // MARK: - Request (editable)
+    private static func color(_ red: Double, _ green: Double, _ blue: Double) -> NSColor {
+        NSColor(red: red, green: green, blue: blue, alpha: 1)
+    }
 
-    static let dark = EditorTheme(
-        text: .init(color: NSColor(red: 0.92, green: 0.92, blue: 0.94, alpha: 1.0)),
-        insertionPoint: NSColor.controlAccentColor,
-        invisibles: .init(color: NSColor(red: 0.33, green: 0.37, blue: 0.43, alpha: 1.0)),
-        background: NSColor(red: 0.16, green: 0.16, blue: 0.18, alpha: 1.0),
-        lineHighlight: NSColor.white.withAlphaComponent(0.05),
-        selection: NSColor.white.withAlphaComponent(0.15),
-        keywords: .init(color: NSColor(red: 0.99, green: 0.42, blue: 0.62, alpha: 1.0), bold: true),
-        commands: .init(color: NSColor(red: 0.51, green: 0.75, blue: 0.82, alpha: 1.0)),
-        types: .init(color: NSColor(red: 0.42, green: 0.87, blue: 1.0, alpha: 1.0)),
-        attributes: .init(color: NSColor(red: 0.80, green: 0.60, blue: 0.41, alpha: 1.0)),
-        variables: .init(color: NSColor(red: 0.51, green: 0.75, blue: 0.82, alpha: 1.0)),
-        values: .init(color: NSColor(red: 0.70, green: 0.51, blue: 0.92, alpha: 1.0)),
-        numbers: .init(color: NSColor(red: 0.82, green: 0.75, blue: 0.50, alpha: 1.0)),
-        strings: .init(color: NSColor(red: 0.99, green: 0.42, blue: 0.35, alpha: 1.0)),
-        characters: .init(color: NSColor(red: 0.82, green: 0.75, blue: 0.50, alpha: 1.0)),
-        comments: .init(color: NSColor(red: 0.50, green: 0.55, blue: 0.60, alpha: 1.0))
-    )
-
-    static let light = EditorTheme(
-        text: .init(color: NSColor(red: 0.10, green: 0.10, blue: 0.12, alpha: 1.0)),
-        insertionPoint: NSColor.controlAccentColor,
-        invisibles: .init(color: NSColor(red: 0.75, green: 0.75, blue: 0.78, alpha: 1.0)),
-        background: NSColor(red: 0.97, green: 0.97, blue: 0.98, alpha: 1.0),
-        lineHighlight: NSColor(red: 0.93, green: 0.94, blue: 0.95, alpha: 1.0),
-        selection: NSColor(red: 0.70, green: 0.80, blue: 0.95, alpha: 1.0),
-        keywords: .init(color: NSColor(red: 0.72, green: 0.21, blue: 0.62, alpha: 1.0), bold: true),
-        commands: .init(color: NSColor(red: 0.44, green: 0.26, blue: 0.58, alpha: 1.0)),
-        types: .init(color: NSColor(red: 0.11, green: 0.00, blue: 0.81, alpha: 1.0)),
-        attributes: .init(color: NSColor(red: 0.58, green: 0.38, blue: 0.21, alpha: 1.0)),
-        variables: .init(color: NSColor(red: 0.44, green: 0.26, blue: 0.58, alpha: 1.0)),
-        values: .init(color: NSColor(red: 0.44, green: 0.26, blue: 0.58, alpha: 1.0)),
-        numbers: .init(color: NSColor(red: 0.11, green: 0.00, blue: 0.81, alpha: 1.0)),
-        strings: .init(color: NSColor(red: 0.77, green: 0.10, blue: 0.09, alpha: 1.0)),
-        characters: .init(color: NSColor(red: 0.11, green: 0.00, blue: 0.81, alpha: 1.0)),
-        comments: .init(color: NSColor(red: 0.45, green: 0.50, blue: 0.55, alpha: 1.0))
-    )
-
-    // MARK: - Response (read-only)
-
-    static let responseDark = EditorTheme(
-        text: .init(color: NSColor(red: 0.85, green: 0.88, blue: 0.92, alpha: 1.0)),
-        insertionPoint: NSColor.controlAccentColor,
-        invisibles: .init(color: NSColor(red: 0.30, green: 0.33, blue: 0.38, alpha: 1.0)),
-        background: NSColor(red: 0.13, green: 0.14, blue: 0.16, alpha: 1.0),
-        lineHighlight: NSColor.white.withAlphaComponent(0.03),
-        selection: NSColor.white.withAlphaComponent(0.12),
-        keywords: .init(color: NSColor(red: 0.90, green: 0.45, blue: 0.65, alpha: 1.0)),
-        commands: .init(color: NSColor(red: 0.55, green: 0.78, blue: 0.88, alpha: 1.0)),
-        types: .init(color: NSColor(red: 0.50, green: 0.82, blue: 0.95, alpha: 1.0)),
-        attributes: .init(color: NSColor(red: 0.75, green: 0.58, blue: 0.42, alpha: 1.0)),
-        variables: .init(color: NSColor(red: 0.55, green: 0.78, blue: 0.88, alpha: 1.0)),
-        values: .init(color: NSColor(red: 0.65, green: 0.52, blue: 0.88, alpha: 1.0)),
-        numbers: .init(color: NSColor(red: 0.78, green: 0.72, blue: 0.50, alpha: 1.0)),
-        strings: .init(color: NSColor(red: 0.45, green: 0.78, blue: 0.65, alpha: 1.0)),
-        characters: .init(color: NSColor(red: 0.78, green: 0.72, blue: 0.50, alpha: 1.0)),
-        comments: .init(color: NSColor(red: 0.45, green: 0.50, blue: 0.55, alpha: 1.0))
-    )
-
-    static let responseLight = EditorTheme(
-        text: .init(color: NSColor(red: 0.12, green: 0.13, blue: 0.15, alpha: 1.0)),
-        insertionPoint: NSColor.controlAccentColor,
-        invisibles: .init(color: NSColor(red: 0.72, green: 0.72, blue: 0.75, alpha: 1.0)),
-        background: NSColor(red: 0.94, green: 0.95, blue: 0.96, alpha: 1.0),
-        lineHighlight: NSColor(red: 0.90, green: 0.91, blue: 0.93, alpha: 1.0),
-        selection: NSColor(red: 0.75, green: 0.82, blue: 0.90, alpha: 1.0),
-        keywords: .init(color: NSColor(red: 0.65, green: 0.22, blue: 0.55, alpha: 1.0)),
-        commands: .init(color: NSColor(red: 0.38, green: 0.28, blue: 0.52, alpha: 1.0)),
-        types: .init(color: NSColor(red: 0.13, green: 0.05, blue: 0.72, alpha: 1.0)),
-        attributes: .init(color: NSColor(red: 0.52, green: 0.35, blue: 0.20, alpha: 1.0)),
-        variables: .init(color: NSColor(red: 0.38, green: 0.28, blue: 0.52, alpha: 1.0)),
-        values: .init(color: NSColor(red: 0.38, green: 0.28, blue: 0.52, alpha: 1.0)),
-        numbers: .init(color: NSColor(red: 0.13, green: 0.05, blue: 0.72, alpha: 1.0)),
-        strings: .init(color: NSColor(red: 0.18, green: 0.55, blue: 0.42, alpha: 1.0)),
-        characters: .init(color: NSColor(red: 0.13, green: 0.05, blue: 0.72, alpha: 1.0)),
-        comments: .init(color: NSColor(red: 0.42, green: 0.46, blue: 0.50, alpha: 1.0))
-    )
+    private static func make(dark: Bool, response: Bool) -> EditorTheme {
+        let text = dark ? color(0.86, 0.87, 0.90) : color(0.12, 0.13, 0.15)
+        let blue = dark ? color(0.57, 0.68, 1.0) : color(0.18, 0.33, 0.73)
+        let string = dark ? color(0.88, 0.69, 0.55) : color(0.60, 0.29, 0.16)
+        let number = dark ? color(0.56, 0.79, 0.68) : color(0.20, 0.43, 0.33)
+        let muted = dark ? color(0.55, 0.57, 0.62) : color(0.45, 0.47, 0.51)
+        let background = dark
+            ? (response ? color(0.098, 0.102, 0.114) : color(0.133, 0.137, 0.153))
+            : (response ? color(0.973, 0.969, 0.957) : color(0.961, 0.957, 0.941))
+        return EditorTheme(
+            text: .init(color: text),
+            insertionPoint: dark ? color(0.45, 0.56, 1.0) : color(0.19, 0.37, 0.96),
+            invisibles: .init(color: muted.withAlphaComponent(0.5)),
+            background: background,
+            lineHighlight: dark ? NSColor.white.withAlphaComponent(0.03) : NSColor.black.withAlphaComponent(0.025),
+            selection: blue.withAlphaComponent(dark ? 0.18 : 0.12),
+            keywords: .init(color: blue), commands: .init(color: blue), types: .init(color: blue),
+            attributes: .init(color: muted), variables: .init(color: blue), values: .init(color: string),
+            numbers: .init(color: number), strings: .init(color: string), characters: .init(color: string),
+            comments: .init(color: muted)
+        )
+    }
 }
 #endif

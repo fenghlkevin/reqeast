@@ -1,3 +1,4 @@
+// Modified for RHEQ: visual workflows and HTTP diagnostics.
 //
 //  HttpResponsePanel.swift
 //  Reqeast
@@ -11,9 +12,31 @@ struct HttpResponsePanel: View {
     var httpData: HttpRequestData
 
     @State private var pulse = false
+    @State private var showingDiagnostics = false
 
     var body: some View {
         VStack(spacing: 0) {
+            if execution.response != nil || execution.error != nil {
+                HStack {
+                    Spacer()
+                    Button("Diagnostics", systemImage: "waveform.path.ecg") { showingDiagnostics = true }
+                        .buttonStyle(.glass)
+                }.padding(6)
+            }
+            if let error = execution.workflowError {
+                Label { Text(error.message).textSelection(.enabled) } icon: { Image(systemName: error.iconName) }
+                    .font(.caption).foregroundStyle(.red).padding(8)
+            }
+            if !execution.workflowChecks.isEmpty {
+                ScrollView(.horizontal) {
+                    HStack {
+                    ForEach(execution.workflowChecks) { check in
+                        Label(check.label, systemImage: check.passed ? "checkmark.circle" : "xmark.circle")
+                            .foregroundStyle(check.passed ? .green : .red)
+                    }
+                    }
+                }.font(.caption).padding(8)
+            }
             if let response = execution.response {
                 HttpResponseView(
                     response: response,
@@ -59,6 +82,14 @@ struct HttpResponsePanel: View {
                     }
                 }
             }
+        }.sheet(isPresented: $showingDiagnostics) {
+            VStack {
+                Form { HttpDiagnosticsView(execution: execution) }.formStyle(.grouped)
+                Button("Close") { showingDiagnostics = false }.buttonStyle(.glass).padding()
+            }
+            #if os(macOS)
+            .frame(width: 680, height: 650)
+            #endif
         }
     }
 }

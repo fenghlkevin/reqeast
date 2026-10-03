@@ -1,0 +1,1812 @@
+{
+  "A saved request was removed. Update this workflow before running.": {
+    "zh-Hans": "保存的请求已删除，请更新工作流后再运行。",
+    "zh-Hant": "儲存的請求已刪除，請更新工作流程後再執行。",
+    "ja": "保存したリクエストが削除されています。実行前に更新してください。",
+    "fr": "Une requête enregistrée a été supprimée. Mettez le workflow à jour.",
+    "pt-BR": "Uma requisição salva foi removida. Atualize o fluxo antes de executar.",
+    "es": "Se eliminó una solicitud guardada. Actualice el flujo antes de ejecutar.",
+    "ko": "저장한 요청이 삭제되었습니다. 실행 전에 흐름을 수정하세요.",
+    "de": "Eine gespeicherte Anfrage wurde entfernt. Aktualisieren Sie den Ablauf."
+  },
+  "Active Environment": {
+    "zh-Hans": "当前启用的环境",
+    "zh-Hant": "目前啟用的環境",
+    "ja": "現在の環境",
+    "fr": "Environnement actif",
+    "pt-BR": "Ambiente ativo",
+    "es": "Entorno activo",
+    "ko": "활성 환경",
+    "de": "Aktive Umgebung"
+  },
+  "Actual app screenshot with fictional demo data. Click to enlarge.": {
+    "zh-Hans": "实际程序截图，使用虚构的演示数据。点击可放大。",
+    "zh-Hant": "實際程式截圖，使用虛構示範資料。點按可放大。",
+    "ja": "架空のデモデータを使った実際の画面です。押すと拡大します。",
+    "fr": "Capture réelle avec des données fictives. Cliquez pour agrandir.",
+    "pt-BR": "Captura real com dados fictícios. Clique para ampliar.",
+    "es": "Captura real con datos ficticios. Pulse para ampliar.",
+    "ko": "가상 데모 데이터를 사용한 실제 화면입니다. 누르면 확대됩니다.",
+    "de": "Echter Screenshot mit Beispieldaten. Zum Vergrößern anklicken."
+  },
+  "Build the command-line tool": {
+    "zh-Hans": "构建命令行工具",
+    "zh-Hant": "建置命令列工具",
+    "ja": "コマンドラインツールをビルド",
+    "fr": "Compiler l’outil en ligne de commande",
+    "pt-BR": "Compilar a ferramenta de linha de comando",
+    "es": "Compilar la herramienta de línea de comandos",
+    "ko": "명령줄 도구 빌드",
+    "de": "Kommandozeilenwerkzeug bauen"
+  },
+  "Chapter": {
+    "zh-Hans": "章节",
+    "zh-Hant": "章節",
+    "ja": "章",
+    "fr": "Chapitre",
+    "pt-BR": "Capítulo",
+    "es": "Capítulo",
+    "ko": "장",
+    "de": "Kapitel"
+  },
+  "Check secrets and attachments": {
+    "zh-Hans": "核对敏感值和附件",
+    "zh-Hant": "確認敏感值與附件",
+    "ja": "秘密情報と添付を確認",
+    "fr": "Vérifier les secrets et pièces jointes",
+    "pt-BR": "Conferir segredos e anexos",
+    "es": "Revisar secretos y adjuntos",
+    "ko": "비밀 값과 첨부 확인",
+    "de": "Geheimnisse und Anhänge prüfen"
+  },
+  "Choose requests and enter a workflow name.": {
+    "zh-Hans": "请选择请求并填写工作流名称。",
+    "zh-Hant": "請選取請求並輸入工作流程名稱。",
+    "ja": "リクエストを選び、実行手順の名前を入力してください。",
+    "fr": "Choisissez des requêtes et nommez le workflow.",
+    "pt-BR": "Selecione requisições e dê um nome ao fluxo.",
+    "es": "Seleccione solicitudes y nombre el flujo.",
+    "ko": "요청을 선택하고 흐름 이름을 입력하세요.",
+    "de": "Wählen Sie Anfragen und benennen Sie den Ablauf."
+  },
+  "Clear Test Data": {
+    "zh-Hans": "清除测试数据",
+    "zh-Hant": "清除測試資料",
+    "ja": "テストデータを解除",
+    "fr": "Retirer les données de test",
+    "pt-BR": "Limpar dados de teste",
+    "es": "Quitar datos de prueba",
+    "ko": "테스트 데이터 지우기",
+    "de": "Testdaten entfernen"
+  },
+  "Command Line": {
+    "zh-Hans": "命令行",
+    "zh-Hant": "命令列",
+    "ja": "コマンドライン",
+    "fr": "Ligne de commande",
+    "pt-BR": "Linha de comando",
+    "es": "Línea de comandos",
+    "ko": "명령줄",
+    "de": "Kommandozeile"
+  },
+  "Create three HTTP requests": {
+    "zh-Hans": "创建三个 HTTP 请求",
+    "zh-Hant": "建立三個 HTTP 請求",
+    "ja": "HTTP リクエストを3つ作成",
+    "fr": "Créer trois requêtes HTTP",
+    "pt-BR": "Criar três requisições HTTP",
+    "es": "Crear tres solicitudes HTTP",
+    "ko": "HTTP 요청 세 개 만들기",
+    "de": "Drei HTTP-Anfragen erstellen"
+  },
+  "Current Response": {
+    "zh-Hans": "当前响应",
+    "zh-Hant": "目前回應",
+    "ja": "現在のレスポンス",
+    "fr": "Réponse actuelle",
+    "pt-BR": "Resposta atual",
+    "es": "Respuesta actual",
+    "ko": "현재 응답",
+    "de": "Aktuelle Antwort"
+  },
+  "Data Rows": {
+    "zh-Hans": "数据行数",
+    "zh-Hant": "資料列數",
+    "ja": "データ行数",
+    "fr": "Lignes de données",
+    "pt-BR": "Linhas de dados",
+    "es": "Filas de datos",
+    "ko": "데이터 행 수",
+    "de": "Datenzeilen"
+  },
+  "Data values are hidden. Review the input file before running.": {
+    "zh-Hans": "数据值已隐藏。运行前请检查输入文件。",
+    "zh-Hant": "資料值已隱藏。執行前請檢查輸入檔案。",
+    "ja": "値は非表示です。実行前に入力ファイルを確認してください。",
+    "fr": "Les valeurs sont masquées. Vérifiez le fichier avant l’exécution.",
+    "pt-BR": "Os valores estão ocultos. Revise o arquivo antes de executar.",
+    "es": "Los valores están ocultos. Revise el archivo antes de ejecutar.",
+    "ko": "값은 숨겨져 있습니다. 실행 전에 입력 파일을 확인하세요.",
+    "de": "Werte sind ausgeblendet. Prüfen Sie vor dem Lauf die Eingabedatei."
+  },
+  "Define the missing variables before sending.": {
+    "zh-Hans": "发送前请补齐缺失的变量。",
+    "zh-Hant": "傳送前請補齊缺少的變數。",
+    "ja": "送信前に不足する変数を設定してください。",
+    "fr": "Définissez les variables manquantes avant l’envoi.",
+    "pt-BR": "Defina as variáveis ausentes antes de enviar.",
+    "es": "Defina las variables que faltan antes de enviar.",
+    "ko": "전송 전에 누락된 변수를 설정하세요.",
+    "de": "Legen Sie fehlende Variablen vor dem Senden fest."
+  },
+  "Defined in the environment.": {
+    "zh-Hans": "在环境中手动设置。",
+    "zh-Hant": "在環境中手動設定。",
+    "ja": "環境で設定された値です。",
+    "fr": "Définie dans l’environnement.",
+    "pt-BR": "Definida no ambiente.",
+    "es": "Definida en el entorno.",
+    "ko": "환경에서 설정한 값입니다.",
+    "de": "In der Umgebung festgelegt."
+  },
+  "Delete Workflow": {
+    "zh-Hans": "删除工作流",
+    "zh-Hant": "刪除工作流程",
+    "ja": "実行手順を削除",
+    "fr": "Supprimer le workflow",
+    "pt-BR": "Excluir fluxo",
+    "es": "Eliminar flujo",
+    "ko": "흐름 삭제",
+    "de": "Ablauf löschen"
+  },
+  "Enlarge Screenshot": {
+    "zh-Hans": "放大截图",
+    "zh-Hant": "放大截圖",
+    "ja": "画面を拡大",
+    "fr": "Agrandir la capture",
+    "pt-BR": "Ampliar captura",
+    "es": "Ampliar captura",
+    "ko": "스크린샷 확대",
+    "de": "Screenshot vergrößern"
+  },
+  "Export Project Folder": {
+    "zh-Hans": "导出项目文件夹",
+    "zh-Hant": "匯出專案資料夾",
+    "ja": "プロジェクトフォルダを書き出す",
+    "fr": "Exporter le dossier du projet",
+    "pt-BR": "Exportar pasta do projeto",
+    "es": "Exportar carpeta del proyecto",
+    "ko": "프로젝트 폴더 내보내기",
+    "de": "Projektordner exportieren"
+  },
+  "Export Run Report": {
+    "zh-Hans": "导出运行报告",
+    "zh-Hant": "匯出執行報告",
+    "ja": "実行レポートを書き出す",
+    "fr": "Exporter le rapport",
+    "pt-BR": "Exportar relatório",
+    "es": "Exportar informe",
+    "ko": "실행 보고서 내보내기",
+    "de": "Laufbericht exportieren"
+  },
+  "Export and choose a workflow": {
+    "zh-Hans": "导出并选择工作流",
+    "zh-Hant": "匯出並選擇工作流程",
+    "ja": "書き出して実行手順を選択",
+    "fr": "Exporter et choisir un workflow",
+    "pt-BR": "Exportar e escolher o fluxo",
+    "es": "Exportar y elegir un flujo",
+    "ko": "내보내고 흐름 선택",
+    "de": "Exportieren und Ablauf auswählen"
+  },
+  "Export the project folder": {
+    "zh-Hans": "导出项目文件夹",
+    "zh-Hant": "匯出專案資料夾",
+    "ja": "プロジェクトフォルダを書き出す",
+    "fr": "Exporter le dossier du projet",
+    "pt-BR": "Exportar pasta do projeto",
+    "es": "Exportar carpeta del proyecto",
+    "ko": "프로젝트 폴더 내보내기",
+    "de": "Projektordner exportieren"
+  },
+  "Fix missing variables": {
+    "zh-Hans": "补齐缺失的变量",
+    "zh-Hant": "補齊缺少的變數",
+    "ja": "不足する変数を設定",
+    "fr": "Corriger les variables manquantes",
+    "pt-BR": "Corrigir variáveis ausentes",
+    "es": "Completar variables que faltan",
+    "ko": "누락된 변수 수정",
+    "de": "Fehlende Variablen ergänzen"
+  },
+  "Getting Started": {
+    "zh-Hans": "开始使用",
+    "zh-Hant": "開始使用",
+    "ja": "はじめに",
+    "fr": "Premiers pas",
+    "pt-BR": "Primeiros passos",
+    "es": "Primeros pasos",
+    "ko": "시작하기",
+    "de": "Erste Schritte"
+  },
+  "Import CSV or JSON": {
+    "zh-Hans": "导入 CSV 或 JSON",
+    "zh-Hant": "匯入 CSV 或 JSON",
+    "ja": "CSV または JSON を読み込む",
+    "fr": "Importer CSV ou JSON",
+    "pt-BR": "Importar CSV ou JSON",
+    "es": "Importar CSV o JSON",
+    "ko": "CSV 또는 JSON 가져오기",
+    "de": "CSV oder JSON importieren"
+  },
+  "Import Project Folder": {
+    "zh-Hans": "导入项目文件夹",
+    "zh-Hant": "匯入專案資料夾",
+    "ja": "プロジェクトフォルダを読み込む",
+    "fr": "Importer le dossier du projet",
+    "pt-BR": "Importar pasta do projeto",
+    "es": "Importar carpeta del proyecto",
+    "ko": "프로젝트 폴더 가져오기",
+    "de": "Projektordner importieren"
+  },
+  "Import a project folder": {
+    "zh-Hans": "导入项目文件夹",
+    "zh-Hant": "匯入專案資料夾",
+    "ja": "プロジェクトフォルダを読み込む",
+    "fr": "Importer le dossier du projet",
+    "pt-BR": "Importar pasta do projeto",
+    "es": "Importar carpeta del proyecto",
+    "ko": "프로젝트 폴더 가져오기",
+    "de": "Projektordner importieren"
+  },
+  "Import and review the rows": {
+    "zh-Hans": "导入并核对数据行",
+    "zh-Hant": "匯入並確認資料列",
+    "ja": "読み込んだ行を確認",
+    "fr": "Importer et vérifier les lignes",
+    "pt-BR": "Importar e conferir as linhas",
+    "es": "Importar y revisar las filas",
+    "ko": "가져온 행 확인",
+    "de": "Zeilen importieren und prüfen"
+  },
+  "Inspect Request": {
+    "zh-Hans": "检查请求",
+    "zh-Hant": "檢查請求",
+    "ja": "リクエストを確認",
+    "fr": "Inspecter la requête",
+    "pt-BR": "Inspecionar requisição",
+    "es": "Inspeccionar solicitud",
+    "ko": "요청 확인",
+    "de": "Anfrage prüfen"
+  },
+  "Invalid project folder or unsupported format. Limit: 20 MB.": {
+    "zh-Hans": "项目文件夹无效或格式不受支持。最大 20 MB。",
+    "zh-Hant": "專案資料夾無效或格式不支援。上限 20 MB。",
+    "ja": "無効なフォルダまたは未対応形式です。上限は20 MBです。",
+    "fr": "Dossier invalide ou format non pris en charge. Limite : 20 Mo.",
+    "pt-BR": "Pasta inválida ou formato incompatível. Limite: 20 MB.",
+    "es": "Carpeta inválida o formato no admitido. Límite: 20 MB.",
+    "ko": "폴더가 잘못되었거나 지원하지 않는 형식입니다. 최대 20 MB입니다.",
+    "de": "Ungültiger Projektordner oder nicht unterstütztes Format. Grenze: 20 MB."
+  },
+  "Last Updated": {
+    "zh-Hans": "最后更新",
+    "zh-Hant": "最後更新",
+    "ja": "最終更新",
+    "fr": "Dernière mise à jour",
+    "pt-BR": "Última atualização",
+    "es": "Última actualización",
+    "ko": "마지막 업데이트",
+    "de": "Letzte Aktualisierung"
+  },
+  "Missing Variable": {
+    "zh-Hans": "缺少变量",
+    "zh-Hant": "缺少變數",
+    "ja": "変数が未設定",
+    "fr": "Variable manquante",
+    "pt-BR": "Variável ausente",
+    "es": "Variable ausente",
+    "ko": "변수 누락",
+    "de": "Fehlende Variable"
+  },
+  "New Workflow": {
+    "zh-Hans": "新工作流",
+    "zh-Hant": "新工作流程",
+    "ja": "新しい実行手順",
+    "fr": "Nouveau workflow",
+    "pt-BR": "Novo fluxo",
+    "es": "Nuevo flujo",
+    "ko": "새 흐름",
+    "de": "Neuer Ablauf"
+  },
+  "Next Chapter": {
+    "zh-Hans": "下一章",
+    "zh-Hant": "下一章",
+    "ja": "次の章",
+    "fr": "Chapitre suivant",
+    "pt-BR": "Próximo capítulo",
+    "es": "Capítulo siguiente",
+    "ko": "다음 장",
+    "de": "Nächstes Kapitel"
+  },
+  "Open HTTP Workflows": {
+    "zh-Hans": "打开 HTTP 工作流",
+    "zh-Hant": "開啟 HTTP 工作流程",
+    "ja": "HTTP 実行手順を開く",
+    "fr": "Ouvrir les workflows HTTP",
+    "pt-BR": "Abrir fluxos HTTP",
+    "es": "Abrir flujos HTTP",
+    "ko": "HTTP 흐름 열기",
+    "de": "HTTP-Abläufe öffnen"
+  },
+  "Open Inspect Request": {
+    "zh-Hans": "打开“检查请求”",
+    "zh-Hant": "開啟「檢查請求」",
+    "ja": "リクエスト確認を開く",
+    "fr": "Ouvrir l’inspection",
+    "pt-BR": "Abrir inspeção da requisição",
+    "es": "Abrir inspección de solicitud",
+    "ko": "요청 확인 열기",
+    "de": "Anfrageprüfung öffnen"
+  },
+  "Prepare the data file": {
+    "zh-Hans": "准备数据文件",
+    "zh-Hant": "準備資料檔案",
+    "ja": "データファイルを準備",
+    "fr": "Préparer le fichier de données",
+    "pt-BR": "Preparar arquivo de dados",
+    "es": "Preparar archivo de datos",
+    "ko": "데이터 파일 준비",
+    "de": "Datendatei vorbereiten"
+  },
+  "Previous Chapter": {
+    "zh-Hans": "上一章",
+    "zh-Hant": "上一章",
+    "ja": "前の章",
+    "fr": "Chapitre précédent",
+    "pt-BR": "Capítulo anterior",
+    "es": "Capítulo anterior",
+    "ko": "이전 장",
+    "de": "Vorheriges Kapitel"
+  },
+  "Project Files": {
+    "zh-Hans": "项目文件",
+    "zh-Hant": "專案檔案",
+    "ja": "プロジェクトファイル",
+    "fr": "Fichiers du projet",
+    "pt-BR": "Arquivos do projeto",
+    "es": "Archivos del proyecto",
+    "ko": "프로젝트 파일",
+    "de": "Projektdateien"
+  },
+  "Project folder exported.": {
+    "zh-Hans": "项目文件夹已导出。",
+    "zh-Hant": "專案資料夾已匯出。",
+    "ja": "プロジェクトフォルダを書き出しました。",
+    "fr": "Dossier du projet exporté.",
+    "pt-BR": "Pasta do projeto exportada.",
+    "es": "Carpeta del proyecto exportada.",
+    "ko": "프로젝트 폴더를 내보냈습니다.",
+    "de": "Projektordner exportiert."
+  },
+  "Project imported as a new copy.": {
+    "zh-Hans": "已导入为新的项目副本。",
+    "zh-Hant": "已匯入為新的專案副本。",
+    "ja": "新しいプロジェクトとして読み込みました。",
+    "fr": "Projet importé comme nouvelle copie.",
+    "pt-BR": "Projeto importado como nova cópia.",
+    "es": "Proyecto importado como nueva copia.",
+    "ko": "새 프로젝트 사본으로 가져왔습니다.",
+    "de": "Projekt als neue Kopie importiert."
+  },
+  "Provide local secrets and data": {
+    "zh-Hans": "提供本地密钥和数据",
+    "zh-Hant": "提供本機密鑰與資料",
+    "ja": "ローカルの秘密情報とデータを指定",
+    "fr": "Fournir les secrets et données locaux",
+    "pt-BR": "Fornecer segredos e dados locais",
+    "es": "Proporcionar secretos y datos locales",
+    "ko": "로컬 비밀 값과 데이터 제공",
+    "de": "Lokale Geheimnisse und Daten angeben"
+  },
+  "Read the source details": {
+    "zh-Hans": "查看来源详情",
+    "zh-Hant": "查看來源詳情",
+    "ja": "取得元の詳細を確認",
+    "fr": "Lire les détails de provenance",
+    "pt-BR": "Ver detalhes da origem",
+    "es": "Ver detalles del origen",
+    "ko": "출처 세부 정보 확인",
+    "de": "Herkunft ansehen"
+  },
+  "Request Preview": {
+    "zh-Hans": "发送预览",
+    "zh-Hant": "傳送預覽",
+    "ja": "送信プレビュー",
+    "fr": "Aperçu de la requête",
+    "pt-BR": "Prévia da requisição",
+    "es": "Vista previa de solicitud",
+    "ko": "전송 미리보기",
+    "de": "Anfragevorschau"
+  },
+  "Response Field": {
+    "zh-Hans": "响应字段",
+    "zh-Hant": "回應欄位",
+    "ja": "レスポンスのフィールド",
+    "fr": "Champ de réponse",
+    "pt-BR": "Campo da resposta",
+    "es": "Campo de respuesta",
+    "ko": "응답 필드",
+    "de": "Antwortfeld"
+  },
+  "Return to a normal run": {
+    "zh-Hans": "恢复普通运行",
+    "zh-Hant": "恢復一般執行",
+    "ja": "通常の実行に戻す",
+    "fr": "Revenir à une exécution simple",
+    "pt-BR": "Voltar à execução normal",
+    "es": "Volver a ejecución normal",
+    "ko": "일반 실행으로 돌아가기",
+    "de": "Zum normalen Lauf zurückkehren"
+  },
+  "Return to the editor and send": {
+    "zh-Hans": "返回编辑器并发送",
+    "zh-Hant": "返回編輯器並傳送",
+    "ja": "エディタに戻って送信",
+    "fr": "Revenir à l’éditeur et envoyer",
+    "pt-BR": "Voltar ao editor e enviar",
+    "es": "Volver al editor y enviar",
+    "ko": "편집기로 돌아가 전송",
+    "de": "Zum Editor zurückkehren und senden"
+  },
+  "Review before committing": {
+    "zh-Hans": "提交前检查",
+    "zh-Hant": "提交前檢查",
+    "ja": "コミット前に確認",
+    "fr": "Vérifier avant de committer",
+    "pt-BR": "Revisar antes do commit",
+    "es": "Revisar antes del commit",
+    "ko": "커밋 전 확인",
+    "de": "Vor dem Commit prüfen"
+  },
+  "Review the prepared request": {
+    "zh-Hans": "核对准备发送的请求",
+    "zh-Hant": "確認準備傳送的請求",
+    "ja": "送信する内容を確認",
+    "fr": "Vérifier la requête préparée",
+    "pt-BR": "Conferir requisição preparada",
+    "es": "Revisar solicitud preparada",
+    "ko": "전송할 요청 확인",
+    "de": "Vorbereitete Anfrage prüfen"
+  },
+  "Run all rows": {
+    "zh-Hans": "运行全部数据行",
+    "zh-Hant": "執行所有資料列",
+    "ja": "全データ行を実行",
+    "fr": "Exécuter toutes les lignes",
+    "pt-BR": "Executar todas as linhas",
+    "es": "Ejecutar todas las filas",
+    "ko": "모든 데이터 행 실행",
+    "de": "Alle Datenzeilen ausführen"
+  },
+  "Save Workflow": {
+    "zh-Hans": "保存工作流",
+    "zh-Hant": "儲存工作流程",
+    "ja": "実行手順を保存",
+    "fr": "Enregistrer le workflow",
+    "pt-BR": "Salvar fluxo",
+    "es": "Guardar flujo",
+    "ko": "흐름 저장",
+    "de": "Ablauf speichern"
+  },
+  "Save the workflow": {
+    "zh-Hans": "保存工作流",
+    "zh-Hant": "儲存工作流程",
+    "ja": "実行手順を保存",
+    "fr": "Enregistrer le workflow",
+    "pt-BR": "Salvar fluxo",
+    "es": "Guardar flujo",
+    "ko": "흐름 저장",
+    "de": "Ablauf speichern"
+  },
+  "Saved Workflows": {
+    "zh-Hans": "已保存的工作流",
+    "zh-Hant": "已儲存的工作流程",
+    "ja": "保存済みの実行手順",
+    "fr": "Workflows enregistrés",
+    "pt-BR": "Fluxos salvos",
+    "es": "Flujos guardados",
+    "ko": "저장한 흐름",
+    "de": "Gespeicherte Abläufe"
+  },
+  "Search Chapters": {
+    "zh-Hans": "搜索章节",
+    "zh-Hant": "搜尋章節",
+    "ja": "章を検索",
+    "fr": "Rechercher un chapitre",
+    "pt-BR": "Buscar capítulos",
+    "es": "Buscar capítulos",
+    "ko": "장 검색",
+    "de": "Kapitel suchen"
+  },
+  "Set up a test environment": {
+    "zh-Hans": "配置测试环境",
+    "zh-Hant": "設定測試環境",
+    "ja": "テスト環境を設定",
+    "fr": "Configurer l’environnement de test",
+    "pt-BR": "Configurar ambiente de teste",
+    "es": "Configurar entorno de prueba",
+    "ko": "테스트 환경 설정",
+    "de": "Testumgebung einrichten"
+  },
+  "Show Secret Values": {
+    "zh-Hans": "显示敏感值",
+    "zh-Hant": "顯示敏感值",
+    "ja": "秘密の値を表示",
+    "fr": "Afficher les valeurs secrètes",
+    "pt-BR": "Mostrar valores secretos",
+    "es": "Mostrar valores secretos",
+    "ko": "비밀 값 표시",
+    "de": "Geheime Werte anzeigen"
+  },
+  "Source Request": {
+    "zh-Hans": "来源请求",
+    "zh-Hant": "來源請求",
+    "ja": "取得元のリクエスト",
+    "fr": "Requête source",
+    "pt-BR": "Requisição de origem",
+    "es": "Solicitud de origen",
+    "ko": "출처 요청",
+    "de": "Quellanfrage"
+  },
+  "Test Data": {
+    "zh-Hans": "测试数据",
+    "zh-Hant": "測試資料",
+    "ja": "テストデータ",
+    "fr": "Données de test",
+    "pt-BR": "Dados de teste",
+    "es": "Datos de prueba",
+    "ko": "테스트 데이터",
+    "de": "Testdaten"
+  },
+  "The selected project no longer exists.": {
+    "zh-Hans": "所选项目已不存在。",
+    "zh-Hant": "所選專案已不存在。",
+    "ja": "選択したプロジェクトはありません。",
+    "fr": "Le projet sélectionné n’existe plus.",
+    "pt-BR": "O projeto selecionado não existe mais.",
+    "es": "El proyecto seleccionado ya no existe.",
+    "ko": "선택한 프로젝트가 더 이상 없습니다.",
+    "de": "Das ausgewählte Projekt existiert nicht mehr."
+  },
+  "This request uses no variables.": {
+    "zh-Hans": "此请求没有使用变量。",
+    "zh-Hant": "此請求未使用變數。",
+    "ja": "このリクエストは変数を使っていません。",
+    "fr": "Cette requête n’utilise aucune variable.",
+    "pt-BR": "Esta requisição não usa variáveis.",
+    "es": "Esta solicitud no usa variables.",
+    "ko": "이 요청은 변수를 사용하지 않습니다.",
+    "de": "Diese Anfrage verwendet keine Variablen."
+  },
+  "Track changes with Git": {
+    "zh-Hans": "用 Git 跟踪改动",
+    "zh-Hant": "用 Git 追蹤變更",
+    "ja": "Git で変更を管理",
+    "fr": "Suivre les modifications avec Git",
+    "pt-BR": "Acompanhar alterações com Git",
+    "es": "Seguir cambios con Git",
+    "ko": "Git으로 변경 추적",
+    "de": "Änderungen mit Git verfolgen"
+  },
+  "Update a saved workflow": {
+    "zh-Hans": "更新已保存的工作流",
+    "zh-Hant": "更新已儲存的工作流程",
+    "ja": "保存済みの実行手順を更新",
+    "fr": "Mettre à jour un workflow",
+    "pt-BR": "Atualizar fluxo salvo",
+    "es": "Actualizar flujo guardado",
+    "ko": "저장한 흐름 수정",
+    "de": "Gespeicherten Ablauf aktualisieren"
+  },
+  "Use a CSV header or a JSON array with matching scalar fields. Limit: 1 MB and 1000 rows.": {
+    "zh-Hans": "请使用含表头的 CSV 或字段一致的 JSON 对象数组，仅支持非空标量值。最大 1 MB、1000 行。",
+    "zh-Hant": "請使用含標題列的 CSV 或欄位一致的 JSON 物件陣列，僅支援非空純量值。上限 1 MB、1000 列。",
+    "ja": "見出し付き CSV または同じフィールドの JSON 配列を使ってください。値は非 null の単一値で、1 MB・1000行以内です。",
+    "fr": "Utilisez un CSV avec en-tête ou un tableau JSON aux champs scalaires identiques. Limites : 1 Mo, 1000 lignes.",
+    "pt-BR": "Use CSV com cabeçalho ou array JSON com campos escalares iguais. Limites: 1 MB e 1000 linhas.",
+    "es": "Use CSV con cabecera o array JSON con campos escalares iguales. Límites: 1 MB y 1000 filas.",
+    "ko": "헤더가 있는 CSV 또는 같은 스칼라 필드의 JSON 배열을 사용하세요. 최대 1 MB, 1000행입니다.",
+    "de": "CSV mit Kopfzeile oder JSON-Array mit gleichen skalaren Feldern verwenden. Grenzen: 1 MB, 1000 Zeilen."
+  },
+  "Use the result in CI": {
+    "zh-Hans": "在 CI 中使用结果",
+    "zh-Hant": "在 CI 中使用結果",
+    "ja": "CI で結果を使う",
+    "fr": "Utiliser le résultat dans la CI",
+    "pt-BR": "Usar resultado no CI",
+    "es": "Usar resultado en CI",
+    "ko": "CI에서 결과 사용",
+    "de": "Ergebnis in CI verwenden"
+  },
+  "User Manual": {
+    "zh-Hans": "使用手册",
+    "zh-Hant": "使用手冊",
+    "ja": "ユーザーマニュアル",
+    "fr": "Manuel d’utilisation",
+    "pt-BR": "Manual do usuário",
+    "es": "Manual de usuario",
+    "ko": "사용 설명서",
+    "de": "Benutzerhandbuch"
+  },
+  "Variable Sources": {
+    "zh-Hans": "变量来源",
+    "zh-Hant": "變數來源",
+    "ja": "変数の取得元",
+    "fr": "Provenance des variables",
+    "pt-BR": "Origem das variáveis",
+    "es": "Origen de variables",
+    "ko": "변수 출처",
+    "de": "Variablenherkunft"
+  },
+  "Workflow Name": {
+    "zh-Hans": "工作流名称",
+    "zh-Hant": "工作流程名稱",
+    "ja": "実行手順の名前",
+    "fr": "Nom du workflow",
+    "pt-BR": "Nome do fluxo",
+    "es": "Nombre del flujo",
+    "ko": "흐름 이름",
+    "de": "Ablaufname"
+  },
+  "Add the exported folder to your repository and review the JSON diff. Request filenames and keys remain stable. Export later edits to another folder, compare the files, and replace the tracked copies you intend to update.": {
+    "zh-Hans": "把导出文件夹加入 Git，检查 JSON 改动。文件名与字段顺序稳定。后续导出到新文件夹，比较后替换需要更新的文件。",
+    "zh-Hant": "將匯出資料夾加入 Git，檢查 JSON 變更。檔名與欄位順序固定。之後匯出到新資料夾，比較後替換需更新的檔案。",
+    "ja": "書き出したフォルダを Git に追加し、JSON の差分を確認します。ファイル名とキー順は固定です。後の変更は別フォルダに書き出し、比較して対象を置き換えます。",
+    "fr": "Ajoutez le dossier à Git et vérifiez le diff JSON. Les noms et clés restent stables. Exportez les modifications ailleurs, comparez puis remplacez les fichiers voulus.",
+    "pt-BR": "Adicione a pasta ao Git e revise o diff JSON. Nomes e chaves são estáveis. Exporte alterações em outra pasta, compare e substitua os arquivos desejados.",
+    "es": "Añada la carpeta a Git y revise el diff JSON. Nombres y claves son estables. Exporte cambios a otra carpeta, compare y sustituya los archivos deseados.",
+    "ko": "폴더를 Git에 추가하고 JSON 차이를 확인하세요. 파일명과 키 순서는 고정됩니다. 다음 변경은 다른 폴더로 내보내 비교한 뒤 필요한 파일을 교체하세요.",
+    "de": "Fügen Sie den Ordner zu Git hinzu und prüfen Sie den JSON-Diff. Namen und Schlüssel bleiben stabil. Spätere Änderungen separat exportieren, vergleichen und gewünschte Dateien ersetzen."
+  },
+  "An extracted variable shows the source request, response field, and update time. A manually entered variable says Defined in the environment. Secret values remain hidden unless you enable Show Secret Values.": {
+    "zh-Hans": "提取的变量显示来源请求、响应字段和更新时间；手动填写的值显示“在环境中手动设置”。敏感值默认隐藏，开启“显示敏感值”才会显示。",
+    "zh-Hant": "擷取的變數顯示來源請求、回應欄位與更新時間；手動值顯示「在環境中手動設定」。啟用「顯示敏感值」才會顯示敏感值。",
+    "ja": "取得した変数はリクエスト名、フィールド、更新時刻を表示します。手入力は環境の設定と表示されます。秘密の値は表示スイッチを有効にするまで非表示です。",
+    "fr": "Les valeurs extraites affichent requête, champ et date. Les valeurs manuelles indiquent leur définition dans l’environnement. Activez l’affichage des secrets pour les voir.",
+    "pt-BR": "Valores extraídos mostram requisição, campo e data. Valores manuais indicam definição no ambiente. Ative Mostrar valores secretos para vê-los.",
+    "es": "Los valores extraídos muestran solicitud, campo y fecha. Los manuales indican su definición en el entorno. Active Mostrar valores secretos para verlos.",
+    "ko": "추출한 변수는 요청, 필드, 업데이트 시간을 표시합니다. 수동 값은 환경에서 설정했다고 표시합니다. 비밀 값은 표시 옵션을 켜야 보입니다.",
+    "de": "Extrahierte Werte zeigen Anfrage, Feld und Zeitpunkt. Manuelle Werte zeigen die Definition in der Umgebung. Geheime Werte werden erst nach Aktivieren der Anzeige sichtbar."
+  },
+  "Build reqeast-cli from the repository, then run an exported workflow by name. Use --data for CSV or JSON rows and --report for a JSON report. Exit codes: 0 passed, 1 failed checks or requests, 2 configuration error.": {
+    "zh-Hans": "从仓库构建 reqeast-cli，按名称执行导出的工作流。--data 指定 CSV/JSON，--report 保存 JSON 报告。退出码 0 为通过，1 为测试失败，2 为配置错误。",
+    "zh-Hant": "從儲存庫建置 reqeast-cli，依名稱執行匯出的工作流程。--data 指定 CSV/JSON，--report 儲存 JSON 報告。結束碼 0 通過、1 測試失敗、2 設定錯誤。",
+    "ja": "reqeast-cli をビルドし、書き出した手順を名前で実行します。--data は CSV/JSON、--report は JSON レポートです。終了コードは0が成功、1がテスト失敗、2が設定エラーです。",
+    "fr": "Compilez reqeast-cli et lancez le workflow exporté par son nom. --data fournit CSV/JSON, --report écrit le rapport. Codes : 0 réussite, 1 échec des tests, 2 erreur de configuration.",
+    "pt-BR": "Compile reqeast-cli e execute o fluxo exportado pelo nome. --data fornece CSV/JSON; --report grava o relatório. Códigos: 0 sucesso, 1 falha nos testes, 2 erro de configuração.",
+    "es": "Compile reqeast-cli y ejecute el flujo exportado por nombre. --data aporta CSV/JSON y --report guarda el informe. Códigos: 0 éxito, 1 fallo de pruebas, 2 error de configuración.",
+    "ko": "reqeast-cli를 빌드하고 내보낸 흐름을 이름으로 실행하세요. --data는 CSV/JSON, --report는 JSON 보고서입니다. 종료 코드: 0 통과, 1 테스트 실패, 2 설정 오류.",
+    "de": "Bauen Sie reqeast-cli und starten Sie den exportierten Ablauf nach Namen. --data für CSV/JSON, --report für JSON-Berichte. Codes: 0 Erfolg, 1 Testfehler, 2 Konfigurationsfehler."
+  },
+  "CSV column names or JSON object keys are variable names. Every row must have the same fields. JSON values must be strings, numbers, or booleans. CSV supports quoted commas and newlines. Limits are 1 MB and 1000 rows.": {
+    "zh-Hans": "CSV 表头或 JSON 对象键就是变量名。各行字段必须一致；JSON 值仅支持字符串、数字或布尔值。CSV 支持引号中的逗号和换行。最大 1 MB、1000 行。",
+    "zh-Hant": "CSV 標題列或 JSON 物件鍵即變數名。各列欄位須一致；JSON 僅接受字串、數字或布林值。CSV 支援引號內的逗號與換行。上限 1 MB、1000 列。",
+    "ja": "CSV 見出しや JSON キーが変数名です。全行のフィールドを揃え、JSON 値は文字列・数値・真偽値にします。CSV は引用符内のカンマや改行に対応します。上限は1 MB、1000行です。",
+    "fr": "Les en-têtes CSV ou clés JSON sont les variables. Gardez les mêmes champs partout, avec des valeurs JSON texte, nombre ou booléen. CSV accepte virgules et retours cités. Limites : 1 Mo, 1000 lignes.",
+    "pt-BR": "Cabeçalhos CSV ou chaves JSON são variáveis. Todas as linhas devem ter campos iguais; JSON aceita texto, número ou booleano. CSV aceita vírgulas e quebras entre aspas. Limites: 1 MB, 1000 linhas.",
+    "es": "Las cabeceras CSV o claves JSON son variables. Use los mismos campos en cada fila; JSON admite texto, números y booleanos. CSV admite comas y saltos entre comillas. Límites: 1 MB, 1000 filas.",
+    "ko": "CSV 헤더나 JSON 키가 변수명입니다. 모든 행의 필드는 같아야 하며 JSON 값은 문자열, 숫자, 불리언만 허용합니다. CSV는 따옴표 안의 쉼표와 줄바꿈을 지원합니다. 최대 1 MB, 1000행입니다.",
+    "de": "CSV-Kopfzeilen oder JSON-Schlüssel sind Variablennamen. Alle Zeilen brauchen gleiche Felder; JSON-Werte sind Text, Zahlen oder Boolesche Werte. CSV unterstützt zitierte Kommas und Zeilenumbrüche. Grenzen: 1 MB, 1000 Zeilen."
+  },
+  "Click Clear Test Data before running without data rows. Data files are not embedded in saved workflows or exported project folders. Choose the input file again when reopening the panel.": {
+    "zh-Hans": "不使用数据行时，先点击“清除测试数据”。数据文件不随工作流保存，也不随项目导出。重新打开面板后需要再次选择文件。",
+    "zh-Hant": "不使用資料列時，先按「清除測試資料」。資料檔不隨工作流程儲存或專案匯出。重開面板後須再次選檔。",
+    "ja": "通常の実行に戻すにはテストデータを解除します。データファイルは手順や書き出しに保存されません。パネルを開き直したら再選択してください。",
+    "fr": "Retirez les données de test pour un lancement simple. Elles ne sont ni enregistrées dans le workflow ni exportées. Resélectionnez le fichier après réouverture.",
+    "pt-BR": "Limpe os dados para executar normalmente. O arquivo não é salvo no fluxo nem exportado. Selecione-o novamente ao reabrir o painel.",
+    "es": "Quite los datos para ejecutar normalmente. El archivo no se guarda en el flujo ni se exporta. Selecciónelo de nuevo al reabrir el panel.",
+    "ko": "일반 실행 전 테스트 데이터를 지우세요. 데이터 파일은 흐름에 저장되거나 내보내지지 않습니다. 패널을 다시 열면 파일을 다시 선택하세요.",
+    "de": "Für normale Läufe Testdaten entfernen. Die Datei wird weder im Ablauf gespeichert noch exportiert. Beim erneuten Öffnen nochmals auswählen."
+  },
+  "Click Import Project Folder and choose a folder containing reqeast.json. A new project is created, with new internal IDs and restored workflow references. Existing projects are kept. Select the imported project in the sidebar and set its secret values before sending.": {
+    "zh-Hans": "点击“导入项目文件夹”，选择包含 reqeast.json 的目录。程序会创建新项目，重建内部 ID 和工作流引用，保留原项目。到侧栏选中新项目，补齐敏感值后再发送。",
+    "zh-Hant": "按「匯入專案資料夾」，選含 reqeast.json 的目錄。程式建立新專案並重建 ID 與引用，保留原專案。從側欄選新專案，補齊敏感值再傳送。",
+    "ja": "reqeast.json を含むフォルダを読み込みます。新しい ID と参照で新規プロジェクトを作り、既存のものは保持します。サイドバーで選び、秘密の値を設定してから送信します。",
+    "fr": "Importez un dossier contenant reqeast.json. Un nouveau projet avec de nouveaux ID et références est créé. L’existant reste intact. Sélectionnez la copie et renseignez les secrets avant l’envoi.",
+    "pt-BR": "Importe a pasta com reqeast.json. Um novo projeto terá novos IDs e referências. Os existentes são mantidos. Selecione a cópia e preencha os segredos antes de enviar.",
+    "es": "Importe la carpeta con reqeast.json. Se crea un proyecto con nuevos ID y referencias, conservando los existentes. Seleccione la copia y complete los secretos antes de enviar.",
+    "ko": "reqeast.json이 있는 폴더를 가져오세요. 새 ID와 참조를 가진 프로젝트가 만들어지고 기존 프로젝트는 유지됩니다. 사이드바에서 사본을 선택하고 비밀 값을 채운 뒤 전송하세요.",
+    "de": "Importieren Sie den Ordner mit reqeast.json. Ein neues Projekt mit neuen IDs und Referenzen entsteht; bestehende bleiben erhalten. Kopie auswählen und vor dem Senden Geheimnisse ergänzen."
+  },
+  "Click Run Selected Requests. Requests are actually sent one at a time. Each result shows status, time, checks, and errors. A non-2xx response or failed extraction/check counts as failure. Stop Run prevents later sends, but an in-flight request may still finish. Export Run Report saves results as JSON without response bodies or variable values.": {
+    "zh-Hans": "点击“运行选中请求”会逐个真实发送，结果显示状态、耗时、检查与错误。非 2xx、提取失败或检查失败均算失败。“停止运行”阻止后续请求，已发送的仍可能完成。可导出不含响应正文和变量值的 JSON 报告。",
+    "zh-Hant": "按「執行所選請求」會逐一實際傳送，結果含狀態、時間、檢查與錯誤。非 2xx、擷取或檢查失敗均算失敗。停止僅阻止後續請求。JSON 報告不含回應本文與變數值。",
+    "ja": "選択したリクエストを順に送信します。結果は状態、時間、チェック、エラーを表示します。2xx 以外や取得・チェックの失敗は失敗です。停止は後続の送信を止めます。JSON レポートは本文と変数値を含みません。",
+    "fr": "Lancez les requêtes sélectionnées. Les résultats affichent statut, durée, contrôles et erreurs. Hors 2xx ou extraction/contrôle raté = échec. L’arrêt bloque les envois suivants. Le rapport JSON exclut corps et valeurs.",
+    "pt-BR": "Execute as requisições selecionadas. Resultados mostram status, tempo, verificações e erros. Fora de 2xx ou erro de extração/verificação conta como falha. Parar bloqueia os próximos envios. O relatório JSON exclui corpos e valores.",
+    "es": "Ejecute las solicitudes seleccionadas. Los resultados muestran estado, tiempo, comprobaciones y errores. Fuera de 2xx o extracción/comprobación fallida es fallo. Detener bloquea envíos posteriores. El informe JSON excluye cuerpos y valores.",
+    "ko": "선택한 요청을 순서대로 실제 전송합니다. 상태, 시간, 검사, 오류를 표시합니다. 2xx 외 응답이나 추출·검사 실패는 실패입니다. 중지는 후속 전송을 막습니다. JSON 보고서에는 본문과 변수 값이 없습니다.",
+    "de": "Ausgewählte Anfragen werden einzeln gesendet. Ergebnisse zeigen Status, Dauer, Prüfungen und Fehler. Nicht-2xx oder Extraktions-/Prüffehler zählen als Fehler. Stopp verhindert weitere Sends. JSON-Berichte enthalten keine Körper oder Variablenwerte."
+  },
+  "Click Run Selected Requests. Row values replace environment variables during that row, and response extractions are available to its later requests. Each new row starts from the original environment. Result numbers identify the data row. Stop on first failure stops the remaining rows too.": {
+    "zh-Hans": "点击“运行选中请求”。每行数据临时覆盖环境值，提取的响应值供该行后续请求使用。新行从原环境重新开始。结果编号表示数据行；“首次失败时停止”也会停止剩余数据行。",
+    "zh-Hant": "按「執行所選請求」。每列資料暫時覆寫環境值，擷取值供同列後續請求使用。新列從原環境開始。結果編號是資料列；首次失敗停止也會停止其餘列。",
+    "ja": "各行の値で環境を一時上書きし、その行内で取得値を共有します。次の行は元の環境から開始します。結果番号はデータ行です。最初の失敗で停止すると残りの行も止まります。",
+    "fr": "Chaque ligne remplace temporairement l’environnement et partage les valeurs extraites avec ses requêtes suivantes. La ligne suivante repart de l’original. Les numéros désignent les lignes. L’arrêt au premier échec stoppe aussi les lignes restantes.",
+    "pt-BR": "Cada linha substitui temporariamente o ambiente e compartilha valores extraídos com suas próximas requisições. A próxima começa do original. Os números são linhas. Parar na primeira falha também interrompe as restantes.",
+    "es": "Cada fila sustituye temporalmente el entorno y comparte valores extraídos con sus solicitudes siguientes. La próxima empieza desde el original. Los números indican filas. Detener al primer fallo para también las restantes.",
+    "ko": "각 행은 환경 값을 임시로 덮어쓰고 추출한 값을 같은 행의 후속 요청에 전달합니다. 다음 행은 원래 환경에서 시작합니다. 결과 번호는 데이터 행입니다. 첫 실패 시 중지는 남은 행도 중단합니다.",
+    "de": "Jede Zeile überschreibt die Umgebung vorübergehend und teilt extrahierte Werte mit ihren Folgeanfragen. Die nächste beginnt mit dem Original. Nummern bezeichnen Datenzeilen. Stopp beim ersten Fehler beendet auch übrige Zeilen."
+  },
+  "Create a project, then use the add-request menu to add three separate HTTP requests. Name them Login, Create order, and Query order. Set their methods and URLs to POST /login, POST /orders, and GET /orders/{{orderId}}. Replace the example host and paths with your API.": {
+    "zh-Hans": "创建项目，通过添加请求菜单新建三个独立的 HTTP 请求，分别命名 Login、Create order、Query order。方法与路径设为 POST /login、POST /orders、GET /orders/{{orderId}}。按实际 API 修改主机和路径。",
+    "zh-Hant": "建立專案，透過新增請求選單建立三個 HTTP 請求：Login、Create order、Query order。方法路徑為 POST /login、POST /orders、GET /orders/{{orderId}}，主機與路徑請依 API 調整。",
+    "ja": "プロジェクトを作成し、追加メニューで Login、Create order、Query order の3件を作ります。POST /login、POST /orders、GET /orders/{{orderId}} を設定し、ホストとパスを API に合わせます。",
+    "fr": "Créez un projet puis trois requêtes HTTP via le menu d’ajout : Login, Create order, Query order. Configurez POST /login, POST /orders et GET /orders/{{orderId}}. Adaptez hôte et chemins à votre API.",
+    "pt-BR": "Crie um projeto e três requisições pelo menu: Login, Create order, Query order. Configure POST /login, POST /orders e GET /orders/{{orderId}}. Adapte host e caminhos à sua API.",
+    "es": "Cree un proyecto y tres solicitudes mediante el menú: Login, Create order, Query order. Configure POST /login, POST /orders y GET /orders/{{orderId}}. Adapte servidor y rutas a su API.",
+    "ko": "프로젝트를 만들고 추가 메뉴에서 Login, Create order, Query order 요청을 각각 만드세요. POST /login, POST /orders, GET /orders/{{orderId}}를 설정하고 호스트와 경로를 실제 API에 맞추세요.",
+    "de": "Projekt und drei HTTP-Anfragen über das Hinzufügen-Menü erstellen: Login, Create order, Query order. POST /login, POST /orders und GET /orders/{{orderId}} festlegen. Host und Pfade an Ihre API anpassen."
+  },
+  "Each data row runs the whole workflow. Column names replace variables for that row. Extracted values stay within the row; your saved environment is unchanged.": {
+    "zh-Hans": "每一行数据都会运行整个工作流。列名对应变量名，只覆盖当前行；提取值在该行内传递，不修改保存的环境。",
+    "zh-Hant": "每列資料執行完整工作流程。欄名對應變數，只覆寫目前列；擷取值僅在該列傳遞，不更改儲存環境。",
+    "ja": "各データ行で全手順を実行します。列名の変数をその行だけ上書きし、取得値も行内で共有します。保存済み環境は変えません。",
+    "fr": "Chaque ligne exécute tout le workflow. Les colonnes remplacent les variables de cette ligne. Les valeurs extraites restent dans la ligne, sans modifier l’environnement sauvegardé.",
+    "pt-BR": "Cada linha executa todo o fluxo. Colunas substituem variáveis apenas nessa linha. Valores extraídos ficam nela, sem alterar o ambiente salvo.",
+    "es": "Cada fila ejecuta todo el flujo. Las columnas sustituyen variables solo en esa fila. Los valores extraídos quedan en ella sin cambiar el entorno guardado.",
+    "ko": "각 데이터 행이 전체 흐름을 실행합니다. 열 이름은 해당 행의 변수를 덮어씁니다. 추출 값은 그 행에만 전달되며 저장한 환경은 바뀌지 않습니다.",
+    "de": "Jede Datenzeile führt den ganzen Ablauf aus. Spalten überschreiben Variablen nur für diese Zeile. Extrahierte Werte bleiben darin; die gespeicherte Umgebung bleibt unverändert."
+  },
+  "Enter Order test in Workflow Name, choose Test in Environment, and enable Stop on first failure. Click Save Workflow. Saved workflows belong to this project and sync with its project record. Choose one from the Workflow picker to restore its order and settings.": {
+    "zh-Hans": "工作流名称填 Order test，环境选 Test，开启“首次失败时停止”，点击“保存工作流”。它保存在当前项目中，随项目记录同步。之后从工作流菜单选择它即可恢复顺序和设置。",
+    "zh-Hant": "名稱填 Order test，環境選 Test，啟用首次失敗停止並儲存。工作流程存於目前專案，隨專案記錄同步。之後從選單選取即可還原順序與設定。",
+    "ja": "名前を Order test、環境を Test にし、最初の失敗で停止を有効にして保存します。プロジェクトに保存・同期されます。選択メニューから順序と設定を復元できます。",
+    "fr": "Nommez Order test, choisissez Test, activez l’arrêt au premier échec et enregistrez. Le workflow est stocké et synchronisé avec le projet. Le sélecteur restaure ordre et réglages.",
+    "pt-BR": "Nomeie Order test, escolha Test, ative Parar na primeira falha e salve. O fluxo é salvo e sincronizado com o projeto. O seletor restaura ordem e opções.",
+    "es": "Nombre Order test, elija Test, active Detener al primer fallo y guarde. El flujo se guarda y sincroniza con el proyecto. El selector restaura orden y ajustes.",
+    "ko": "이름은 Order test, 환경은 Test로 설정하고 첫 실패 시 중지를 켠 뒤 저장하세요. 흐름은 프로젝트와 함께 저장·동기화됩니다. 선택 메뉴에서 순서와 설정을 복원할 수 있습니다.",
+    "de": "Order test benennen, Test wählen, Stopp beim ersten Fehler aktivieren und speichern. Der Ablauf wird mit dem Projekt gespeichert und synchronisiert. Die Auswahl stellt Reihenfolge und Einstellungen wieder her."
+  },
+  "Exit code 0 means every executed request and check passed. Code 1 means a request, extraction, or check failed. Code 2 means invalid input or configuration. --report writes JSON results without response bodies or variable values. Use your CI secret store for credentials and collect the report as an artifact.": {
+    "zh-Hans": "退出码 0 表示执行的请求和检查全部通过；1 表示请求、提取或检查失败；2 表示输入或配置错误。--report 输出不含正文和变量值的 JSON 报告。在 CI 密钥库配置凭据，并收集报告。",
+    "zh-Hant": "結束碼 0 表示請求與檢查全通過；1 為請求、擷取或檢查失敗；2 為輸入或設定錯誤。--report 輸出不含本文與變數值的 JSON。CI 用密鑰庫設定憑證並收集報告。",
+    "ja": "終了コード0は全件成功、1は送信・取得・チェック失敗、2は入力や設定の誤りです。--report の JSON は本文や変数値を含みません。CI の秘密情報ストアで認証し、レポートを保存します。",
+    "fr": "Code 0 : tout réussi ; 1 : requête, extraction ou contrôle échoué ; 2 : entrée ou configuration invalide. --report exclut corps et valeurs. Utilisez les secrets de la CI et conservez le rapport.",
+    "pt-BR": "Código 0: tudo passou; 1: falha de requisição, extração ou verificação; 2: entrada ou configuração inválida. --report exclui corpos e valores. Use segredos do CI e colete o relatório.",
+    "es": "Código 0: todo pasó; 1: fallo de solicitud, extracción o comprobación; 2: entrada o configuración inválida. --report excluye cuerpos y valores. Use secretos de CI y recopile el informe.",
+    "ko": "종료 코드 0은 모두 통과, 1은 요청·추출·검사 실패, 2는 입력·설정 오류입니다. --report는 본문과 변수 값을 제외합니다. CI 비밀 저장소로 인증하고 보고서를 수집하세요.",
+    "de": "Code 0: alles bestanden; 1: Anfrage-, Extraktions- oder Prüffehler; 2: Eingabe- oder Konfigurationsfehler. --report ohne Körper und Werte. CI-Geheimnisspeicher verwenden und Bericht sammeln."
+  },
+  "Export HTTP requests, environments, and saved workflows into a folder. Each request has a separate JSON file with stable names and sorted keys for Git review. Other protocols and attached files are not included.": {
+    "zh-Hans": "将 HTTP 请求、环境和已保存工作流导出为文件夹。每个请求单独一个 JSON，文件名与键顺序稳定，便于 Git 检查。不包含其他协议和附件。",
+    "zh-Hant": "將 HTTP 請求、環境與工作流程匯出為資料夾。每個請求獨立 JSON，檔名與鍵順序固定，便於 Git 檢查。不含其他協定與附件。",
+    "ja": "HTTP リクエスト、環境、手順をフォルダに書き出します。各リクエストは個別 JSON で、名前とキー順は固定です。他のプロトコルや添付は含みません。",
+    "fr": "Exportez requêtes HTTP, environnements et workflows dans un dossier. Un JSON stable par requête facilite Git. Les autres protocoles et pièces jointes sont exclus.",
+    "pt-BR": "Exporte requisições HTTP, ambientes e fluxos para uma pasta. Um JSON estável por requisição facilita o Git. Outros protocolos e anexos são excluídos.",
+    "es": "Exporte solicitudes HTTP, entornos y flujos a una carpeta. Un JSON estable por solicitud facilita Git. Otros protocolos y adjuntos quedan excluidos.",
+    "ko": "HTTP 요청, 환경, 저장한 흐름을 폴더로 내보냅니다. 각 요청의 JSON 파일명과 키 순서가 고정되어 Git 검토가 쉽습니다. 다른 프로토콜과 첨부는 제외됩니다.",
+    "de": "HTTP-Anfragen, Umgebungen und Abläufe in einen Ordner exportieren. Stabiles JSON pro Anfrage erleichtert Git. Andere Protokolle und Anhänge werden ausgeschlossen."
+  },
+  "Follow this example with your own API. Screenshots show the macOS app using fictional demo data. On iPhone and iPad, the same actions may appear in menus. Nothing in this manual sends a request automatically.": {
+    "zh-Hans": "请用自己的 API 按步骤操作。截图来自 macOS 程序，使用虚构演示数据；iPhone/iPad 上相同操作可能位于菜单中。阅读手册不会自动发送请求。",
+    "zh-Hant": "請用自己的 API 依步驟操作。截圖來自 macOS，使用虛構資料；iPhone/iPad 的相同操作可能在選單中。閱讀手冊不會傳送請求。",
+    "ja": "自分の API で手順を試してください。画面は macOS の架空データです。iPhone/iPad では同じ操作がメニュー内にある場合があります。読むだけで送信されません。",
+    "fr": "Suivez avec votre API. Captures macOS avec données fictives ; sur iPhone/iPad, les actions peuvent être dans des menus. Lire le manuel n’envoie rien.",
+    "pt-BR": "Siga com sua API. Capturas do macOS usam dados fictícios; no iPhone/iPad, ações podem estar em menus. Ler o manual não envia requisições.",
+    "es": "Siga con su API. Las capturas macOS usan datos ficticios; en iPhone/iPad, las acciones pueden estar en menús. Leer el manual no envía solicitudes.",
+    "ko": "실제 API에 맞춰 따라 하세요. macOS 스크린샷은 가상 데이터를 사용합니다. iPhone/iPad에서는 같은 작업이 메뉴에 있을 수 있습니다. 설명서를 읽어도 요청은 전송되지 않습니다.",
+    "de": "Folgen Sie mit Ihrer API. macOS-Screenshots zeigen Beispieldaten; auf iPhone/iPad liegen Aktionen eventuell in Menüs. Das Lesen sendet keine Anfrage."
+  },
+  "If the host, token, or body is wrong, close the panel and fix the environment or request. Reopen the preview to verify, then click Send in the editor. Opening a preview never sends the request.": {
+    "zh-Hans": "地址、token 或正文有误时，关闭面板并修改环境或请求，再打开预览核对。确认后回到编辑器点击发送。预览本身不发送请求。",
+    "zh-Hant": "位址、token 或本文有誤時，關閉面板修改環境或請求，再開預覽確認。確認後返回編輯器傳送。預覽不會傳送請求。",
+    "ja": "ホスト、token、本文に誤りがあれば閉じて修正し、再度プレビューします。確認後エディタで送信します。プレビューは送信しません。",
+    "fr": "Corrigez hôte, token ou corps dans l’éditeur ou l’environnement, puis revérifiez l’aperçu. Envoyez depuis l’éditeur. L’aperçu ne transmet rien.",
+    "pt-BR": "Corrija host, token ou corpo no editor ou ambiente e confira novamente a prévia. Envie pelo editor. A prévia não envia nada.",
+    "es": "Corrija servidor, token o cuerpo en el editor o entorno y revise otra vez. Envíe desde el editor. La vista previa no envía nada.",
+    "ko": "호스트, token, 본문이 틀리면 패널을 닫고 환경이나 요청을 수정한 뒤 다시 확인하세요. 편집기에서 전송하세요. 미리보기는 요청을 보내지 않습니다.",
+    "de": "Host, Token oder Körper im Editor bzw. in der Umgebung korrigieren und Vorschau erneut prüfen. Danach im Editor senden. Die Vorschau sendet nichts."
+  },
+  "Import creates a new project. Existing projects are kept. Export again to a new folder and review changes in Git before replacing tracked files.": {
+    "zh-Hans": "导入会创建新项目，保留现有项目。后续请导出到新文件夹，用 Git 比较改动后再替换跟踪的文件。",
+    "zh-Hant": "匯入建立新專案並保留既有專案。之後匯出至新資料夾，以 Git 比較後替換追蹤檔案。",
+    "ja": "読み込みは既存を保ち、新規プロジェクトを作ります。更新は別フォルダに書き出し、Git で比較してから置き換えます。",
+    "fr": "L’import crée un nouveau projet sans supprimer l’existant. Exportez ailleurs et vérifiez le diff Git avant de remplacer les fichiers.",
+    "pt-BR": "A importação cria outro projeto e mantém os existentes. Exporte em outra pasta e confira o diff Git antes de substituir arquivos.",
+    "es": "La importación crea otro proyecto y conserva los existentes. Exporte a otra carpeta y revise el diff Git antes de sustituir archivos.",
+    "ko": "가져오기는 기존 프로젝트를 유지하고 새 프로젝트를 만듭니다. 다른 폴더로 내보내 Git 차이를 확인한 뒤 파일을 교체하세요.",
+    "de": "Import erstellt ein neues Projekt und erhält vorhandene. Separat exportieren und Git-Diff prüfen, bevor Dateien ersetzt werden."
+  },
+  "Inspect Request shows the variables referenced by this request and explains where their current values came from.": {
+    "zh-Hans": "“检查请求”列出当前请求引用的变量，并说明当前值的来源。",
+    "zh-Hant": "「檢查請求」列出目前請求引用的變數及其值的來源。",
+    "ja": "リクエスト確認では、参照している変数と現在の値の取得元を表示します。",
+    "fr": "L’inspection liste les variables référencées et la provenance de leurs valeurs.",
+    "pt-BR": "A inspeção lista variáveis usadas e a origem dos valores atuais.",
+    "es": "La inspección lista variables usadas y el origen de sus valores actuales.",
+    "ko": "요청 확인은 참조하는 변수와 현재 값의 출처를 표시합니다.",
+    "de": "Die Anfrageprüfung zeigt referenzierte Variablen und die Herkunft ihrer aktuellen Werte."
+  },
+  "Install the stable Rust toolchain, open a terminal at the RHEQ repository root, and build the release executable. The executable is rust/target/release/reqeast-cli. You can copy it into your preferred tools directory.": {
+    "zh-Hans": "安装稳定版 Rust，在 RHEQ 仓库根目录打开终端，构建 release 可执行文件。输出为 rust/target/release/reqeast-cli，可复制到常用工具目录。",
+    "zh-Hant": "安裝穩定版 Rust，在 RHEQ 根目錄開終端機建置 release。輸出為 rust/target/release/reqeast-cli，可複製到工具目錄。",
+    "ja": "安定版 Rust を用意し、リポジトリのルートで release ビルドします。rust/target/release/reqeast-cli が生成され、任意のツール用フォルダへコピーできます。",
+    "fr": "Installez Rust stable et compilez en release depuis la racine du dépôt. Le binaire rust/target/release/reqeast-cli peut être copié dans votre dossier d’outils.",
+    "pt-BR": "Instale Rust estável e compile release na raiz do repositório. Copie rust/target/release/reqeast-cli para sua pasta de ferramentas se desejar.",
+    "es": "Instale Rust estable y compile release desde la raíz del repositorio. Puede copiar rust/target/release/reqeast-cli a su carpeta de herramientas.",
+    "ko": "안정 버전 Rust를 설치하고 저장소 루트에서 release 빌드하세요. rust/target/release/reqeast-cli 실행 파일을 원하는 도구 폴더로 복사할 수 있습니다.",
+    "de": "Stabiles Rust installieren und im Repository-Root release bauen. Die Datei rust/target/release/reqeast-cli kann in Ihren Werkzeugordner kopiert werden."
+  },
+  "Missing Variable means the active environment has no enabled value. Choose the correct environment, add the value there, or run the earlier extraction request first. Send stops before making a network request when required variables are missing.": {
+    "zh-Hans": "“缺少变量”表示当前环境没有启用的值。切换环境、补齐值，或先运行提取它的请求。必需变量缺失时，发送会在联网前停止。",
+    "zh-Hant": "缺少變數表示目前環境沒有啟用值。切換環境、補值或先執行擷取請求。必要變數缺少時會在連線前停止。",
+    "ja": "未設定は、現在の環境に有効な値がないことを示します。環境を選び直すか値を設定し、取得元を先に実行します。不足時は通信前に停止します。",
+    "fr": "Une variable manquante n’a pas de valeur active. Changez d’environnement, définissez-la ou lancez son extraction. L’envoi est bloqué avant la connexion si elle manque.",
+    "pt-BR": "Variável ausente não tem valor ativo. Troque o ambiente, defina-a ou execute sua extração. O envio para antes da conexão se faltar um valor necessário.",
+    "es": "Una variable ausente no tiene valor activo. Cambie el entorno, defínala o ejecute su extracción. El envío se detiene antes de conectar si falta un valor necesario.",
+    "ko": "누락된 변수는 활성 환경에 유효한 값이 없다는 뜻입니다. 환경을 바꾸거나 값을 채우거나 먼저 추출 요청을 실행하세요. 필수 값이 없으면 네트워크 요청 전에 중단됩니다.",
+    "de": "Fehlende Variablen haben keinen aktiven Wert. Umgebung wechseln, Wert setzen oder Extraktion starten. Bei fehlenden Pflichtwerten stoppt das Senden vor der Verbindung."
+  },
+  "Open HTTP Workflows → Project Files and click Export Project Folder. Choose a new destination folder. The export contains reqeast.json, requests/<request-id>.json, and .gitignore. Saved workflows and environments are in reqeast.json.": {
+    "zh-Hans": "打开“HTTP 工作流 → 项目文件”，点击“导出项目文件夹”，选择新目录。包含 reqeast.json、requests/<request-id>.json 和 .gitignore；环境和工作流保存在 reqeast.json。",
+    "zh-Hant": "開啟 HTTP 工作流程 → 專案檔案並匯出至新目錄。內含 reqeast.json、requests/<request-id>.json 與 .gitignore；環境和流程在 reqeast.json。",
+    "ja": "HTTP 手順のプロジェクトファイルから新しいフォルダに書き出します。reqeast.json、requests/<request-id>.json、.gitignore を含みます。環境と手順は reqeast.json に入ります。",
+    "fr": "Ouvrez Fichiers du projet et exportez vers un nouveau dossier. Il contient reqeast.json, requests/<request-id>.json et .gitignore. Environnements et workflows sont dans reqeast.json.",
+    "pt-BR": "Abra Arquivos do projeto e exporte para nova pasta. Ela contém reqeast.json, requests/<request-id>.json e .gitignore. Ambientes e fluxos ficam em reqeast.json.",
+    "es": "Abra Archivos del proyecto y exporte a una carpeta nueva. Contiene reqeast.json, requests/<request-id>.json y .gitignore. Entornos y flujos están en reqeast.json.",
+    "ko": "프로젝트 파일에서 새 폴더로 내보내세요. reqeast.json, requests/<request-id>.json, .gitignore가 포함됩니다. 환경과 흐름은 reqeast.json에 저장됩니다.",
+    "de": "Projektdateien öffnen und in neuen Ordner exportieren. Enthält reqeast.json, requests/<request-id>.json und .gitignore. Umgebungen und Abläufe liegen in reqeast.json."
+  },
+  "Open Inspect Request and scroll to Request Preview. Check the method, resolved URL, query parameters, headers, Cookie header, and body. GET, HEAD, and OPTIONS bodies follow the HTTP strict-mode setting.": {
+    "zh-Hans": "打开“检查请求”，滚动到“发送预览”，核对方法、替换后的 URL、参数、请求头、Cookie 和正文。GET、HEAD、OPTIONS 正文遵循 HTTP 严格模式设置。",
+    "zh-Hant": "開啟檢查請求，捲至傳送預覽，確認方法、替換後 URL、參數、標頭、Cookie 與本文。GET、HEAD、OPTIONS 本文依 HTTP 嚴格模式。",
+    "ja": "リクエスト確認からプレビューへスクロールし、メソッド、展開後 URL、パラメータ、ヘッダー、Cookie、本文を確認します。GET・HEAD・OPTIONS の本文は厳格モード設定に従います。",
+    "fr": "Dans l’inspection, faites défiler jusqu’à l’aperçu. Vérifiez méthode, URL résolue, paramètres, en-têtes, Cookie et corps. GET/HEAD/OPTIONS suivent le mode HTTP strict.",
+    "pt-BR": "Na inspeção, role até a prévia. Confira método, URL resolvida, parâmetros, cabeçalhos, Cookie e corpo. GET/HEAD/OPTIONS seguem o modo HTTP estrito.",
+    "es": "En la inspección, desplácese a la vista previa. Revise método, URL resuelta, parámetros, cabeceras, Cookie y cuerpo. GET/HEAD/OPTIONS siguen el modo HTTP estricto.",
+    "ko": "요청 확인에서 미리보기로 스크롤하세요. 메서드, 치환된 URL, 매개변수, 헤더, Cookie, 본문을 확인하세요. GET/HEAD/OPTIONS 본문은 HTTP 엄격 모드 설정을 따릅니다.",
+    "de": "In der Anfrageprüfung zur Vorschau scrollen. Methode, aufgelöste URL, Parameter, Header, Cookie und Körper prüfen. GET/HEAD/OPTIONS folgen dem strikten HTTP-Modus."
+  },
+  "Open Run Requests and choose New Workflow. Select All HTTP Requests or a folder. Check Login, Create order, and Query order. Use the up and down arrows to put them in that order. The first checked row is request 1, the next is request 2; unchecked rows are skipped.": {
+    "zh-Hans": "在“批量运行”中选“新工作流”，选择全部 HTTP 或文件夹，勾选 Login、Create order、Query order，用上下箭头依次排序。最上面的勾选项是第 1 个，下一个是第 2 个；未勾选项跳过。",
+    "zh-Hant": "在批次執行選新工作流程，選全部 HTTP 或資料夾，勾選 Login、Create order、Query order，用上下箭頭排序。首個勾選項是第 1 個，下一個第 2 個；未勾選略過。",
+    "ja": "実行画面で新しい手順と全 HTTP またはフォルダを選び、Login、Create order、Query order を選択します。上下矢印で並べます。最上位の選択済みが1番、次が2番です。未選択は飛ばします。",
+    "fr": "Créez un workflow, choisissez tous les HTTP ou un dossier, cochez Login, Create order, Query order et ordonnez-les avec les flèches. La première ligne cochée est 1, la suivante 2 ; les autres sont ignorées.",
+    "pt-BR": "Crie um fluxo, escolha todos HTTP ou uma pasta, marque Login, Create order, Query order e ordene com as setas. A primeira linha marcada é 1, a próxima é 2; as demais são puladas.",
+    "es": "Cree un flujo, elija todos HTTP o carpeta, marque Login, Create order, Query order y ordene con flechas. La primera fila marcada es 1, la siguiente 2; las demás se omiten.",
+    "ko": "새 흐름을 선택하고 전체 HTTP나 폴더를 고른 뒤 Login, Create order, Query order를 체크해 화살표로 정렬하세요. 첫 체크 행이 1번, 다음이 2번이며 미선택 행은 건너뜁니다.",
+    "de": "Neuen Ablauf und alle HTTP oder einen Ordner wählen. Login, Create order, Query order markieren und mit Pfeilen ordnen. Erste markierte Zeile ist 1, nächste 2; unmarkierte werden übersprungen."
+  },
+  "Open Run Requests, choose your saved workflow, and click Import CSV or JSON under Test Data. Check Data Rows and the column names. Values are hidden in the panel. Review the source file before running.": {
+    "zh-Hans": "打开“批量运行”，选择保存的工作流，在“测试数据”中点击“导入 CSV 或 JSON”。核对行数和列名，值不会显示。运行前请检查源文件。",
+    "zh-Hant": "開啟批次執行選儲存流程，在測試資料按匯入 CSV 或 JSON。核對列數與欄名，值不顯示。執行前請檢查原檔。",
+    "ja": "保存済み手順を選び、テストデータで CSV/JSON を読み込みます。行数と列名を確認します。値は表示しません。実行前に元ファイルを確認してください。",
+    "fr": "Sélectionnez le workflow puis importez CSV/JSON dans Données de test. Vérifiez nombre de lignes et colonnes. Les valeurs sont masquées ; contrôlez le fichier source.",
+    "pt-BR": "Selecione o fluxo e importe CSV/JSON em Dados de teste. Confira quantidade de linhas e colunas. Valores ficam ocultos; revise o arquivo original.",
+    "es": "Seleccione el flujo e importe CSV/JSON en Datos de prueba. Revise número de filas y columnas. Los valores se ocultan; compruebe el archivo original.",
+    "ko": "저장한 흐름의 테스트 데이터에서 CSV/JSON을 가져오세요. 행 수와 열 이름을 확인하세요. 값은 숨겨지므로 원본 파일을 검토하세요.",
+    "de": "Gespeicherten Ablauf wählen und CSV/JSON unter Testdaten importieren. Zeilenanzahl und Spalten prüfen. Werte sind verborgen; Quelldatei kontrollieren."
+  },
+  "Open Variables & Checks. Click Add Response Variable, choose /data/token, name the variable token, and enable Secret variable. Click Save Variables from Current Response. Future successful sends extract enabled rules automatically.": {
+    "zh-Hans": "打开“变量与检查”，添加响应变量。选择 /data/token，变量名填 token，启用敏感变量，再点击“从当前响应保存变量”。以后成功发送会自动执行启用的提取规则。",
+    "zh-Hant": "開啟變數與檢查，新增回應變數，選 /data/token，名稱 token，啟用敏感變數並從目前回應儲存。之後成功傳送會自動執行擷取規則。",
+    "ja": "変数とチェックで取得ルールを追加し、/data/token、名前 token、秘密変数を設定します。現在のレスポンスから保存を押します。以後、成功時に有効なルールで自動取得します。",
+    "fr": "Ajoutez une variable de réponse dans Variables et vérifications : /data/token, nom token, secret activé. Enregistrez depuis la réponse actuelle. Les règles actives s’appliquent ensuite automatiquement après réussite.",
+    "pt-BR": "Adicione variável de resposta em Variáveis e verificações: /data/token, nome token, segredo ativado. Salve da resposta atual. Regras ativas passam a extrair automaticamente após sucesso.",
+    "es": "Añada variable de respuesta en Variables y comprobaciones: /data/token, nombre token, secreto activo. Guarde desde la respuesta actual. Las reglas activas extraen automáticamente tras el éxito.",
+    "ko": "변수 및 검사에서 응답 변수를 추가하고 /data/token, 이름 token, 비밀 변수를 설정하세요. 현재 응답에서 저장을 누르면 이후 성공 시 활성 규칙이 자동 추출합니다.",
+    "de": "Antwortvariable unter Variablen und Prüfungen hinzufügen: /data/token, Name token, geheim aktiv. Aus aktueller Antwort speichern. Aktive Regeln extrahieren künftig automatisch bei Erfolg."
+  },
+  "Open the environment picker and manage environments. Create Test and add baseUrl, username, password, and product. Mark password as secret. Activate Test. Use {{baseUrl}} in the URL and variable references in the request body.": {
+    "zh-Hans": "打开环境菜单并管理环境，创建 Test，添加 baseUrl、username、password、product，把 password 标为敏感值并启用 Test。URL 用 {{baseUrl}}，正文也使用变量引用。",
+    "zh-Hant": "開環境選單管理環境，建立 Test，新增 baseUrl、username、password、product。password 標為敏感值並啟用 Test。URL 用 {{baseUrl}}，本文使用變數。",
+    "ja": "環境管理で Test を作り、baseUrl、username、password、product を追加します。password を秘密にし Test を有効化します。URL は {{baseUrl}}、本文も変数参照を使います。",
+    "fr": "Créez Test dans la gestion des environnements avec baseUrl, username, password, product. Marquez password secret et activez Test. Utilisez {{baseUrl}} dans l’URL et les variables dans le corps.",
+    "pt-BR": "Crie Test no gerenciador com baseUrl, username, password, product. Marque password como segredo e ative Test. Use {{baseUrl}} na URL e variáveis no corpo.",
+    "es": "Cree Test en el gestor con baseUrl, username, password, product. Marque password secreto y active Test. Use {{baseUrl}} en URL y variables en el cuerpo.",
+    "ko": "환경 관리에서 Test를 만들고 baseUrl, username, password, product를 추가하세요. password를 비밀로 설정하고 Test를 활성화하세요. URL에 {{baseUrl}}, 본문에도 변수 참조를 사용하세요.",
+    "de": "Test in der Umgebungsverwaltung mit baseUrl, username, password, product erstellen. password geheim markieren und Test aktivieren. {{baseUrl}} in URL und Variablen im Körper verwenden."
+  },
+  "Preview prepares the request through the same path as Send, so you can check variable replacement and credentials before sending.": {
+    "zh-Hans": "预览与发送使用相同的请求准备逻辑，可以在发送前核对变量替换和认证内容。",
+    "zh-Hant": "預覽與傳送共用準備邏輯，可在傳送前確認變數替換與認證。",
+    "ja": "プレビューは送信と同じ準備処理を使い、変数展開と認証を事前確認できます。",
+    "fr": "L’aperçu utilise la même préparation que l’envoi pour vérifier variables et authentification.",
+    "pt-BR": "A prévia usa a mesma preparação do envio para conferir variáveis e autenticação.",
+    "es": "La vista previa usa la misma preparación del envío para comprobar variables y autenticación.",
+    "ko": "미리보기는 전송과 같은 준비 로직으로 변수 치환과 인증을 확인합니다.",
+    "de": "Die Vorschau verwendet dieselbe Vorbereitung wie das Senden, um Variablen und Authentifizierung zu prüfen."
+  },
+  "Preview uses the same request preparation as Send. It shows the current environment, headers, cookies, and body before redirects. Signed credentials are generated again when sending.": {
+    "zh-Hans": "预览与发送共用准备逻辑，显示当前环境替换后的地址、请求头、Cookie 和正文，内容是重定向之前的请求。签名凭据会在发送时重新生成。",
+    "zh-Hant": "預覽與傳送共用準備邏輯，顯示目前環境替換後的位址、標頭、Cookie 與本文，為重新導向前的內容。簽章憑證傳送時重新產生。",
+    "ja": "プレビューは送信と同じ処理で環境、ヘッダー、Cookie、本文を準備します。表示はリダイレクト前です。署名情報は送信時に再生成します。",
+    "fr": "L’aperçu prépare environnement, en-têtes, cookies et corps comme l’envoi, avant redirections. Les signatures sont régénérées à l’envoi.",
+    "pt-BR": "A prévia prepara ambiente, cabeçalhos, cookies e corpo como o envio, antes de redirecionar. Assinaturas são geradas novamente ao enviar.",
+    "es": "La vista prepara entorno, cabeceras, cookies y cuerpo igual que el envío, antes de redirigir. Las firmas se generan de nuevo al enviar.",
+    "ko": "미리보기는 전송과 같은 방식으로 환경, 헤더, Cookie, 본문을 준비하며 리디렉션 전 내용을 표시합니다. 서명은 전송 시 다시 생성합니다.",
+    "de": "Die Vorschau bereitet Umgebung, Header, Cookies und Körper wie das Senden vor, vor Umleitungen. Signaturen werden beim Senden neu erzeugt."
+  },
+  "Save Order test in the app and export its project folder. Workflow and environment names must match exactly. Use --environment to choose an environment explicitly; otherwise the saved environment or first exported environment is used.": {
+    "zh-Hans": "在程序保存 Order test 并导出项目。工作流、环境名称必须完全一致。--environment 可显式指定环境；未指定时使用工作流保存的环境或第一个导出环境。",
+    "zh-Hant": "在程式儲存 Order test 並匯出。流程與環境名稱須完全一致。--environment 可指定環境；否則使用流程的環境或首個匯出環境。",
+    "ja": "アプリで Order test を保存して書き出します。手順と環境名は完全一致させます。--environment 指定がなければ、保存環境または最初の環境を使います。",
+    "fr": "Enregistrez Order test puis exportez. Les noms doivent correspondre exactement. --environment choisit l’environnement ; sinon celui enregistré ou le premier exporté est utilisé.",
+    "pt-BR": "Salve Order test e exporte. Nomes devem coincidir exatamente. --environment escolhe o ambiente; sem ele usa o salvo ou o primeiro exportado.",
+    "es": "Guarde Order test y exporte. Los nombres deben coincidir exactamente. --environment elige el entorno; sin él se usa el guardado o el primero exportado.",
+    "ko": "Order test를 저장하고 내보내세요. 흐름과 환경 이름은 정확히 일치해야 합니다. --environment가 없으면 저장한 환경 또는 첫 내보낸 환경을 사용합니다.",
+    "de": "Order test speichern und exportieren. Namen müssen exakt übereinstimmen. --environment wählt die Umgebung; sonst gespeicherte oder erste exportierte Umgebung."
+  },
+  "Save a named sequence and its environment. Requests keep their own extraction and check rules; editing a request changes future runs of the workflow.": {
+    "zh-Hans": "保存命名的请求顺序和环境。提取和检查规则仍保存在各请求上；修改请求会影响工作流的后续运行。",
+    "zh-Hant": "儲存具名順序與環境。擷取與檢查規則仍在各請求；修改請求會影響後續執行。",
+    "ja": "名前付きの順序と環境を保存します。取得・チェックは各リクエストに属し、編集は次の実行に反映されます。",
+    "fr": "Enregistrez séquence nommée et environnement. Les règles restent sur les requêtes ; leurs modifications affectent les prochains lancements.",
+    "pt-BR": "Salve sequência nomeada e ambiente. Regras ficam nas requisições; alterações afetam as próximas execuções.",
+    "es": "Guarde secuencia con nombre y entorno. Las reglas quedan en solicitudes; sus cambios afectan próximas ejecuciones.",
+    "ko": "이름 있는 순서와 환경을 저장합니다. 추출·검사 규칙은 요청에 저장되며 수정하면 이후 실행에 반영됩니다.",
+    "de": "Benannte Reihenfolge und Umgebung speichern. Regeln bleiben an den Anfragen; Änderungen wirken auf künftige Läufe."
+  },
+  "Secret environment values and credential headers are hidden by default. Enable Show Secret Values only when needed. File bodies show attachment names and sizes. This preview is before redirects; signed credentials are generated again at send time.": {
+    "zh-Hans": "敏感环境值和认证请求头默认隐藏，必要时可开启显示。文件正文显示名称和大小。预览发生在重定向之前，签名凭据在发送时重新生成。",
+    "zh-Hant": "敏感環境值與認證標頭預設隱藏，可按需顯示。檔案本文顯示名稱與大小。預覽為重新導向前內容，簽章傳送時重產。",
+    "ja": "秘密環境値と認証ヘッダーは初期状態で非表示です。必要時のみ表示します。添付は名前とサイズです。プレビューはリダイレクト前で、署名は送信時に再生成します。",
+    "fr": "Secrets et en-têtes d’authentification sont masqués par défaut. Affichez-les au besoin. Les fichiers indiquent nom et taille. Aperçu avant redirections ; signatures recréées à l’envoi.",
+    "pt-BR": "Segredos e cabeçalhos de autenticação são ocultos por padrão. Mostre só se necessário. Arquivos mostram nome e tamanho. Prévia antes de redirecionar; assinaturas refeitas ao enviar.",
+    "es": "Secretos y cabeceras de autenticación se ocultan por defecto. Muestre solo si necesita. Archivos indican nombre y tamaño. Vista antes de redirecciones; firmas regeneradas al enviar.",
+    "ko": "비밀 값과 인증 헤더는 기본적으로 숨깁니다. 필요할 때만 표시하세요. 파일은 이름과 크기를 보여줍니다. 미리보기는 리디렉션 전이며 서명은 전송 시 다시 생성됩니다.",
+    "de": "Geheimnisse und Authentifizierungsheader sind standardmäßig verborgen. Bei Bedarf anzeigen. Dateien zeigen Namen und Größe. Vorschau vor Umleitungen; Signaturen beim Senden erneuert."
+  },
+  "Secret variables are empty and inline credentials become variable references. Review URLs, headers, and bodies before sharing. Refill missing secrets locally or through CLI environment variables.": {
+    "zh-Hans": "敏感变量导出为空，内联凭据改为变量引用。共享前请检查 URL、请求头和正文。缺失密钥需在本地或 CLI 环境变量中补齐。",
+    "zh-Hant": "敏感變數匯出為空，內嵌憑證改為變數引用。分享前檢查 URL、標頭與本文。密鑰需於本機或 CLI 環境變數補齊。",
+    "ja": "秘密変数は空で書き出し、直接の認証値は変数参照にします。共有前に URL、ヘッダー、本文を確認し、秘密情報をローカルや CLI 環境変数で設定します。",
+    "fr": "Les secrets sont vides et les identifiants deviennent des références. Vérifiez URL, en-têtes et corps avant partage. Renseignez les secrets localement ou via l’environnement CLI.",
+    "pt-BR": "Segredos ficam vazios e credenciais viram referências. Revise URL, cabeçalhos e corpo antes de compartilhar. Preencha segredos localmente ou no ambiente CLI.",
+    "es": "Los secretos quedan vacíos y credenciales pasan a referencias. Revise URL, cabeceras y cuerpo antes de compartir. Complete secretos localmente o mediante entorno CLI.",
+    "ko": "비밀 변수는 빈 값으로 내보내고 자격 증명은 변수 참조로 바꿉니다. 공유 전 URL, 헤더, 본문을 확인하세요. 비밀 값은 로컬이나 CLI 환경 변수로 채우세요.",
+    "de": "Geheimnisse bleiben leer, Zugangsdaten werden Referenzen. URL, Header und Körper vor dem Teilen prüfen. Geheimnisse lokal oder per CLI-Umgebung ergänzen."
+  },
+  "Secret variables are exported empty. Inline authentication credentials and recognized sensitive fields become variable references. Review URLs, headers, and bodies for other private data. Attached files and non-HTTP requests are not exported. Fill required secrets locally after importing.": {
+    "zh-Hans": "敏感变量导出为空。内联认证凭据和识别出的敏感字段替换为变量引用。分享前继续检查 URL、请求头和正文中的其他私密数据。非 HTTP 和附件不导出；导入后补齐密钥。",
+    "zh-Hant": "敏感變數匯出為空，認證憑證及識別的敏感欄位改為引用。分享前檢查 URL、標頭與本文中其他私密資料。非 HTTP 與附件不匯出；匯入後補齊密鑰。",
+    "ja": "秘密変数は空、認証値や既知の秘密フィールドは参照に置き換えます。他の私的情報がないか URL、ヘッダー、本文を確認します。非 HTTP と添付は除外し、読み込み後に秘密情報を補います。",
+    "fr": "Secrets vides ; identifiants et champs sensibles reconnus deviennent des références. Vérifiez les autres données privées dans URL, en-têtes et corps. Non-HTTP et pièces jointes exclus ; complétez les secrets après import.",
+    "pt-BR": "Segredos vazios; credenciais e campos sensíveis reconhecidos viram referências. Revise outros dados privados em URL, cabeçalhos e corpo. Não-HTTP e anexos excluídos; preencha segredos após importar.",
+    "es": "Secretos vacíos; credenciales y campos sensibles reconocidos se convierten en referencias. Revise otros datos privados en URL, cabeceras y cuerpo. No-HTTP y adjuntos excluidos; complete secretos al importar.",
+    "ko": "비밀 값은 비우고 인증과 알려진 민감 필드는 변수 참조로 대체합니다. URL, 헤더, 본문에 다른 개인정보가 없는지 확인하세요. 비 HTTP와 첨부는 제외되며 가져온 후 비밀 값을 채워야 합니다.",
+    "de": "Geheimnisse leer; Zugangsdaten und erkannte sensible Felder werden Referenzen. Andere private Daten in URL, Headern und Körper prüfen. Nicht-HTTP und Anhänge ausgeschlossen; nach Import Geheimnisse ergänzen."
+  },
+  "Select Create order, open Authentication, choose Bearer Token and enter {{token}}. Use the same Test environment. Send it after Login has succeeded. To capture the created order ID, add a rule on Create order from /data/id to orderId, then use {{orderId}} in Query order.": {
+    "zh-Hans": "选 Create order，在认证中选 Bearer Token，填 {{token}}，使用同一 Test 环境，在 Login 成功后发送。在 Create order 上增加 /data/id → orderId 的提取规则，再在 Query order 使用 {{orderId}}。",
+    "zh-Hant": "選 Create order，認證用 Bearer Token 與 {{token}}，同一 Test 環境，在 Login 成功後傳送。加 /data/id → orderId 擷取，再於 Query order 用 {{orderId}}。",
+    "ja": "Create order の認証を Bearer Token、{{token}} にし、同じ Test 環境で Login 成功後に送信します。/data/id を orderId に取得し、Query order で {{orderId}} を使います。",
+    "fr": "Dans Create order, choisissez Bearer Token et {{token}}, même environnement Test, après Login. Extrayez /data/id vers orderId, puis utilisez {{orderId}} dans Query order.",
+    "pt-BR": "Em Create order, use Bearer Token e {{token}}, no mesmo Test, após Login. Extraia /data/id para orderId e use {{orderId}} em Query order.",
+    "es": "En Create order, use Bearer Token y {{token}}, mismo Test, después de Login. Extraiga /data/id a orderId y use {{orderId}} en Query order.",
+    "ko": "Create order 인증을 Bearer Token, {{token}}으로 설정하고 같은 Test 환경에서 Login 성공 후 전송하세요. /data/id를 orderId로 추출해 Query order에 {{orderId}}를 사용하세요.",
+    "de": "In Create order Bearer Token und {{token}} setzen, gleiche Test-Umgebung nach Login. /data/id nach orderId extrahieren und {{orderId}} in Query order verwenden."
+  },
+  "Select Login in the sidebar, activate Test, enter the login body and click Send. Confirm a 2xx response with a token. The example response is below; your response field may differ.": {
+    "zh-Hans": "侧栏选 Login，启用 Test，填写登录正文并发送。确认返回 2xx 且包含 token。下面是示例响应，实际字段以你的 API 为准。",
+    "zh-Hant": "側欄選 Login，啟用 Test，填登入本文並傳送。確認 2xx 且含 token。以下僅示範，欄位依實際 API。",
+    "ja": "サイドバーで Login を選び Test を有効にし、本文を入力して送信します。2xx と token を確認します。下は例で、フィールドは API に合わせます。",
+    "fr": "Sélectionnez Login, activez Test, saisissez le corps et envoyez. Vérifiez une réponse 2xx avec token. L’exemple ci-dessous dépend de votre API.",
+    "pt-BR": "Selecione Login, ative Test, preencha o corpo e envie. Confira resposta 2xx com token. O exemplo abaixo depende da sua API.",
+    "es": "Seleccione Login, active Test, complete cuerpo y envíe. Compruebe respuesta 2xx con token. El ejemplo depende de su API.",
+    "ko": "사이드바에서 Login을 선택하고 Test를 켠 뒤 본문을 채워 전송하세요. token이 포함된 2xx 응답을 확인하세요. 아래 필드는 예시이므로 API에 맞추세요.",
+    "de": "Login wählen, Test aktivieren, Körper eingeben und senden. 2xx mit Token prüfen. Beispiel unten; Felder an Ihre API anpassen."
+  },
+  "Select a saved workflow, change the selection or order, and click Save Workflow to replace it. Delete Workflow removes only the saved sequence. If a request or its selected environment was deleted, repair the workflow before running.": {
+    "zh-Hans": "选择已保存工作流，调整勾选项或顺序，再点击保存即可覆盖。删除工作流只移除流程，不删除请求。请求或指定环境被删除时，请先修复工作流。",
+    "zh-Hant": "選已儲存流程，調整勾選或順序後再儲存覆寫。刪除流程不刪請求。請求或環境被刪除時，先修復流程。",
+    "ja": "保存済み手順を選び、選択や順序を変えて再保存します。削除は手順のみでリクエストは残ります。リクエストや指定環境が消えたら先に修正してください。",
+    "fr": "Modifiez la sélection ou l’ordre puis enregistrez pour remplacer. Supprimer le workflow conserve les requêtes. Réparez les références si une requête ou l’environnement a été supprimé.",
+    "pt-BR": "Altere seleção ou ordem e salve para substituir. Excluir fluxo mantém requisições. Corrija referências se uma requisição ou ambiente foi removido.",
+    "es": "Cambie selección u orden y guarde para sustituir. Eliminar flujo conserva solicitudes. Corrija referencias si se eliminó una solicitud o entorno.",
+    "ko": "저장한 흐름을 선택해 순서나 선택을 바꾸고 다시 저장하세요. 흐름 삭제는 요청을 삭제하지 않습니다. 요청이나 지정 환경이 삭제되면 먼저 참조를 수정하세요.",
+    "de": "Auswahl oder Reihenfolge ändern und erneut speichern. Ablauf löschen erhält Anfragen. Referenzen reparieren, wenn Anfrage oder Umgebung entfernt wurde."
+  },
+  "Select a variable to see its value, source request, response field, and last update. Missing variables must be defined before sending.": {
+    "zh-Hans": "点击变量可查看值、来源请求、响应字段和更新时间。缺少的变量需要在发送前补齐。",
+    "zh-Hant": "點按變數可看值、來源請求、回應欄位與更新時間。傳送前須補齊缺少變數。",
+    "ja": "変数を選ぶと値、取得元、フィールド、更新時刻を確認できます。不足する変数は送信前に設定してください。",
+    "fr": "Sélectionnez une variable pour voir valeur, requête source, champ et date. Complétez les variables manquantes avant envoi.",
+    "pt-BR": "Selecione variável para ver valor, origem, campo e data. Defina as ausentes antes de enviar.",
+    "es": "Seleccione variable para ver valor, origen, campo y fecha. Complete las ausentes antes de enviar.",
+    "ko": "변수를 눌러 값, 출처 요청, 필드, 시간을 확인하세요. 누락된 변수는 전송 전에 채우세요.",
+    "de": "Variable wählen, um Wert, Quelle, Feld und Zeitpunkt zu sehen. Fehlende Variablen vor dem Senden ergänzen."
+  },
+  "Select the request that uses {{token}} and open HTTP Workflows → Inspect Request. Under Variable Sources, click {{token}} to expand its details.": {
+    "zh-Hans": "选择使用 {{token}} 的请求，打开“HTTP 工作流 → 检查请求”。在变量来源中点击 {{token}} 展开详情。",
+    "zh-Hant": "選使用 {{token}} 的請求，開 HTTP 工作流程 → 檢查請求，在變數來源點 {{token}} 展開。",
+    "ja": "{{token}} を使うリクエストで確認画面を開き、変数の取得元で {{token}} を展開します。",
+    "fr": "Inspectez la requête utilisant {{token}} et développez {{token}} dans la provenance des variables.",
+    "pt-BR": "Inspecione a requisição que usa {{token}} e expanda {{token}} em Origem das variáveis.",
+    "es": "Inspeccione la solicitud que usa {{token}} y expanda {{token}} en Origen de variables.",
+    "ko": "{{token}}을 사용하는 요청의 확인 화면을 열고 변수 출처에서 {{token}}을 펼치세요.",
+    "de": "Anfrage mit {{token}} prüfen und {{token}} unter Variablenherkunft aufklappen."
+  },
+  "Set secret values with REQEAST_VAR_name environment variables, or pass a local JSON object with --secrets. Environment variables override the secret file. Add --data cases.csv or cases.json for row-based tests. Data-row values override environment values for that row.": {
+    "zh-Hans": "通过 REQEAST_VAR_name 环境变量或 --secrets 指定的本地 JSON 对象提供密钥。环境变量覆盖密钥文件。--data 可指定 cases.csv 或 cases.json；数据行值覆盖该行的环境值。",
+    "zh-Hant": "用 REQEAST_VAR_name 或 --secrets 的本機 JSON 提供密鑰。環境變數優先於密鑰檔。--data 指定 cases.csv/json；每列資料覆寫該列環境值。",
+    "ja": "REQEAST_VAR_name または --secrets のローカル JSON で秘密情報を指定します。環境変数がファイルより優先です。--data で CSV/JSON を指定し、行の値が環境値を上書きします。",
+    "fr": "Fournissez les secrets par REQEAST_VAR_name ou JSON local --secrets. L’environnement prime sur le fichier. --data accepte cases.csv/json ; les valeurs de ligne remplacent l’environnement.",
+    "pt-BR": "Forneça segredos por REQEAST_VAR_name ou JSON local --secrets. Ambiente tem prioridade sobre arquivo. --data aceita cases.csv/json; valores da linha substituem o ambiente.",
+    "es": "Proporcione secretos con REQEAST_VAR_name o JSON local --secrets. El entorno tiene prioridad sobre el archivo. --data acepta cases.csv/json; los valores de fila sustituyen al entorno.",
+    "ko": "REQEAST_VAR_name 또는 --secrets 로컬 JSON으로 비밀 값을 제공하세요. 환경 변수는 파일보다 우선합니다. --data로 CSV/JSON을 지정하면 행 값이 환경 값을 덮어씁니다.",
+    "de": "Geheimnisse per REQEAST_VAR_name oder lokalem JSON mit --secrets angeben. Umgebung hat Vorrang vor Datei. --data akzeptiert CSV/JSON; Zeilenwerte überschreiben Umgebungswerte."
+  },
+  "Set secrets with REQEAST_VAR_token or a local JSON object via --secrets. Secret files are excluded by the exported .gitignore. Reports contain status and checks without response bodies or variable values.": {
+    "zh-Hans": "用 REQEAST_VAR_token 或 --secrets 的本地 JSON 提供密钥。导出的 .gitignore 会排除密钥文件。报告只含状态与检查，不含响应正文和变量值。",
+    "zh-Hant": "用 REQEAST_VAR_token 或 --secrets 本機 JSON 提供密鑰。.gitignore 排除密鑰檔。報告含狀態與檢查，不含本文或變數值。",
+    "ja": "REQEAST_VAR_token または --secrets の JSON で秘密情報を設定します。書き出した .gitignore は秘密ファイルを除外します。レポートは状態とチェックのみで本文や変数値を含みません。",
+    "fr": "Utilisez REQEAST_VAR_token ou JSON --secrets. Le .gitignore exporté exclut les fichiers secrets. Les rapports incluent statuts et contrôles, sans corps ni valeurs.",
+    "pt-BR": "Use REQEAST_VAR_token ou JSON --secrets. O .gitignore exportado exclui segredos. Relatórios incluem status e verificações, sem corpos ou valores.",
+    "es": "Use REQEAST_VAR_token o JSON --secrets. El .gitignore exportado excluye secretos. Los informes incluyen estados y comprobaciones sin cuerpos ni valores.",
+    "ko": "REQEAST_VAR_token 또는 --secrets JSON을 사용하세요. 내보낸 .gitignore는 비밀 파일을 제외합니다. 보고서는 상태와 검사만 포함하고 본문과 변수 값은 제외합니다.",
+    "de": "REQEAST_VAR_token oder JSON --secrets verwenden. Exportiertes .gitignore schließt Geheimnisdateien aus. Berichte enthalten Status und Prüfungen, keine Körper oder Werte."
+  },
+  "Share HTTP projects through readable JSON files and review their changes with Git. This is an explicit export and import, not a live filesystem sync.": {
+    "zh-Hans": "用可读的 JSON 文件共享 HTTP 项目，以 Git 检查改动。这里是手动导出和导入，不会实时同步文件夹。",
+    "zh-Hant": "用可讀 JSON 分享 HTTP 專案，以 Git 檢查變更。此處為手動匯入匯出，不會即時同步資料夾。",
+    "ja": "読みやすい JSON で HTTP プロジェクトを共有し Git で差分を確認します。手動の書き出しと読み込みで、リアルタイム同期ではありません。",
+    "fr": "Partagez les projets HTTP en JSON lisible et vérifiez les changements avec Git. Import/export explicite, sans synchronisation en direct.",
+    "pt-BR": "Compartilhe projetos HTTP em JSON legível e revise com Git. Importação/exportação explícita, sem sincronização ao vivo.",
+    "es": "Comparta proyectos HTTP en JSON legible y revise con Git. Importación/exportación explícita, sin sincronización en vivo.",
+    "ko": "읽기 쉬운 JSON으로 HTTP 프로젝트를 공유하고 Git으로 검토합니다. 수동 가져오기·내보내기이며 실시간 폴더 동기화가 아닙니다.",
+    "de": "HTTP-Projekte mit lesbarem JSON teilen und mit Git prüfen. Expliziter Export/Import, keine Live-Synchronisierung."
+  },
+  "The first request produces a value that a later request uses. Guide step numbers describe operations; request execution numbers are shown in Run Requests.": {
+    "zh-Hans": "前一个请求产生后一个请求要用的值。手册编号表示操作步骤；实际请求顺序显示在批量运行列表中。",
+    "zh-Hant": "前一請求產生後一請求要用的值。手冊編號是操作步驟；實際請求順序在批次執行列表。",
+    "ja": "先のリクエストが後で使う値を生成します。説明の番号は操作手順で、実際の実行順序はリストに表示します。",
+    "fr": "Une requête produit la valeur utilisée ensuite. Les numéros du guide sont les étapes ; l’ordre réel figure dans la liste d’exécution.",
+    "pt-BR": "Uma requisição produz valor usado depois. Números do guia são etapas; a ordem real aparece na lista de execução.",
+    "es": "Una solicitud produce un valor usado después. Los números de la guía son pasos; el orden real está en la lista de ejecución.",
+    "ko": "앞 요청이 다음 요청에 필요한 값을 생성합니다. 설명서 번호는 작업 단계이며 실제 요청 순서는 실행 목록에 표시합니다.",
+    "de": "Eine Anfrage erzeugt den Wert für die nächste. Handbuchnummern sind Schritte; die tatsächliche Reihenfolge steht in der Laufliste."
+  },
+  "Use a CSV or JSON file to run the whole workflow once per data row. Rows are isolated and do not overwrite the saved environment.": {
+    "zh-Hans": "每行 CSV/JSON 数据执行一遍整个工作流。各行相互独立，不会覆盖保存的环境。",
+    "zh-Hant": "每列 CSV/JSON 執行一次完整流程，各列獨立，不覆寫儲存環境。",
+    "ja": "CSV/JSON の各行で全手順を実行します。行は独立し、保存した環境は変わりません。",
+    "fr": "Chaque ligne CSV/JSON exécute le workflow entier, isolément, sans modifier l’environnement sauvegardé.",
+    "pt-BR": "Cada linha CSV/JSON executa todo o fluxo de forma isolada, sem alterar o ambiente salvo.",
+    "es": "Cada fila CSV/JSON ejecuta todo el flujo de forma aislada sin cambiar el entorno guardado.",
+    "ko": "CSV/JSON의 각 행마다 전체 흐름을 실행하며 행은 독립적이고 저장한 환경은 바뀌지 않습니다.",
+    "de": "Jede CSV/JSON-Zeile führt den ganzen Ablauf isoliert aus, ohne die gespeicherte Umgebung zu ändern."
+  },
+  "reqeast-cli runs exported HTTP workflows using the Rust networking core. It supports none, Bearer, Basic, and API Key authentication with JSON, raw, URL-encoded, and text multipart bodies. Attached files and signed authentication require the app.": {
+    "zh-Hans": "reqeast-cli 使用 Rust 网络核心运行导出的 HTTP 工作流。支持无认证、Bearer、Basic、API Key，以及 JSON、原始文本、URL 编码和纯文本 multipart 正文。附件及签名认证请在程序中使用。",
+    "zh-Hant": "reqeast-cli 用 Rust 核心執行匯出 HTTP 流程。支援無認證、Bearer、Basic、API Key 及 JSON、原始文字、URL 編碼、純文字 multipart。附件與簽章認證請用程式。",
+    "ja": "reqeast-cli は Rust コアで HTTP 手順を実行します。認証なし、Bearer、Basic、API Key と JSON、raw、URL エンコード、テキスト multipart に対応します。添付と署名認証はアプリを使ってください。",
+    "fr": "reqeast-cli exécute les workflows HTTP avec le cœur Rust. Auth : aucune, Bearer, Basic, API Key. Corps : JSON, brut, URL-encodé, multipart texte. Pièces jointes et signatures nécessitent l’app.",
+    "pt-BR": "reqeast-cli executa fluxos HTTP pelo núcleo Rust. Auth: nenhuma, Bearer, Basic, API Key. Corpo: JSON, texto, URL-encoded e multipart textual. Anexos e assinaturas precisam do app.",
+    "es": "reqeast-cli ejecuta flujos HTTP con núcleo Rust. Auth: ninguna, Bearer, Basic, API Key. Cuerpo: JSON, texto, URL-encoded y multipart textual. Adjuntos y firmas requieren la app.",
+    "ko": "reqeast-cli는 Rust 코어로 HTTP 흐름을 실행합니다. 인증 없음/Bearer/Basic/API Key, JSON/원시 텍스트/URL 인코딩/텍스트 multipart를 지원합니다. 첨부와 서명 인증은 앱을 사용하세요.",
+    "de": "reqeast-cli führt HTTP-Abläufe mit Rust-Kern aus. Auth: keine, Bearer, Basic, API Key. Körper: JSON, Raw, URL-kodiert, Text-Multipart. Anhänge und signierte Auth brauchen die App."
+  },
+  "Quick Start": {
+    "zh-Hans": "快速开始",
+    "zh-Hant": "快速開始",
+    "ja": "クイックスタート",
+    "fr": "Démarrage rapide",
+    "pt-BR": "Primeiros passos",
+    "es": "Inicio rápido",
+    "ko": "빠른 시작",
+    "de": "Schnellstart"
+  },
+  "Everyday Use": {
+    "zh-Hans": "日常使用",
+    "zh-Hant": "日常使用",
+    "ja": "日常の操作",
+    "fr": "Utilisation quotidienne",
+    "pt-BR": "Uso diário",
+    "es": "Uso diario",
+    "ko": "일상적인 사용",
+    "de": "Tägliche Nutzung"
+  },
+  "Protocol Tutorials": {
+    "zh-Hans": "协议教程",
+    "zh-Hant": "協定教學",
+    "ja": "プロトコル別の手順",
+    "fr": "Tutoriels par protocole",
+    "pt-BR": "Tutoriais por protocolo",
+    "es": "Tutoriales por protocolo",
+    "ko": "프로토콜별 사용법",
+    "de": "Protokoll-Anleitungen"
+  },
+  "Advanced Configuration": {
+    "zh-Hans": "高级配置",
+    "zh-Hant": "進階設定",
+    "ja": "詳細設定",
+    "fr": "Configuration avancée",
+    "pt-BR": "Configuração avançada",
+    "es": "Configuración avanzada",
+    "ko": "고급 설정",
+    "de": "Erweiterte Konfiguration"
+  },
+  "Troubleshooting": {
+    "zh-Hans": "故障排查",
+    "zh-Hant": "疑難排解",
+    "ja": "問題の解決",
+    "fr": "Dépannage",
+    "pt-BR": "Solução de problemas",
+    "es": "Solución de problemas",
+    "ko": "문제 해결",
+    "de": "Fehlerbehebung"
+  },
+  "Your First HTTP Request": {
+    "zh-Hans": "第一次发送 HTTP 请求",
+    "zh-Hant": "第一次傳送 HTTP 請求",
+    "ja": "初めての HTTP リクエスト",
+    "fr": "Première requête HTTP",
+    "pt-BR": "Sua primeira requisição HTTP",
+    "es": "Su primera solicitud HTTP",
+    "ko": "첫 HTTP 요청 보내기",
+    "de": "Ihre erste HTTP-Anfrage"
+  },
+  "Start with a reachable test API. Choose New Project from the welcome screen or the sidebar add menu, enter a name, and create it. Select the project, then add an HTTP request from the add-request menu.": {
+    "zh-Hans": "准备一个能访问的测试接口。在欢迎页或侧栏添加菜单选择“新建项目”，填写名称并创建。选中该项目，再通过添加请求菜单选择 HTTP，创建一个独立请求。",
+    "zh-Hant": "準備可連線的測試 API。在歡迎頁或側欄新增選單選擇「新增專案」，輸入名稱並建立，再於專案內新增 HTTP 請求。",
+    "ja": "接続可能なテスト API を用意します。開始画面かサイドバーの追加メニューでプロジェクトを作成し、選択して HTTP リクエストを追加します。",
+    "fr": "Préparez une API de test accessible. Créez un projet depuis l’accueil ou le menu d’ajout, nommez-le, sélectionnez-le puis ajoutez une requête HTTP.",
+    "pt-BR": "Prepare uma API de teste acessível. Crie e nomeie um projeto pela tela inicial ou pelo menu de adição. Selecione-o e adicione uma requisição HTTP.",
+    "es": "Prepare una API de prueba accesible. Cree y nombre un proyecto desde el inicio o el menú de añadir. Selecciónelo y añada una solicitud HTTP.",
+    "ko": "접속 가능한 테스트 API를 준비하세요. 시작 화면이나 추가 메뉴에서 프로젝트를 만들고 이름을 입력한 뒤 선택하여 HTTP 요청을 추가하세요.",
+    "de": "Verwenden Sie eine erreichbare Test-API. Erstellen und benennen Sie ein Projekt über die Startseite oder das Hinzufügen-Menü. Wählen Sie es aus und fügen Sie eine HTTP-Anfrage hinzu."
+  },
+  "Choose GET and enter the complete URL, including http:// or https://. Leave Authentication set to No Auth for a public endpoint. No environment or workflow is required for this first request. The example domain is illustrative; replace it.": {
+    "zh-Hans": "方法选择 GET，URL 填写完整地址，包含 http:// 或 https://。公开接口的认证保持“无认证”。第一次请求不需要配置环境或工作流；示例域名仅供说明，必须替换为你的真实测试地址。",
+    "zh-Hant": "選擇 GET，輸入含 http:// 或 https:// 的完整 URL。公開 API 保持無認證，第一次請求不需環境或工作流程。範例網域必須替換。",
+    "ja": "GET と http:// または https:// を含む完全な URL を指定します。公開 API は認証なしにします。環境やワークフローは不要です。例のドメインは置き換えてください。",
+    "fr": "Choisissez GET et une URL complète avec http:// ou https://. Pour une API publique, gardez sans authentification. Aucun environnement ni workflow n’est nécessaire. Remplacez le domaine d’exemple.",
+    "pt-BR": "Escolha GET e uma URL completa com http:// ou https://. Para API pública, use sem autenticação. Não precisa de ambiente ou fluxo neste passo. Substitua o domínio de exemplo.",
+    "es": "Seleccione GET y una URL completa con http:// o https://. En una API pública, deje sin autenticación. No necesita entorno ni flujo. Sustituya el dominio de ejemplo.",
+    "ko": "GET을 선택하고 http:// 또는 https://를 포함한 전체 URL을 입력하세요. 공개 API는 인증 없음을 사용하세요. 환경이나 실행 흐름은 필요 없습니다. 예시 도메인은 바꾸세요.",
+    "de": "Wählen Sie GET und eine vollständige URL mit http:// oder https://. Öffentliche APIs benötigen keine Authentifizierung. Umgebung und Ablauf sind zunächst unnötig. Ersetzen Sie die Beispieldomain."
+  },
+  "Click the paper-plane Send button. When the request completes, inspect the status and Body below the editor. A successful response is usually 2xx. If no response appears, read the displayed error before changing other settings.": {
+    "zh-Hans": "点击纸飞机“发送”按钮。请求完成后，在编辑器下方查看状态码和响应正文。通常 2xx 表示成功。没有收到响应时先读错误信息，确认地址与网络，再调整其他设置。",
+    "zh-Hant": "點擊紙飛機傳送按鈕，完成後查看下方狀態碼與回應本文。通常 2xx 表示成功；未收到回應時先讀錯誤，再檢查地址和網路。",
+    "ja": "紙飛行機の送信ボタンを押し、下のステータスと本文を確認します。通常 2xx は成功です。応答がない場合は、他の設定を変える前にエラーを読みます。",
+    "fr": "Cliquez sur le bouton d’envoi. Vérifiez le statut et le corps sous l’éditeur. Un code 2xx indique généralement un succès. Sans réponse, lisez l’erreur avant de modifier les réglages.",
+    "pt-BR": "Clique no botão de envio. Confira o status e o corpo abaixo do editor. Normalmente 2xx indica sucesso. Sem resposta, leia o erro antes de alterar configurações.",
+    "es": "Pulse enviar. Revise el estado y el cuerpo debajo del editor. Normalmente 2xx indica éxito. Si no hay respuesta, lea el error antes de cambiar ajustes.",
+    "ko": "종이비행기 전송 버튼을 누르고 아래의 상태 코드와 응답 본문을 확인하세요. 보통 2xx가 성공입니다. 응답이 없으면 설정을 바꾸기 전에 오류부터 읽으세요.",
+    "de": "Klicken Sie auf Senden. Prüfen Sie Status und Antworttext unter dem Editor. 2xx bedeutet meist Erfolg. Lesen Sie bei fehlender Antwort zuerst die Fehlermeldung."
+  },
+  "Projects, Folders, and Requests": {
+    "zh-Hans": "项目、文件夹与请求管理",
+    "zh-Hant": "專案、資料夾與請求管理",
+    "ja": "プロジェクト・フォルダ・リクエスト",
+    "fr": "Projets, dossiers et requêtes",
+    "pt-BR": "Projetos, pastas e requisições",
+    "es": "Proyectos, carpetas y solicitudes",
+    "ko": "프로젝트, 폴더와 요청 관리",
+    "de": "Projekte, Ordner und Anfragen"
+  },
+  "Group related APIs in one project. Use the sidebar folder controls to organize projects or requests at their respective level. Give requests names that describe their purpose; changing a name does not change the target URL.": {
+    "zh-Hans": "同一套 API 放在一个项目内。在相应侧栏使用文件夹功能整理项目或请求；项目文件夹与请求文件夹是不同层级。请求名称写用途，例如“查询订单”，改名不会改变接口 URL。",
+    "zh-Hant": "將同一套 API 放入同一專案，在對應側欄用資料夾整理。專案與請求資料夾層級不同；請求可按用途命名，改名不會改變 URL。",
+    "ja": "関連する API を同じプロジェクトにまとめ、各サイドバーのフォルダで整理します。リクエスト名は用途を示します。名前を変えても URL は変わりません。",
+    "fr": "Regroupez les API liées dans un projet. Organisez projets et requêtes avec les dossiers de leur barre latérale respective. Un nom descriptif ne modifie pas l’URL.",
+    "pt-BR": "Agrupe APIs relacionadas em um projeto. Organize projetos e requisições com as pastas da barra lateral correspondente. Alterar o nome não altera a URL.",
+    "es": "Agrupe APIs relacionadas en un proyecto. Organice proyectos y solicitudes mediante las carpetas de su barra lateral. Cambiar el nombre no cambia la URL.",
+    "ko": "관련 API를 같은 프로젝트에 모으고 각 사이드바의 폴더로 정리하세요. 요청 이름은 용도를 나타내며 이름을 바꿔도 URL은 바뀌지 않습니다.",
+    "de": "Gruppieren Sie verwandte APIs in einem Projekt. Ordnen Sie Projekte und Anfragen über die jeweiligen Seitenleisten. Ein beschreibender Name ändert die URL nicht."
+  },
+  "Open a request’s context menu to rename or duplicate it. Duplicate before trying a different body or authentication setup so the original remains available. Use the request filter to locate a request in a large collection.": {
+    "zh-Hans": "通过请求的右键或上下文菜单进行重命名、复制。尝试不同正文或认证前先复制请求，保留原始配置。大型项目可用侧栏“筛选请求”快速定位。",
+    "zh-Hant": "在請求的右鍵或內容選單重新命名或複製。測試其他本文或認證前先複製，保留原設定；大型專案可使用請求篩選。",
+    "ja": "コンテキストメニューで名前変更や複製を行います。本文や認証を試す前に複製して元の設定を残します。大きな一覧ではフィルタを使います。",
+    "fr": "Renommez ou dupliquez via le menu contextuel. Dupliquez avant de tester un autre corps ou une authentification. Utilisez le filtre pour retrouver une requête.",
+    "pt-BR": "Renomeie ou duplique pelo menu de contexto. Duplique antes de testar outro corpo ou autenticação. Use o filtro para localizar uma requisição.",
+    "es": "Renombre o duplique desde el menú contextual. Duplique antes de probar otro cuerpo o autenticación. Use el filtro para localizar solicitudes.",
+    "ko": "요청 메뉴에서 이름 변경이나 복제를 하세요. 본문이나 인증을 바꾸기 전에 복제하여 원본을 남기세요. 요청 필터로 항목을 찾을 수 있습니다.",
+    "de": "Benennen oder duplizieren Sie über das Kontextmenü. Duplizieren Sie vor Änderungen an Text oder Authentifizierung. Nutzen Sie den Filter, um Anfragen zu finden."
+  },
+  "Review the selected item before deleting it. Removing a project also removes its requests from the active collection. Export a backup first. Saved HTTP workflows that reference deleted requests must be updated before their next run.": {
+    "zh-Hans": "删除前确认选中的对象。删除项目会让其中请求一并离开当前列表，重要内容先导出备份。若已保存工作流引用了被删除请求，必须修复或重新保存后才能运行。",
+    "zh-Hant": "刪除前確認選取項目，專案刪除也會移除其請求。重要內容先匯出備份；引用已刪請求的工作流程必須更新。",
+    "ja": "削除対象を確認し、重要な内容は先に書き出します。プロジェクトを削除すると含まれるリクエストも一覧から消えます。参照する保存済みフローも更新します。",
+    "fr": "Vérifiez la sélection et exportez une sauvegarde avant suppression. Supprimer un projet retire aussi ses requêtes. Corrigez les workflows qui les référencent.",
+    "pt-BR": "Confira a seleção e exporte um backup antes de excluir. Excluir um projeto remove suas requisições da lista ativa. Atualize fluxos que as referenciam.",
+    "es": "Revise la selección y exporte una copia antes de eliminar. Eliminar un proyecto también retira sus solicitudes. Actualice los flujos que las referencian.",
+    "ko": "삭제 대상을 확인하고 중요한 내용은 먼저 내보내세요. 프로젝트를 삭제하면 내부 요청도 목록에서 사라집니다. 해당 요청을 참조하는 흐름을 수정하세요.",
+    "de": "Prüfen Sie die Auswahl und exportieren Sie zuerst eine Sicherung. Beim Löschen eines Projekts verschwinden auch dessen Anfragen. Aktualisieren Sie betroffene Abläufe."
+  },
+  "HTTP Parameters, Headers, and Bodies": {
+    "zh-Hans": "HTTP 参数、请求头与正文",
+    "zh-Hant": "HTTP 參數、標頭與本文",
+    "ja": "HTTP パラメータ・ヘッダー・本文",
+    "fr": "Paramètres, en-têtes et corps HTTP",
+    "pt-BR": "Parâmetros, cabeçalhos e corpo HTTP",
+    "es": "Parámetros, cabeceras y cuerpo HTTP",
+    "ko": "HTTP 매개변수, 헤더와 본문",
+    "de": "HTTP-Parameter, Header und Text"
+  },
+  "Open Params to add query keys and values; enabled rows are sent and unchecked rows are skipped. Use Headers for custom headers. Bulk Edit accepts one key:value per line. Check the prepared URL and headers in Inspect Request before sending.": {
+    "zh-Hans": "在“参数”添加查询键和值，勾选的行才发送；取消勾选可暂时停用。在“标头”添加自定义请求头。批量编辑按每行 key:value 输入。发送前在“检查请求”确认展开后的 URL 与标头。",
+    "zh-Hant": "在「參數」新增查詢鍵值，只有勾選行會傳送；「標頭」可新增自訂標頭。批次編輯每行輸入 key:value，傳送前在檢查請求確認 URL 與標頭。",
+    "ja": "Params でクエリ、Headers でヘッダーを追加します。有効な行だけ送信されます。一括編集は一行に key:value を入力します。送信前にリクエスト確認で展開結果を見ます。",
+    "fr": "Ajoutez les paramètres et les en-têtes dans leurs onglets. Seules les lignes activées sont envoyées. L’édition groupée accepte key:value par ligne. Vérifiez l’URL et les en-têtes préparés avant l’envoi.",
+    "pt-BR": "Adicione parâmetros e cabeçalhos nas abas correspondentes. Só linhas ativadas são enviadas. A edição em lote aceita key:value por linha. Confira a URL e os cabeçalhos preparados antes de enviar.",
+    "es": "Añada parámetros y cabeceras en sus pestañas. Solo se envían las filas activadas. La edición masiva acepta key:value por línea. Revise la URL y las cabeceras preparadas antes de enviar.",
+    "ko": "매개변수와 헤더 탭에 키와 값을 추가하세요. 활성화한 행만 전송됩니다. 일괄 편집은 줄마다 key:value를 입력합니다. 전송 전에 완성된 URL과 헤더를 확인하세요.",
+    "de": "Tragen Sie Parameter und Header in den jeweiligen Tabs ein. Nur aktivierte Zeilen werden gesendet. Die Sammelbearbeitung akzeptiert key:value pro Zeile. Prüfen Sie vor dem Senden die vorbereitete URL und Header."
+  },
+  "For a POST request, open Body and choose JSON, enter valid JSON, then send. Raw lets you choose a content type. URL-encoded uses text fields; multipart accepts text or file rows; Binary sends one selected file. Select the type expected by the server.": {
+    "zh-Hans": "POST 请求打开“正文”，选 JSON 后输入合法 JSON 并发送。Raw 可选择内容类型；URL 编码表单使用键值字段；multipart 可添加文本行或文件行；Binary 发送所选单个文件。类型必须与服务器要求一致。",
+    "zh-Hant": "POST 請求在本文選 JSON 並輸入合法 JSON。Raw 可指定內容類型，URL 編碼使用鍵值，multipart 支援文字和檔案行，Binary 傳送單一檔案；請按伺服器要求選擇。",
+    "ja": "POST は本文で JSON を選び、有効な JSON を入力します。Raw は内容種別、URL エンコードはテキスト項目、multipart はテキストやファイル、Binary は単一ファイルです。サーバーに合わせます。",
+    "fr": "Pour POST, choisissez JSON et saisissez un JSON valide. Raw permet de choisir le type. Le formulaire URL-encodé utilise des champs texte ; multipart accepte texte et fichiers ; Binary envoie un fichier. Suivez le format du serveur.",
+    "pt-BR": "Para POST, escolha JSON e informe JSON válido. Raw permite escolher o tipo. O formulário URL-encoded usa campos de texto; multipart aceita texto e arquivos; Binary envia um arquivo. Use o formato esperado pelo servidor.",
+    "es": "Para POST, elija JSON e introduzca JSON válido. Raw permite elegir el tipo. El formulario URL-encoded usa campos; multipart admite texto y archivos; Binary envía un archivo. Siga el formato del servidor.",
+    "ko": "POST 본문에서 JSON을 선택하고 올바른 JSON을 입력하세요. Raw는 유형 선택, URL 인코딩은 텍스트 필드, multipart는 텍스트와 파일, Binary는 단일 파일 전송입니다. 서버 형식에 맞추세요.",
+    "de": "Wählen Sie für POST JSON und geben Sie gültiges JSON ein. Raw erlaubt einen Inhaltstyp, URL-kodierte Formulare verwenden Textfelder, multipart Text oder Dateien und Binary eine Datei. Verwenden Sie das Serverformat."
+  },
+  "Strict HTTP Mode hides and omits bodies for GET, HEAD, and OPTIONS. Change this global default only if your API explicitly requires such a body. A 400 or 415 response often means the body shape or Content-Type differs from the server contract.": {
+    "zh-Hans": "严格 HTTP 模式会隐藏并省略 GET、HEAD、OPTIONS 的正文。只有接口明确要求这些方法带正文时才调整全局开关。400 或 415 常表示正文结构或 Content-Type 与接口约定不一致。",
+    "zh-Hant": "嚴格 HTTP 模式隱藏並省略 GET、HEAD、OPTIONS 本文；只在 API 明確要求時調整。400 或 415 通常表示本文結構或 Content-Type 不符。",
+    "ja": "厳密 HTTP モードは GET、HEAD、OPTIONS の本文を省きます。API が明示的に必要とする場合だけ変更します。400 や 415 は本文形式や Content-Type の不一致を確認します。",
+    "fr": "Le mode HTTP strict omet le corps de GET, HEAD et OPTIONS. Ne le modifiez que si l’API exige un corps. Pour 400 ou 415, vérifiez la structure et Content-Type.",
+    "pt-BR": "O modo HTTP estrito omite o corpo em GET, HEAD e OPTIONS. Só altere se a API exigir corpo. Em 400 ou 415, confira a estrutura e Content-Type.",
+    "es": "El modo HTTP estricto omite cuerpos en GET, HEAD y OPTIONS. Cámbielo solo si la API lo exige. Con 400 o 415, revise la estructura y Content-Type.",
+    "ko": "엄격한 HTTP 모드는 GET, HEAD, OPTIONS 본문을 생략합니다. API가 명시적으로 요구할 때만 바꾸세요. 400이나 415이면 본문 구조와 Content-Type을 확인하세요.",
+    "de": "Der strikte HTTP-Modus lässt den Text bei GET, HEAD und OPTIONS weg. Ändern Sie ihn nur bei ausdrücklicher API-Anforderung. Prüfen Sie bei 400 oder 415 Struktur und Content-Type."
+  },
+  "Authentication and Credentials": {
+    "zh-Hans": "认证与凭据配置",
+    "zh-Hant": "認證與憑證設定",
+    "ja": "認証と資格情報",
+    "fr": "Authentification et identifiants",
+    "pt-BR": "Autenticação e credenciais",
+    "es": "Autenticación y credenciales",
+    "ko": "인증과 자격 증명 설정",
+    "de": "Authentifizierung und Zugangsdaten"
+  },
+  "Open Auth and select Bearer Token. Enter the token itself, such as {{token}}, without adding a second Bearer prefix. Define token in the active environment or extract it from a login response. A 401 response requires checking expiry, environment, and the prepared Authorization header.": {
+    "zh-Hans": "打开“认证”选 Bearer Token，填写令牌本身，例如 {{token}}，不要再加一遍 Bearer 前缀。token 应存在于启用的环境，或由登录响应提取。遇到 401，检查有效期、环境和预览中的 Authorization 标头。",
+    "zh-Hant": "在認證選 Bearer Token，填令牌本身或 {{token}}，不要重複加 Bearer。令牌應在啟用環境或由登入提取；401 時檢查期限、環境與 Authorization 標頭。",
+    "ja": "認証で Bearer Token を選び、{{token}} などトークンだけ入力します。Bearer を重ねません。有効な環境に定義するかログインから抽出します。401 は期限・環境・Authorization を確認します。",
+    "fr": "Choisissez Bearer Token et saisissez le jeton seul, par exemple {{token}}, sans répéter Bearer. Définissez-le dans l’environnement actif ou extrayez-le après connexion. Pour 401, vérifiez expiration, environnement et Authorization.",
+    "pt-BR": "Escolha Bearer Token e informe apenas o token, como {{token}}, sem repetir Bearer. Defina-o no ambiente ativo ou extraia do login. Em 401, confira validade, ambiente e Authorization.",
+    "es": "Elija Bearer Token e introduzca solo el token, como {{token}}, sin repetir Bearer. Defínalo en el entorno activo o extráigalo del inicio de sesión. Para 401, revise caducidad, entorno y Authorization.",
+    "ko": "Bearer Token을 선택하고 {{token}}처럼 토큰만 입력하세요. Bearer를 중복 입력하지 마세요. 활성 환경에 정의하거나 로그인에서 추출하세요. 401이면 만료, 환경과 Authorization을 확인하세요.",
+    "de": "Wählen Sie Bearer Token und tragen Sie nur den Token ein, etwa {{token}}, ohne zusätzliches Bearer. Definieren Sie ihn in der aktiven Umgebung oder extrahieren Sie ihn beim Login. Prüfen Sie bei 401 Ablauf, Umgebung und Authorization."
+  },
+  "Choose Basic Authentication and enter the username and password required by the API. API Key instead needs a key name, value, and placement in Header or Query Params. Keep secret values in named variables and avoid adding duplicate authentication headers manually.": {
+    "zh-Hans": "Basic Authentication 填接口要求的用户名和密码。API Key 则需要填键名、键值，并选择 Header 或 Query Params 放置位置。敏感值建议使用命名变量，不要同时手工添加重复的认证标头。",
+    "zh-Hant": "Basic Authentication 填 API 的帳號密碼；API Key 填鍵名、鍵值並選 Header 或 Query Params。敏感值使用命名變數，避免手動重複新增認證標頭。",
+    "ja": "Basic は API のユーザー名とパスワードを入力します。API Key は名前・値・Header または Query Params の位置を指定します。秘密値には変数を使い、認証ヘッダーを重複させません。",
+    "fr": "Basic demande le nom d’utilisateur et le mot de passe de l’API. API Key demande un nom, une valeur et une position dans l’en-tête ou la requête. Utilisez des variables secrètes et évitez les en-têtes d’authentification en double.",
+    "pt-BR": "Basic exige usuário e senha da API. API Key exige nome, valor e posição em cabeçalho ou consulta. Use variáveis para segredos e evite cabeçalhos de autenticação duplicados.",
+    "es": "Basic requiere usuario y contraseña de la API. API Key requiere nombre, valor y ubicación en cabecera o consulta. Use variables para secretos y evite cabeceras de autenticación duplicadas.",
+    "ko": "Basic에는 API 사용자 이름과 비밀번호를 입력하세요. API Key는 이름, 값과 헤더 또는 쿼리 위치를 지정합니다. 비밀값은 변수로 관리하고 인증 헤더를 중복 추가하지 마세요.",
+    "de": "Basic verlangt API-Benutzername und Passwort. API Key braucht Namen, Wert und Position im Header oder in der Abfrage. Nutzen Sie Variablen für Geheimnisse und vermeiden Sie doppelte Authentifizierungsheader."
+  },
+  "Environments and Variable Replacement": {
+    "zh-Hans": "环境与变量替换",
+    "zh-Hant": "環境與變數替換",
+    "ja": "環境と変数の置換",
+    "fr": "Environnements et substitution",
+    "pt-BR": "Ambientes e substituição de variáveis",
+    "es": "Entornos y sustitución de variables",
+    "ko": "환경과 변수 치환",
+    "de": "Umgebungen und Variablenersetzung"
+  },
+  "Open the editor environment menu, choose Manage Environments, and add Test and Production separately. Add an enabled baseUrl to each, then activate the intended environment. Put {{baseUrl}} in request URLs. Compare the resolved host in Inspect Request before sending.": {
+    "zh-Hans": "从编辑器环境菜单进入“管理环境”，分别创建 Test 和 Production，为每个添加启用的 baseUrl，再选择本次环境。请求 URL 写 {{baseUrl}}。切换后先在检查请求里核对解析出的主机，确认后再发送。",
+    "zh-Hant": "在編輯器環境選單管理環境，分別建立 Test、Production，各自新增啟用的 baseUrl，再選擇環境。URL 使用 {{baseUrl}}，傳送前確認解析後主機。",
+    "ja": "環境メニューで環境管理を開き、Test と Production に有効な baseUrl を定義します。目的の環境を選び、URL に {{baseUrl}} を使います。送信前に展開後のホストを確認します。",
+    "fr": "Créez Test et Production via le menu des environnements. Ajoutez un baseUrl activé à chacun, puis activez le bon environnement. Utilisez {{baseUrl}} dans les URL et vérifiez l’hôte résolu avant l’envoi.",
+    "pt-BR": "Crie Test e Production pelo menu de ambientes. Adicione baseUrl ativado em cada um e selecione o ambiente correto. Use {{baseUrl}} nas URLs e confira o host resolvido antes de enviar.",
+    "es": "Cree Test y Production en el menú de entornos. Añada baseUrl activado en cada uno y elija el entorno correcto. Use {{baseUrl}} en las URL y verifique el host resuelto antes de enviar.",
+    "ko": "환경 메뉴에서 Test와 Production을 각각 만들고 활성화된 baseUrl을 추가하세요. 원하는 환경을 선택하고 URL에 {{baseUrl}}을 쓰세요. 전송 전 치환된 호스트를 확인하세요.",
+    "de": "Erstellen Sie Test und Production im Umgebungsmenü. Fügen Sie beiden einen aktiven baseUrl hinzu und wählen Sie die passende Umgebung. Nutzen Sie {{baseUrl}} in URLs und prüfen Sie den aufgelösten Host."
+  },
+  "Variable names are case-sensitive. A disabled variable does not participate in replacement. Mark passwords and tokens as secret to hide them in inspection and omit their values from safe exports. Missing-variable errors name the values you must define before sending.": {
+    "zh-Hans": "变量名区分大小写，停用的变量不参与替换。密码、token 标记为敏感值后在检查界面默认隐藏，安全导出不带其值。敏感标记不代表所有正文都已脱敏；发送前按缺失变量错误补齐所需值。",
+    "zh-Hant": "變數名區分大小寫，停用值不替換。密碼與 token 標為敏感值，在檢查中隱藏且安全匯出省略。敏感標記不代表所有本文已遮蔽；按缺少變數錯誤補齊。",
+    "ja": "変数名は大文字小文字を区別し、無効な値は置換されません。パスワードやトークンを秘密値にすると確認画面で隠れ、安全な書き出しから省かれます。不足変数のエラーに従って定義します。",
+    "fr": "Les noms respectent la casse ; les variables désactivées ne sont pas remplacées. Marquez mots de passe et jetons comme secrets pour les masquer et les omettre des exports sûrs. Définissez les valeurs indiquées par les erreurs.",
+    "pt-BR": "Nomes diferenciam maiúsculas; variáveis desativadas não são substituídas. Marque senhas e tokens como secretos para ocultar e omitir em exportações seguras. Defina os valores indicados pelos erros.",
+    "es": "Los nombres distinguen mayúsculas; las variables desactivadas no se sustituyen. Marque contraseñas y tokens como secretos para ocultarlos y omitirlos en exportaciones seguras. Defina los valores indicados por los errores.",
+    "ko": "변수 이름은 대소문자를 구분하며 비활성 값은 치환하지 않습니다. 비밀번호와 토큰을 비밀값으로 표시하면 검사 화면에서 숨기고 안전한 내보내기에서 제외합니다. 누락 오류에 나온 값을 정의하세요.",
+    "de": "Namen unterscheiden Groß- und Kleinschreibung; deaktivierte Werte werden nicht ersetzt. Markieren Sie Passwörter und Token als geheim, damit sie verborgen und aus sicheren Exporten ausgelassen werden. Ergänzen Sie fehlende Werte."
+  },
+  "Reading Responses and History": {
+    "zh-Hans": "响应阅读与历史记录",
+    "zh-Hant": "回應閱讀與歷史記錄",
+    "ja": "レスポンスと履歴の読み方",
+    "fr": "Lecture des réponses et historique",
+    "pt-BR": "Respostas e histórico",
+    "es": "Respuestas e historial",
+    "ko": "응답 읽기와 기록",
+    "de": "Antworten und Verlauf lesen"
+  },
+  "After sending, open response Body for the content, Headers for server headers, Cookies for returned cookies, and Info for connection details. JSON can be viewed formatted or raw. Enter a jq filter to select fields; clear the filter to restore the full response.": {
+    "zh-Hans": "发送后在响应“正文”看内容，“标头”看服务器头，“Cookies”看返回 Cookie，“信息”看连接详情。JSON 可切换格式化或原始显示。jq 栏可筛选字段，清空筛选即可恢复完整响应。",
+    "zh-Hant": "傳送後在回應本文看內容、標頭看伺服器頭、Cookies 看 Cookie、資訊看連線詳情。JSON 可格式化或原始顯示；jq 可篩選欄位，清空即恢復完整回應。",
+    "ja": "送信後は本文、ヘッダー、Cookies、Info で内容や接続情報を確認します。JSON は整形と元データを切り替えられます。jq で項目を選択し、消去すると全体に戻ります。",
+    "fr": "Après l’envoi, consultez corps, en-têtes, cookies et informations de connexion. JSON peut être formaté ou brut. Un filtre jq sélectionne les champs ; effacez-le pour revoir toute la réponse.",
+    "pt-BR": "Após enviar, consulte corpo, cabeçalhos, cookies e informações da conexão. JSON pode ser formatado ou bruto. Use jq para selecionar campos; limpe o filtro para ver a resposta completa.",
+    "es": "Tras enviar, consulte cuerpo, cabeceras, cookies e información de conexión. JSON puede verse formateado o sin formato. Use jq para seleccionar campos y borre el filtro para ver todo.",
+    "ko": "전송 후 본문, 헤더, Cookies와 정보 탭에서 응답 및 연결 정보를 확인하세요. JSON은 정리된 형식이나 원본으로 봅니다. jq 필터를 비우면 전체 응답으로 돌아갑니다.",
+    "de": "Prüfen Sie nach dem Senden Text, Header, Cookies und Verbindungsinformationen. JSON lässt sich formatiert oder roh anzeigen. jq wählt Felder aus; leeren Sie den Filter für die vollständige Antwort."
+  },
+  "Open the clock-shaped request history button to review previous executions. Use status, elapsed time, size, and response Info to separate server errors from connection failures. The code-snippet toolbar exports request code; review generated credentials before copying it to another tool.": {
+    "zh-Hans": "点击时钟形请求历史按钮回看执行记录。结合状态码、耗时、大小和响应信息，区分服务器错误与连接失败。工具栏代码片段功能可生成请求代码，复制到其他工具前检查其中是否含凭据。",
+    "zh-Hant": "點擊時鐘歷史按鈕回看執行，結合狀態、耗時、大小及資訊判斷伺服器或連線問題。程式碼片段可產生請求程式碼，複製前檢查憑證。",
+    "ja": "時計の履歴ボタンで以前の実行を確認します。ステータス・時間・サイズ・Info でサーバーと接続の問題を区別します。コード生成を他ツールへコピーする前に資格情報を確認します。",
+    "fr": "Le bouton d’historique permet de revoir les exécutions. Statut, durée, taille et informations distinguent erreur serveur et connexion. Vérifiez les identifiants avant de copier un extrait de code généré.",
+    "pt-BR": "O botão de histórico mostra execuções anteriores. Status, duração, tamanho e informações distinguem erros do servidor e da conexão. Confira credenciais antes de copiar código gerado.",
+    "es": "El botón de historial muestra ejecuciones anteriores. Estado, duración, tamaño e información distinguen errores de servidor y conexión. Revise credenciales antes de copiar código generado.",
+    "ko": "시계 모양 기록 버튼에서 이전 실행을 보세요. 상태, 시간, 크기와 정보를 함께 확인하여 서버 오류와 연결 실패를 구분하세요. 생성된 코드를 복사하기 전에 자격 증명을 확인하세요.",
+    "de": "Der Verlaufsbutton zeigt frühere Ausführungen. Status, Dauer, Größe und Info unterscheiden Serverfehler von Verbindungsproblemen. Prüfen Sie Zugangsdaten, bevor Sie generierten Code kopieren."
+  },
+  "Cookies and Login Sessions": {
+    "zh-Hans": "Cookie 与登录会话",
+    "zh-Hant": "Cookie 與登入工作階段",
+    "ja": "Cookie とログイン状態",
+    "fr": "Cookies et sessions de connexion",
+    "pt-BR": "Cookies e sessões de login",
+    "es": "Cookies y sesiones de acceso",
+    "ko": "Cookie와 로그인 세션",
+    "de": "Cookies und Anmeldesitzungen"
+  },
+  "Send a login request and inspect Set-Cookie in the response headers and Cookies tab. Matching cookies are stored for later requests when the cookie jar is enabled. Cookie matching depends on domain, path, expiry, and Secure; a token login may instead require Bearer authentication.": {
+    "zh-Hans": "发送登录请求后，查看响应标头的 Set-Cookie 和 Cookies 标签。启用 Cookie 容器时，匹配的 Cookie 可用于后续请求，是否发送取决于域名、路径、有效期及 Secure 属性。token 登录则可能需要 Bearer 认证。",
+    "zh-Hant": "登入後查看 Set-Cookie 與 Cookies。啟用 Cookie 容器時，匹配值用於後續請求，依域名、路徑、期限、Secure 判斷；token 登入可能需 Bearer 認證。",
+    "ja": "ログイン後に Set-Cookie と Cookies を確認します。Cookie 保存が有効なら、ドメイン・パス・期限・Secure に一致した Cookie を後で使います。トークン方式は Bearer 認証が必要な場合があります。",
+    "fr": "Après connexion, vérifiez Set-Cookie et l’onglet Cookies. Le stockage activé réutilise les cookies selon domaine, chemin, expiration et Secure. Une connexion par jeton peut exiger Bearer.",
+    "pt-BR": "Após login, confira Set-Cookie e Cookies. Com o armazenamento ativado, cookies compatíveis são reutilizados conforme domínio, caminho, validade e Secure. Login por token pode exigir Bearer.",
+    "es": "Tras iniciar sesión, revise Set-Cookie y Cookies. El almacén activado reutiliza cookies según dominio, ruta, caducidad y Secure. El acceso con token puede requerir Bearer.",
+    "ko": "로그인 후 Set-Cookie와 Cookies 탭을 확인하세요. 저장 기능이 켜져 있으면 도메인, 경로, 만료와 Secure에 맞는 Cookie를 다시 사용합니다. 토큰 로그인은 Bearer가 필요할 수 있습니다.",
+    "de": "Prüfen Sie nach der Anmeldung Set-Cookie und Cookies. Bei aktivem Speicher werden passende Cookies nach Domain, Pfad, Ablauf und Secure wiederverwendet. Token-Anmeldung kann Bearer erfordern."
+  },
+  "In request Settings, Disable cookie jar prevents this request from storing or sending cookies. Keep it off for a cookie-based login flow. Use Inspect Request to confirm the outgoing Cookie header; switch environments carefully because an environment change alone is not a cookie reset.": {
+    "zh-Hans": "请求“设置”中的“禁用 Cookie 容器”会让该请求不保存、不发送 Cookie。依赖 Cookie 的登录流程应保持此项关闭。用请求预览确认实际 Cookie 标头；切换环境本身不等于清空 Cookie。",
+    "zh-Hant": "請求設定的「停用 Cookie 容器」會阻止此請求儲存和傳送 Cookie；Cookie 登入流程保持關閉。預覽確認 Cookie 標頭，切換環境不等於清空 Cookie。",
+    "ja": "設定の Cookie 保存無効化は、そのリクエストで Cookie の保存と送信を止めます。Cookie ログインでは無効化しません。プレビューを確認します。環境変更だけでは Cookie は消えません。",
+    "fr": "Désactiver le stockage empêche cette requête d’enregistrer ou d’envoyer des cookies. Laissez cette option désactivée pour une connexion par cookie. Vérifiez Cookie dans l’aperçu ; changer d’environnement ne les efface pas.",
+    "pt-BR": "Desativar o armazenamento impede esta requisição de salvar ou enviar cookies. Deixe essa opção desligada em login por cookie. Confira Cookie na prévia; trocar ambiente não limpa os cookies.",
+    "es": "Desactivar el almacén impide guardar o enviar cookies en esta solicitud. Deje esta opción apagada para acceso por cookie. Revise Cookie en la vista previa; cambiar entorno no borra cookies.",
+    "ko": "요청 설정의 Cookie 저장 비활성화는 해당 요청에서 Cookie 저장과 전송을 막습니다. Cookie 로그인에서는 끄세요. 미리보기에서 Cookie를 확인하세요. 환경 변경만으로 Cookie가 지워지지 않습니다.",
+    "de": "Cookie-Speicher deaktivieren verhindert das Speichern und Senden für diese Anfrage. Lassen Sie diese Option bei Cookie-Anmeldung aus. Prüfen Sie Cookie in der Vorschau; ein Umgebungswechsel löscht keine Cookies."
+  },
+  "Backups and Project Transfer": {
+    "zh-Hans": "备份与项目迁移",
+    "zh-Hant": "備份與專案移轉",
+    "ja": "バックアップとプロジェクト移行",
+    "fr": "Sauvegardes et transfert",
+    "pt-BR": "Backup e transferência de projetos",
+    "es": "Copias y transferencia de proyectos",
+    "ko": "백업과 프로젝트 이전",
+    "de": "Sicherungen und Projektübertragung"
+  },
+  "Use the project context menu → Export Project to create a .reqeast file. Credentials and secret environment values are excluded by default; enabling either option writes them as plain text. For all projects, use Settings → Data → Export All Projects. Keep backups in a controlled location.": {
+    "zh-Hans": "项目上下文菜单选择“导出项目”，保存为 .reqeast 文件。默认不含凭据和环境敏感值，主动勾选后会以明文写入。全部项目从“设置 → 数据 → 导出所有项目”备份。备份放在受控位置。",
+    "zh-Hant": "專案內容選單選匯出專案，建立 .reqeast 檔。預設省略憑證與敏感環境值，勾選後以明文寫入。全部備份在設定 → 資料 → 匯出所有專案，請妥善保管。",
+    "ja": "プロジェクトのメニューから .reqeast を書き出します。資格情報と秘密値は標準で省かれ、選択すると平文になります。全件は設定のデータから書き出し、安全な場所に保存します。",
+    "fr": "Exportez le projet en .reqeast depuis son menu. Identifiants et valeurs secrètes sont exclus par défaut ; les inclure les écrit en clair. Exportez tous les projets depuis les données des réglages. Protégez les sauvegardes.",
+    "pt-BR": "Exporte .reqeast pelo menu do projeto. Credenciais e segredos são excluídos por padrão; incluí-los grava texto simples. Exporte todos em Configurações → Dados. Guarde backups em local controlado.",
+    "es": "Exporte .reqeast desde el menú del proyecto. Credenciales y secretos se excluyen por defecto; incluirlos los guarda en texto plano. Exporte todos desde Ajustes → Datos. Proteja las copias.",
+    "ko": "프로젝트 메뉴에서 .reqeast를 내보내세요. 자격 증명과 비밀값은 기본 제외되며 포함하면 평문으로 저장됩니다. 전체 프로젝트는 설정의 데이터에서 내보내고 안전하게 보관하세요.",
+    "de": "Exportieren Sie .reqeast über das Projektmenü. Zugangsdaten und Geheimnisse fehlen standardmäßig; eingeschlossen werden sie als Klartext gespeichert. Alle Projekte exportieren Sie unter Einstellungen → Daten. Bewahren Sie Sicherungen geschützt auf."
+  },
+  "Choose Import Project from the sidebar add menu or Settings → Data, select the backup, and review the import before confirming. Check requests and environments after import and restore omitted secrets. HTTP Project Files export is a separate format for Git and the CLI, not a complete multi-protocol backup.": {
+    "zh-Hans": "从侧栏添加菜单或“设置 → 数据”选择“导入项目”，选备份文件并检查导入预览后确认。导入后检查请求与环境，补回未导出的密钥。HTTP“项目文件”是供 Git 和 CLI 使用的另一种格式，不是完整多协议备份。",
+    "zh-Hant": "從侧欄新增選單或設定 → 資料匯入備份，檢查預覽後確認，核對請求與環境並補回密鑰。HTTP 專案檔案是 Git、CLI 格式，不是完整多協定備份。",
+    "ja": "追加メニューか設定のデータからバックアップを選び、プレビューを確認して読み込みます。リクエスト・環境・不足する秘密値を確認します。HTTP プロジェクトファイルは Git/CLI 用の別形式です。",
+    "fr": "Importez la sauvegarde via le menu d’ajout ou les données des réglages, puis vérifiez l’aperçu. Contrôlez requêtes et environnements, restaurez les secrets omis. Les fichiers HTTP pour Git/CLI ne remplacent pas une sauvegarde multi-protocole.",
+    "pt-BR": "Importe o backup pelo menu de adição ou pelos dados das configurações e revise a prévia. Confira requisições, ambientes e segredos omitidos. Arquivos HTTP para Git/CLI não são backup completo de todos os protocolos.",
+    "es": "Importe la copia desde el menú de añadir o Ajustes → Datos y revise la vista previa. Compruebe solicitudes, entornos y secretos omitidos. Los archivos HTTP para Git/CLI no son una copia completa multiprotocolo.",
+    "ko": "추가 메뉴나 설정의 데이터에서 백업을 가져오고 미리보기를 확인하세요. 요청, 환경과 빠진 비밀값을 복원하세요. Git/CLI용 HTTP 프로젝트 파일은 전체 프로토콜 백업과 다릅니다.",
+    "de": "Importieren Sie die Sicherung über das Hinzufügen-Menü oder die Dateneinstellungen und prüfen Sie die Vorschau. Kontrollieren Sie Anfragen, Umgebungen und fehlende Geheimnisse. HTTP-Dateien für Git/CLI sind keine vollständige Mehrprotokoll-Sicherung."
+  },
+  "Add a TCP request, enter the host without a URL scheme and a numeric port, then click Connect. Wait for the connected state before sending a message. The conversation log displays incoming and outgoing data; Disconnect closes the persistent connection.": {
+    "zh-Hans": "添加 TCP 请求，Host 只填主机名或 IP，不带 http://，Port 填端口数字。点“连接”，等状态连接成功后发送消息。会话日志区分收发数据，“断开”关闭持久连接。",
+    "zh-Hant": "新增 TCP 請求，Host 填主機或 IP、不帶 URL 協定，Port 填數字。連線成功後傳送訊息，記錄顯示收發資料，斷線關閉持續連線。",
+    "ja": "TCP リクエストに URL スキームなしのホストと数値ポートを設定し接続します。接続後に送信します。ログに送受信が表示され、切断すると接続が閉じます。",
+    "fr": "Ajoutez TCP avec hôte sans schéma URL et port numérique. Connectez-vous, attendez l’état connecté puis envoyez. Le journal affiche les échanges ; déconnecter ferme la connexion persistante.",
+    "pt-BR": "Adicione TCP com host sem esquema URL e porta numérica. Conecte, espere o estado conectado e envie. O log mostra envios e recebimentos; desconectar fecha a conexão persistente.",
+    "es": "Añada TCP con host sin esquema URL y puerto numérico. Conecte, espere el estado conectado y envíe. El registro muestra ambos sentidos; desconectar cierra la conexión persistente.",
+    "ko": "TCP 요청에 URL 접두사 없는 호스트와 숫자 포트를 입력하고 연결하세요. 연결 완료 후 메시지를 보내세요. 로그에서 송수신을 확인하고 연결 해제로 종료하세요.",
+    "de": "Fügen Sie TCP mit Host ohne URL-Schema und numerischem Port hinzu. Verbinden Sie sich und senden Sie erst nach erfolgreicher Verbindung. Das Protokoll zeigt beide Richtungen; Trennen schließt die dauerhafte Verbindung."
+  },
+  "Enable TLS only for a TLS endpoint. In message settings, choose encoding and line ending according to the server protocol. For a line-oriented service choose LF or CRLF; for binary protocols choose Hex. A plain TCP port cannot accept a TLS handshake.": {
+    "zh-Hans": "只有服务端使用 TLS 时才开启 TLS。消息设置中按服务端协议选择编码、换行符；按行协议通常选 LF 或 CRLF，二进制协议选 Hex。普通 TCP 端口不能接收 TLS 握手。",
+    "zh-Hant": "僅對 TLS 服務開啟 TLS。在訊息設定選正確編碼與換行；逐行服務常用 LF、CRLF，二進位使用 Hex。普通 TCP 埠不接受 TLS 握手。",
+    "ja": "TLS は TLS 対応先だけで有効にします。設定のエンコードと改行をサーバーに合わせ、行形式は LF/CRLF、バイナリは Hex を使います。通常の TCP ポートでは TLS 握手できません。",
+    "fr": "Activez TLS seulement pour un service TLS. Réglez encodage et fin de ligne selon le serveur : LF/CRLF pour les lignes, Hex pour le binaire. Un port TCP simple n’accepte pas la négociation TLS.",
+    "pt-BR": "Ative TLS apenas em serviço TLS. Ajuste codificação e fim de linha ao servidor: LF/CRLF para linhas, Hex para binário. Uma porta TCP simples não aceita negociação TLS.",
+    "es": "Active TLS solo para un servicio TLS. Ajuste codificación y fin de línea: LF/CRLF para líneas, Hex para binario. Un puerto TCP simple no acepta negociación TLS.",
+    "ko": "TLS 서버에만 TLS를 켜세요. 서버 규약에 맞춰 인코딩과 줄 끝을 설정하세요. 줄 단위는 LF/CRLF, 바이너리는 Hex입니다. 일반 TCP 포트는 TLS 연결을 받지 않습니다.",
+    "de": "Aktivieren Sie TLS nur für TLS-Dienste. Passen Sie Kodierung und Zeilenende an: LF/CRLF für Zeilen, Hex für Binärdaten. Ein normaler TCP-Port akzeptiert keinen TLS-Handshake."
+  },
+  "Add a UDP request and enter the destination host and port. Choose the message encoding, enter one datagram, and click Send. UDP does not establish a reliable connection, so sending successfully does not prove that the remote service received the message.": {
+    "zh-Hans": "添加 UDP 请求并填写目标主机和端口，选择消息编码，输入一份数据报后点“发送”。UDP 不建立可靠连接，因此本地发送成功不代表远端服务一定收到数据。",
+    "zh-Hant": "新增 UDP 請求並填目的主機與埠，選編碼、輸入資料報並傳送。UDP 不建立可靠連線，本機傳送成功不代表遠端收到。",
+    "ja": "UDP リクエストに送信先ホストとポートを設定し、エンコードとデータグラムを入力して送信します。信頼できる接続は確立されず、送信成功は受信を保証しません。",
+    "fr": "Ajoutez UDP, indiquez hôte et port, choisissez l’encodage puis envoyez un datagramme. UDP n’établit pas de connexion fiable : un envoi réussi ne prouve pas sa réception.",
+    "pt-BR": "Adicione UDP, informe host e porta, escolha a codificação e envie um datagrama. UDP não estabelece conexão confiável; envio bem-sucedido não garante recebimento.",
+    "es": "Añada UDP, indique host y puerto, elija codificación y envíe un datagrama. UDP no establece conexión fiable; enviar correctamente no garantiza recepción.",
+    "ko": "UDP 요청에 대상 호스트와 포트를 입력하고 인코딩을 선택한 뒤 데이터그램을 보내세요. UDP는 신뢰할 수 있는 연결을 만들지 않으므로 전송 성공이 수신을 보장하지 않습니다.",
+    "de": "Fügen Sie UDP mit Zielhost und Port hinzu, wählen Sie die Kodierung und senden Sie ein Datagramm. UDP erstellt keine zuverlässige Verbindung; erfolgreiches Senden garantiert keinen Empfang."
+  },
+  "Click Start listening when you need to receive responses and watch the conversation log. Click Stop listening when finished. If replies are absent, verify the server’s reply destination, firewall, port, and encoding; do not assume UDP retries or ordered delivery.": {
+    "zh-Hans": "需要接收响应时点击“开始监听”，观察会话日志；结束后点“停止监听”。收不到回复时检查服务端回复地址、防火墙、端口及编码，不要把 UDP 当作自动重试或顺序可靠传输。",
+    "zh-Hant": "需接收時開始監聽並觀察記錄，結束停止監聽。無回覆時檢查回覆地址、防火牆、埠及編碼；UDP 不保證重試或順序。",
+    "ja": "応答を見るには受信開始してログを確認し、終了時に停止します。応答がなければ返信先・ファイアウォール・ポート・エンコードを確認します。再送や順序は保証されません。",
+    "fr": "Démarrez l’écoute pour recevoir et observer le journal, puis arrêtez-la. Sans réponse, vérifiez destination de retour, pare-feu, port et encodage. UDP ne garantit ni nouvelle tentative ni ordre.",
+    "pt-BR": "Inicie a escuta para receber e observar o log, depois pare. Sem resposta, confira destino de retorno, firewall, porta e codificação. UDP não garante repetição nem ordem.",
+    "es": "Inicie la escucha para recibir y observar el registro, luego deténgala. Sin respuesta, revise destino de retorno, cortafuegos, puerto y codificación. UDP no garantiza reintentos ni orden.",
+    "ko": "응답을 받으려면 수신을 시작하고 로그를 보세요. 끝나면 중지하세요. 답이 없으면 회신 주소, 방화벽, 포트와 인코딩을 확인하세요. UDP는 재시도나 순서를 보장하지 않습니다.",
+    "de": "Starten Sie das Empfangen und beobachten Sie das Protokoll; stoppen Sie danach. Prüfen Sie bei fehlenden Antworten Rückadresse, Firewall, Port und Kodierung. UDP garantiert weder Wiederholung noch Reihenfolge."
+  },
+  "Add a WebSocket request and enter ws:// or wss:// with the complete path. Add headers and required subprotocols before clicking Connect. Wait for the connection to open, then send messages. Incoming messages appear without resending the request.": {
+    "zh-Hans": "添加 WebSocket 请求，填写含完整路径的 ws:// 或 wss:// URL，先补请求头和服务要求的子协议，再点“连接”。连接打开后发送消息；服务端推送消息会自动出现在日志，无需重复发送请求。",
+    "zh-Hant": "新增 WebSocket，填完整 ws:// 或 wss:// URL，先加標頭與子協定再連線。連線開啟後傳訊息，服務端推送會自動顯示。",
+    "ja": "完全な ws:// または wss:// URL、ヘッダー、必要なサブプロトコルを入力して接続します。接続後にメッセージを送ります。受信メッセージは再送せず表示されます。",
+    "fr": "Saisissez une URL ws:// ou wss:// complète, les en-têtes et sous-protocoles requis avant de connecter. Attendez l’ouverture, puis envoyez. Les messages entrants s’affichent sans renvoyer la requête.",
+    "pt-BR": "Informe URL ws:// ou wss:// completa, cabeçalhos e subprotocolos antes de conectar. Espere abrir e envie mensagens. As recebidas aparecem sem reenviar a requisição.",
+    "es": "Introduzca URL ws:// o wss:// completa, cabeceras y subprotocolos antes de conectar. Espere la apertura y envíe mensajes. Los entrantes aparecen sin reenviar la solicitud.",
+    "ko": "전체 ws:// 또는 wss:// URL, 헤더와 필요한 하위 프로토콜을 입력하고 연결하세요. 열린 후 메시지를 보내세요. 수신 메시지는 요청을 다시 보내지 않아도 표시됩니다.",
+    "de": "Geben Sie vollständige ws://- oder wss://-URL, Header und benötigte Unterprotokolle vor dem Verbinden ein. Senden Sie nach dem Öffnen Nachrichten. Eingehende Nachrichten erscheinen ohne erneutes Senden."
+  },
+  "Message settings control encoding and automatic ping. Use the server’s required format; Hex sends binary data. Auto Ping helps keep idle connections active but does not authenticate them. Disconnect when finished; a failed handshake may require correcting the URL, token, or subprotocol.": {
+    "zh-Hans": "消息设置可选编码和自动 Ping，格式按服务端要求；Hex 用于二进制数据。自动 Ping 可维持空闲连接，但不会完成认证。结束时断开；握手失败时核对 URL、token 和子协议。",
+    "zh-Hant": "訊息設定選編碼和自動 Ping，Hex 用於二進位。Ping 可維持閒置連線但不是認證；結束斷線，握手失敗檢查 URL、token、子協定。",
+    "ja": "設定でエンコードと自動 Ping を選びます。Hex はバイナリです。Ping はアイドル接続維持用で認証は行いません。終わったら切断し、握手失敗は URL・トークン・サブプロトコルを確認します。",
+    "fr": "Réglez encodage et ping automatique ; Hex envoie du binaire. Le ping maintient une connexion inactive mais n’authentifie pas. Déconnectez après usage ; vérifiez URL, jeton et sous-protocole si la négociation échoue.",
+    "pt-BR": "Ajuste codificação e ping automático; Hex envia binário. Ping mantém a conexão ociosa, mas não autentica. Desconecte ao terminar; confira URL, token e subprotocolo se a negociação falhar.",
+    "es": "Ajuste codificación y ping automático; Hex envía binario. Ping mantiene la conexión inactiva, pero no autentica. Desconecte al terminar; revise URL, token y subprotocolo si falla la negociación.",
+    "ko": "설정에서 인코딩과 자동 Ping을 선택하세요. Hex는 바이너리입니다. Ping은 유휴 연결을 유지하지만 인증하지 않습니다. 끝나면 해제하고 연결 실패 시 URL, 토큰과 하위 프로토콜을 확인하세요.",
+    "de": "Wählen Sie Kodierung und automatischen Ping; Hex sendet Binärdaten. Ping hält Leerlaufverbindungen offen, authentifiziert aber nicht. Trennen Sie nach Gebrauch und prüfen Sie bei Handshake-Fehlern URL, Token und Unterprotokoll."
+  },
+  "Add an SSE request with the server’s event-stream URL. Configure headers, including any required Authorization, then connect. SSE receives a stream of server events; it is not a bidirectional message channel like WebSocket. Event IDs, types, and data appear in the event log.": {
+    "zh-Hans": "添加 SSE 请求，填写服务端事件流 URL，配置请求头及需要的 Authorization，再连接。SSE 用于接收服务端事件，不是 WebSocket 那样的双向消息通道。事件日志显示事件 ID、类型和数据。",
+    "zh-Hant": "新增 SSE，填事件流 URL 並設定標頭與 Authorization 後連線。SSE 接收服務端事件，非雙向通道；記錄顯示事件 ID、類型和資料。",
+    "ja": "SSE のイベント URL と必要な Authorization などのヘッダーを設定して接続します。SSE はサーバーイベント受信用で双方向ではありません。ログに ID・種類・データが表示されます。",
+    "fr": "Configurez l’URL du flux SSE et les en-têtes, dont Authorization si nécessaire, puis connectez. SSE reçoit des événements serveur, sans canal bidirectionnel. Le journal montre identifiant, type et données.",
+    "pt-BR": "Configure a URL SSE e os cabeçalhos, incluindo Authorization se necessário, e conecte. SSE recebe eventos do servidor, não é bidirecional. O log mostra ID, tipo e dados.",
+    "es": "Configure URL SSE y cabeceras, incluida Authorization si hace falta, y conecte. SSE recibe eventos del servidor, no es bidireccional. El registro muestra ID, tipo y datos.",
+    "ko": "SSE 이벤트 URL과 필요한 Authorization 헤더를 설정하고 연결하세요. SSE는 서버 이벤트 수신용이며 양방향 통신이 아닙니다. 로그에 ID, 유형과 데이터가 표시됩니다.",
+    "de": "Konfigurieren Sie SSE-URL und erforderliche Header wie Authorization und verbinden Sie sich. SSE empfängt Serverereignisse und ist nicht bidirektional. Das Protokoll zeigt ID, Typ und Daten."
+  },
+  "Use Connection settings to set the timeout and certificate verification. If the stream ends early, check the server heartbeat, configured timeout, and proxy buffering. A valid event service normally uses Content-Type: text/event-stream. Disconnect explicitly after collecting the events you need.": {
+    "zh-Hans": "连接设置中可调超时与证书校验。事件流过早结束时检查服务心跳、超时值及代理缓冲。正常事件接口通常返回 Content-Type: text/event-stream。收集完需要的事件后主动断开。",
+    "zh-Hant": "連線設定可調逾時和憑證驗證。流過早結束時檢查心跳、逾時及代理緩衝；事件 API 通常用 text/event-stream，完成後主動斷線。",
+    "ja": "接続設定でタイムアウトと証明書確認を調整します。早期終了はハートビート・タイムアウト・プロキシのバッファを確認します。通常 text/event-stream を返します。終了時に切断します。",
+    "fr": "Réglez délai et vérification du certificat. Si le flux s’arrête tôt, vérifiez battements du serveur, délai et mise en tampon du proxy. Le type attendu est généralement text/event-stream. Déconnectez après collecte.",
+    "pt-BR": "Ajuste tempo limite e verificação de certificado. Se o fluxo acabar cedo, confira heartbeat, limite e buffer do proxy. O tipo esperado costuma ser text/event-stream. Desconecte após coletar.",
+    "es": "Ajuste tiempo de espera y verificación del certificado. Si el flujo termina pronto, revise heartbeat, límite y búfer del proxy. El tipo esperado suele ser text/event-stream. Desconecte tras recoger eventos.",
+    "ko": "연결 설정에서 시간 제한과 인증서 확인을 정하세요. 일찍 종료되면 서버 heartbeat, 제한 시간과 프록시 버퍼를 확인하세요. 보통 text/event-stream을 사용합니다. 수집 후 연결을 해제하세요.",
+    "de": "Setzen Sie Zeitlimit und Zertifikatsprüfung. Prüfen Sie bei frühem Ende Server-Heartbeat, Zeitlimit und Proxy-Puffer. Der erwartete Typ ist meist text/event-stream. Trennen Sie nach der Erfassung."
+  },
+  "gRPC Schema and Unary Calls": {
+    "zh-Hans": "gRPC 描述与一元调用",
+    "zh-Hant": "gRPC 描述與一元呼叫",
+    "ja": "gRPC スキーマと単項呼び出し",
+    "fr": "Schéma gRPC et appels unaires",
+    "pt-BR": "Esquema gRPC e chamadas unárias",
+    "es": "Esquema gRPC y llamadas unarias",
+    "ko": "gRPC 스키마와 단일 호출",
+    "de": "gRPC-Schema und unäre Aufrufe"
+  },
+  "Add a gRPC request with authority host:port and the server’s TLS setting. In Schema, choose Proto bundle and import the .proto library with its dependencies, or choose Server reflection and Discover from server if supported. Select the resulting service and method.": {
+    "zh-Hans": "添加 gRPC 请求，Authority 填 host:port，TLS 与服务端一致。在 Schema 选择 Proto bundle 导入 .proto 库及依赖，或在服务支持时选 Server reflection 并从服务器发现。描述载入后选择服务和方法。",
+    "zh-Hant": "新增 gRPC，Authority 填 host:port，TLS 配合伺服器。Schema 可匯入 .proto 與依賴，或在伺服器支援時用反射探索，再選服務和方法。",
+    "ja": "gRPC に host:port とサーバーの TLS 設定を入力します。Schema で依存を含む .proto を読み込むか、対応サーバーで reflection による発見を行い、サービスとメソッドを選びます。",
+    "fr": "Ajoutez gRPC avec host:port et le TLS du serveur. Importez la bibliothèque .proto et ses dépendances, ou découvrez par réflexion si disponible. Choisissez ensuite service et méthode.",
+    "pt-BR": "Adicione gRPC com host:port e TLS do servidor. Importe a biblioteca .proto com dependências ou descubra por reflexão se disponível. Escolha serviço e método.",
+    "es": "Añada gRPC con host:port y TLS del servidor. Importe la biblioteca .proto con dependencias o descubra por reflexión si se admite. Elija servicio y método.",
+    "ko": "gRPC에 host:port와 서버 TLS 설정을 입력하세요. 의존 파일을 포함한 .proto를 가져오거나 지원 서버에서 reflection으로 검색한 뒤 서비스와 메서드를 선택하세요.",
+    "de": "Fügen Sie gRPC mit host:port und Server-TLS hinzu. Importieren Sie .proto samt Abhängigkeiten oder ermitteln Sie Dienste per Reflection, falls unterstützt. Wählen Sie Dienst und Methode."
+  },
+  "For a unary method, use JSON body mode with fields defined by the selected message schema. Add required metadata such as authorization, then click Send. Inspect the gRPC status and decoded response. Without descriptors, Hex mode requires correctly encoded protobuf bytes; arbitrary JSON is not a substitute.": {
+    "zh-Hans": "一元方法选 JSON 正文，字段与所选消息描述一致；添加 authorization 等必需 metadata 后发送，查看 gRPC 状态与解码响应。没有描述时，Hex 必须是正确编码的 protobuf 字节，不能把任意 JSON 当作二进制请求。",
+    "zh-Hant": "一元方法選 JSON，欄位需符合描述，補上 authorization 等 metadata 後傳送，查看 gRPC 狀態和回應。無描述時 Hex 必須為正確 protobuf 位元組。",
+    "ja": "単項メソッドは定義されたフィールドの JSON を入力し、authorization などの metadata を加えて送信します。gRPC 状態と応答を確認します。記述子なしの Hex は正しい protobuf バイトが必要です。",
+    "fr": "Pour l’unaire, utilisez les champs JSON du schéma, ajoutez les métadonnées requises puis envoyez. Vérifiez statut gRPC et réponse décodée. Sans descripteurs, Hex exige des octets protobuf valides, pas du JSON arbitraire.",
+    "pt-BR": "Para chamada unária, use campos JSON do esquema, adicione metadata e envie. Confira status gRPC e resposta decodificada. Sem descritores, Hex exige bytes protobuf válidos, não JSON arbitrário.",
+    "es": "Para la llamada unaria, use campos JSON del esquema, añada metadata y envíe. Revise estado gRPC y respuesta decodificada. Sin descriptores, Hex exige bytes protobuf válidos, no JSON arbitrario.",
+    "ko": "단일 호출은 스키마에 맞는 JSON과 필요한 metadata를 입력하고 보내세요. gRPC 상태와 응답을 확인하세요. 설명자가 없으면 Hex에 올바른 protobuf 바이트가 필요하며 임의 JSON은 대신할 수 없습니다.",
+    "de": "Nutzen Sie für unäre Methoden JSON-Felder des Schemas, ergänzen Sie Metadata und senden Sie. Prüfen Sie gRPC-Status und dekodierte Antwort. Ohne Deskriptoren verlangt Hex gültige protobuf-Bytes statt beliebigem JSON."
+  },
+  "gRPC Streaming and Deadlines": {
+    "zh-Hans": "gRPC 流式调用与截止时间",
+    "zh-Hant": "gRPC 串流呼叫與截止時間",
+    "ja": "gRPC ストリームと期限",
+    "fr": "Flux gRPC et échéances",
+    "pt-BR": "Streaming gRPC e prazos",
+    "es": "Streaming gRPC y plazos",
+    "ko": "gRPC 스트리밍과 기한",
+    "de": "gRPC-Streaming und Fristen"
+  },
+  "For server streaming, Send starts one request and the response log receives multiple messages; Stop stream ends listening. For client or bidirectional streaming, Connect first, edit the message body, and Send each message over the open stream.": {
+    "zh-Hans": "服务端流式方法点“发送”发起一次请求，响应日志接收多条消息，“停止流”结束接收。客户端流式或双向流式先“连接”，再编辑消息正文，多次“发送”会使用当前打开的流。",
+    "zh-Hant": "服務端串流傳送一次後接收多條訊息，可停止流。客戶端或雙向串流先連線，再編輯本文，每次傳送使用同一開啟的流。",
+    "ja": "サーバーストリームは一度送信し複数応答を受信、停止で終了します。クライアントまたは双方向ストリームは先に接続し、本文を編集して同じストリームへ各メッセージを送ります。",
+    "fr": "Le flux serveur commence par un envoi et reçoit plusieurs messages ; arrêter termine la réception. Pour flux client ou bidirectionnel, connectez d’abord puis envoyez chaque message sur le flux ouvert.",
+    "pt-BR": "O fluxo do servidor começa com um envio e recebe várias mensagens; parar encerra a recepção. Para fluxo cliente ou bidirecional, conecte primeiro e envie cada mensagem no fluxo aberto.",
+    "es": "El flujo servidor comienza con un envío y recibe varios mensajes; detener termina la recepción. Para flujo cliente o bidireccional, conecte primero y envíe cada mensaje por el flujo abierto.",
+    "ko": "서버 스트림은 한 번 보내 여러 응답을 받고 중지로 끝냅니다. 클라이언트나 양방향 스트림은 먼저 연결한 후 본문을 편집하여 열린 스트림에 각 메시지를 보내세요.",
+    "de": "Server-Streaming startet mit einer Anfrage und empfängt mehrere Nachrichten; Stoppen beendet den Empfang. Bei Client- oder bidirektionalem Streaming verbinden Sie zuerst und senden einzelne Nachrichten im offenen Stream."
+  },
+  "Half-close finishes only the client’s sending side and allows the server to return its final result. Cancel ends the stream. Configure request timeout and deadline in milliseconds; deadline 0 omits the explicit deadline. When a deadline is exceeded, inspect server processing before increasing it.": {
+    "zh-Hans": "Half-close 仅结束客户端发送方向，仍可等待服务器最终结果；Cancel 结束整个流。按请求配置超时和毫秒级 deadline，deadline 为 0 时不显式设置截止时间。超时先检查服务处理情况，不要只盲目加长。",
+    "zh-Hant": "Half-close 結束客戶端傳送方向，仍等待伺服器結果；Cancel 結束流。設定逾時和毫秒 deadline，0 表示不設明確期限。逾時先檢查服務處理。",
+    "ja": "Half-close は送信だけを終え最終応答を待ちます。Cancel は全体を終了します。タイムアウトとミリ秒の期限を設定し、0 は明示期限なしです。超過時は延長前に処理を確認します。",
+    "fr": "Half-close termine l’envoi client mais attend le résultat serveur ; Cancel ferme le flux. Réglez délai et échéance en millisecondes ; 0 omet l’échéance explicite. Vérifiez le traitement serveur avant d’augmenter la durée.",
+    "pt-BR": "Half-close encerra apenas o envio do cliente e aguarda o resultado; Cancel encerra o fluxo. Ajuste timeout e prazo em milissegundos; 0 omite prazo explícito. Confira o processamento antes de aumentar.",
+    "es": "Half-close termina solo el envío del cliente y espera el resultado; Cancel termina el flujo. Ajuste espera y plazo en milisegundos; 0 omite el plazo explícito. Revise el procesamiento antes de aumentarlo.",
+    "ko": "Half-close는 클라이언트 송신만 끝내고 최종 응답을 기다립니다. Cancel은 스트림을 종료합니다. 시간 제한과 밀리초 기한을 설정하세요. 0은 명시 기한 없음입니다. 초과 시 서버 처리부터 확인하세요.",
+    "de": "Half-close beendet nur das Senden und wartet auf das Serverergebnis; Cancel beendet den Stream. Setzen Sie Zeitlimit und Frist in Millisekunden; 0 lässt die explizite Frist weg. Prüfen Sie vor Verlängerung die Serververarbeitung."
+  },
+  "Importing API Specifications": {
+    "zh-Hans": "导入 API 规范",
+    "zh-Hant": "匯入 API 規範",
+    "ja": "API 定義の読み込み",
+    "fr": "Importer des spécifications API",
+    "pt-BR": "Importar especificações API",
+    "es": "Importar especificaciones API",
+    "ko": "API 명세 가져오기",
+    "de": "API-Spezifikationen importieren"
+  },
+  "From the project sidebar add menu choose Import Spec. Select File, URL, or Paste and provide OpenAPI, Postman, or another supported format. Continue to the preview, choose a new or existing project, and inspect the generated request counts before importing.": {
+    "zh-Hans": "项目侧栏添加菜单选“导入规范”，在 File、URL、Paste 中选择来源，提供 OpenAPI、Postman 等受支持格式。继续到预览，选择新建或现有项目，核对生成的请求数量与目标后再导入。",
+    "zh-Hant": "側欄新增選單選匯入規範，從檔案、URL、貼上提供 OpenAPI、Postman 等格式。預覽時選新或現有專案，確認請求數量和目標後匯入。",
+    "ja": "追加メニューの定義読み込みで File・URL・Paste を選び、OpenAPI、Postman などを渡します。プレビューで新規または既存プロジェクトを選び、件数と宛先を確認して読み込みます。",
+    "fr": "Dans le menu d’ajout, importez une spécification par fichier, URL ou texte, au format OpenAPI, Postman ou autre format pris en charge. Vérifiez le projet cible et les requêtes dans l’aperçu avant confirmation.",
+    "pt-BR": "No menu de adição, importe especificação por arquivo, URL ou texto em formato suportado, como OpenAPI ou Postman. Confira projeto novo ou existente e quantidade de requisições na prévia antes de confirmar.",
+    "es": "Desde añadir, importe una especificación por archivo, URL o texto en formato compatible como OpenAPI o Postman. Revise proyecto nuevo o existente y cantidad de solicitudes antes de confirmar.",
+    "ko": "추가 메뉴에서 명세 가져오기를 선택하고 파일, URL이나 붙여넣기로 OpenAPI, Postman 등 지원 형식을 제공하세요. 미리보기에서 새 프로젝트 또는 기존 프로젝트와 요청 수를 확인하세요.",
+    "de": "Importieren Sie über das Hinzufügen-Menü per Datei, URL oder Text, etwa OpenAPI oder Postman. Prüfen Sie in der Vorschau neues oder bestehendes Zielprojekt und Anfrageanzahl vor dem Import."
+  },
+  "Expand Advanced to choose folder strategy, request naming, preferred body type, and whether to generate example values, optional parameters, auth scaffolding, and server environments. Decide whether to link the source. HAR credentials can become placeholders; fill these values locally after import.": {
+    "zh-Hans": "展开 Advanced，配置文件夹策略、请求命名、优先正文类型，以及是否生成示例值、启用可选参数、创建认证结构和服务器环境。决定是否关联来源。HAR 凭据可转换为占位变量，导入后需在本地补齐。",
+    "zh-Hant": "展開進階設定，選資料夾、命名、本文類型、示例值、可選參數、認證結構和環境，決定是否連結來源。HAR 憑證可轉佔位變數，匯入後本機補齊。",
+    "ja": "Advanced でフォルダ、命名、本文、例の生成、任意パラメータ、認証、環境、ソース連携を設定します。HAR の資格情報は変数の仮値にでき、読み込み後にローカルで補います。",
+    "fr": "Dans Advanced, choisissez dossiers, noms, corps, exemples, paramètres facultatifs, structure d’authentification et environnements. Décidez du lien à la source. Les identifiants HAR peuvent devenir des variables à renseigner localement.",
+    "pt-BR": "Em Advanced, escolha pastas, nomes, corpo, exemplos, parâmetros opcionais, estrutura de autenticação e ambientes. Defina o vínculo à fonte. Credenciais HAR podem virar variáveis a preencher localmente.",
+    "es": "En Advanced, elija carpetas, nombres, cuerpo, ejemplos, parámetros opcionales, estructura de autenticación y entornos. Decida el vínculo al origen. Credenciales HAR pueden convertirse en variables para completar localmente.",
+    "ko": "고급 설정에서 폴더, 이름, 본문 형식, 예시값, 선택 매개변수, 인증 구조와 환경을 정하고 원본 연결 여부를 선택하세요. HAR 자격 증명은 로컬에서 채울 변수로 바꿀 수 있습니다.",
+    "de": "Wählen Sie unter Advanced Ordner, Namen, Texttyp, Beispiele, optionale Parameter, Authentifizierungsstruktur und Umgebungen. Entscheiden Sie über die Quellverknüpfung. HAR-Zugangsdaten können lokal auszufüllende Variablen werden."
+  },
+  "Linked Specifications and Git Access": {
+    "zh-Hans": "关联规范更新与 Git 访问",
+    "zh-Hant": "連結規範更新與 Git 存取",
+    "ja": "連携定義の更新と Git アクセス",
+    "fr": "Mise à jour des sources et accès Git",
+    "pt-BR": "Atualizar fontes e acesso Git",
+    "es": "Actualizar fuentes y acceso Git",
+    "ko": "연결 명세 업데이트와 Git 접근",
+    "de": "Verknüpfte Definitionen und Git-Zugriff"
+  },
+  "Open the linked-spec icon in the request-list toolbar and choose Check for updates. Review added, changed, and removed operations before applying the selected changes. Background spec check only notifies; it never applies changes automatically. A one-time file import has no live source to refresh.": {
+    "zh-Hans": "请求列表工具栏点击关联规范图标，选择“检查更新”，审阅新增、修改、移除的操作后再应用所选项。后台规范检查仅通知，不自动应用变更。一次性文件导入没有实时来源，需要重新导入才能更新。",
+    "zh-Hant": "點工具欄規範圖示檢查更新，審閱新增、變更、移除後再套用。背景檢查只通知不自動套用；一次性檔案匯入需重新匯入更新。",
+    "ja": "定義アイコンから更新確認し、追加・変更・削除を確認して選択適用します。バックグラウンド確認は通知だけで自動適用しません。一回限りのファイル読み込みは再読み込みが必要です。",
+    "fr": "Vérifiez les mises à jour via l’icône de source liée. Examinez ajouts, modifications et suppressions avant application. La vérification en arrière-plan ne fait que notifier. Une importation ponctuelle nécessite une nouvelle importation.",
+    "pt-BR": "Verifique atualizações pelo ícone da fonte vinculada. Revise inclusões, mudanças e remoções antes de aplicar. A verificação em segundo plano apenas notifica. Uma importação única precisa ser refeita.",
+    "es": "Compruebe actualizaciones en el icono del origen vinculado. Revise adiciones, cambios y eliminaciones antes de aplicar. La revisión en segundo plano solo notifica. Una importación puntual debe repetirse.",
+    "ko": "연결 명세 아이콘에서 업데이트를 확인하고 추가, 변경과 삭제를 검토한 뒤 적용하세요. 백그라운드 확인은 알림만 하며 자동 적용하지 않습니다. 일회성 파일은 다시 가져와야 합니다.",
+    "de": "Prüfen Sie Updates über das Symbol der verknüpften Definition. Prüfen Sie Hinzufügungen, Änderungen und Löschungen vor dem Anwenden. Hintergrundprüfung meldet nur. Ein einmaliger Dateiimport muss erneut importiert werden."
+  },
+  "For private Git sources, configure the host, organization/user, and provider token in Settings. GitHub device login is available there. Add enterprise or self-hosted hosts to Trusted Git Hosts only when they are your intended source. Provider tokens are stored in Keychain; they are separate from API request authentication.": {
+    "zh-Hans": "私有 Git 来源在设置填写主机、组织或用户，并配置提供者令牌，也可使用 GitHub 设备登录。企业或自建 Git 主机需添加到“受信任的 Git 主机”，仅信任你确实要访问的来源。令牌存于 Keychain，与 API 请求认证分开。",
+    "zh-Hant": "私人 Git 在設定填主機、組織或使用者及令牌，也可用 GitHub 裝置登入。企業、自建主機僅按實際來源加入信任清單。令牌在 Keychain，與 API 認證分開。",
+    "ja": "非公開 Git は設定でホスト、組織/ユーザー、トークンまたは GitHub デバイスログインを設定します。社内・自営ホストは必要なものだけ信頼します。Keychain のプロバイダートークンは API 認証とは別です。",
+    "fr": "Configurez hôte, organisation/utilisateur et jeton dans les réglages pour Git privé, ou utilisez la connexion GitHub. N’autorisez que les hôtes d’entreprise voulus. Les jetons Keychain sont distincts de l’authentification API.",
+    "pt-BR": "Configure host, organização/usuário e token para Git privado nas configurações ou use login GitHub. Confie apenas nos hosts empresariais pretendidos. Tokens no Keychain são separados da autenticação API.",
+    "es": "Configure host, organización/usuario y token para Git privado en ajustes o use acceso GitHub. Confíe solo en los hosts empresariales previstos. Los tokens en Keychain son distintos de la autenticación API.",
+    "ko": "비공개 Git은 설정에서 호스트, 조직/사용자와 토큰 또는 GitHub 로그인을 설정하세요. 필요한 기업/자체 호스트만 신뢰 목록에 넣으세요. Keychain 토큰은 API 인증과 별개입니다.",
+    "de": "Konfigurieren Sie Host, Organisation/Benutzer und Token für privates Git oder nutzen Sie GitHub-Anmeldung. Vertrauen Sie nur vorgesehenen Unternehmenshosts. Keychain-Provider-Token sind von der API-Authentifizierung getrennt."
+  },
+  "Advanced Authentication": {
+    "zh-Hans": "高级认证",
+    "zh-Hant": "進階認證",
+    "ja": "高度な認証",
+    "fr": "Authentification avancée",
+    "pt-BR": "Autenticação avançada",
+    "es": "Autenticación avanzada",
+    "ko": "고급 인증",
+    "de": "Erweiterte Authentifizierung"
+  },
+  "Choose JWT Bearer, AWS Signature, Hawk, or Akamai EdgeGrid to match the server. Fill the credentials and signing fields supplied by its API documentation. Inspect the prepared request before sending. Signatures are regenerated when sending.": {
+    "zh-Hans": "按服务端要求选择 JWT Bearer、AWS Signature、Hawk 或 Akamai EdgeGrid，填写接口文档要求的凭据和签名字段。先检查请求预览，再发送。发送时会重新生成签名。",
+    "zh-Hant": "依伺服器要求選 JWT Bearer、AWS Signature、Hawk 或 Akamai EdgeGrid，填寫文件要求的憑證與簽章欄位。先預覽再傳送，傳送時重新簽章。",
+    "ja": "サーバーに合わせて JWT Bearer、AWS Signature、Hawk、Akamai EdgeGrid を選び、API 文書の認証情報を入力します。送信前にプレビューを確認します。署名は送信時に再生成されます。",
+    "fr": "Choisissez JWT Bearer, AWS Signature, Hawk ou Akamai EdgeGrid selon le serveur. Renseignez les champs de sa documentation et vérifiez l’aperçu. La signature est recalculée à l’envoi.",
+    "pt-BR": "Escolha JWT Bearer, AWS Signature, Hawk ou Akamai EdgeGrid conforme o servidor. Preencha os campos da documentação e confira a prévia. A assinatura é recalculada ao enviar.",
+    "es": "Elija JWT Bearer, AWS Signature, Hawk o Akamai EdgeGrid según el servidor. Complete los campos de su documentación y revise la vista previa. La firma se recalcula al enviar.",
+    "ko": "서버에 맞는 JWT Bearer, AWS Signature, Hawk 또는 Akamai EdgeGrid를 선택하고 API 문서의 인증 필드를 입력하세요. 미리보기를 확인하세요. 전송 시 서명을 다시 생성합니다.",
+    "de": "Wählen Sie JWT Bearer, AWS Signature, Hawk oder Akamai EdgeGrid passend zum Server. Füllen Sie die dokumentierten Felder aus und prüfen Sie die Vorschau. Beim Senden wird neu signiert."
+  },
+  "OAuth 2.0 currently requires an access token obtained separately. Enter it manually; configuring authorization and token URLs does not perform automatic login. Digest, OAuth 1.0, and NTLM are marked as coming soon and cannot be used yet.": {
+    "zh-Hans": "OAuth 2.0 目前需要在外部取得访问令牌，再手动填写。仅配置授权地址和令牌地址不会自动登录。Digest、OAuth 1.0、NTLM 标注为尚未提供，目前不能使用。",
+    "zh-Hant": "OAuth 2.0 目前須在外部取得存取令牌並手動填入。設定授權與令牌網址不會自動登入。Digest、OAuth 1.0、NTLM 尚未提供。",
+    "ja": "OAuth 2.0 のアクセストークンは別途取得し手入力します。URL 設定だけでは自動ログインしません。Digest、OAuth 1.0、NTLM は未提供です。",
+    "fr": "OAuth 2.0 exige un jeton obtenu ailleurs et saisi manuellement. Les URL ne lancent pas de connexion automatique. Digest, OAuth 1.0 et NTLM ne sont pas encore disponibles.",
+    "pt-BR": "OAuth 2.0 exige token obtido separadamente e inserido manualmente. As URLs não fazem login automático. Digest, OAuth 1.0 e NTLM ainda não estão disponíveis.",
+    "es": "OAuth 2.0 requiere un token obtenido aparte e introducido manualmente. Las URL no inician sesión automáticamente. Digest, OAuth 1.0 y NTLM aún no están disponibles.",
+    "ko": "OAuth 2.0 토큰은 별도로 발급받아 직접 입력해야 합니다. URL 설정만으로 로그인하지 않습니다. Digest, OAuth 1.0, NTLM은 아직 제공되지 않습니다.",
+    "de": "OAuth 2.0 benötigt ein separat bezogenes, manuell eingegebenes Token. URLs lösen keine automatische Anmeldung aus. Digest, OAuth 1.0 und NTLM sind noch nicht verfügbar."
+  },
+  "HTTP Network Settings": {
+    "zh-Hans": "HTTP 网络配置",
+    "zh-Hant": "HTTP 網路設定",
+    "ja": "HTTP ネットワーク設定",
+    "fr": "Réglages réseau HTTP",
+    "pt-BR": "Configurações de rede HTTP",
+    "es": "Configuración de red HTTP",
+    "ko": "HTTP 네트워크 설정",
+    "de": "HTTP-Netzwerkeinstellungen"
+  },
+  "Open the selected HTTP request’s Settings. Choose automatic HTTP version or HTTP/1 or HTTP/2, set its timeout, and configure redirect limits. Keep certificate verification enabled for normal use. A longer timeout does not fix an invalid host or port.": {
+    "zh-Hans": "打开当前 HTTP 请求的设置，选择自动协议版本、HTTP/1 或 HTTP/2，设置超时及重定向次数。正常使用应开启证书验证。延长超时不能修复错误的主机或端口。",
+    "zh-Hant": "開啟目前 HTTP 請求設定，選自動版本、HTTP/1 或 HTTP/2，設定逾時與重新導向上限。一般使用保留憑證驗證。延長逾時無法修正主機或連接埠。",
+    "ja": "HTTP リクエストの設定でバージョン、タイムアウト、リダイレクト上限を設定します。通常は証明書検証を有効にします。待機時間を延ばしてもホストやポートの誤りは直りません。",
+    "fr": "Dans les réglages de la requête HTTP, choisissez version, délai et limite de redirections. Gardez la vérification des certificats. Allonger le délai ne corrige pas un hôte ou port erroné.",
+    "pt-BR": "Nas configurações da requisição HTTP, escolha versão, tempo limite e limite de redirecionamentos. Mantenha a verificação de certificados. Aumentar o tempo não corrige host ou porta incorretos.",
+    "es": "En ajustes de la solicitud HTTP, elija versión, tiempo de espera y límite de redirecciones. Mantenga la verificación de certificados. Más tiempo no corrige un host o puerto incorrecto.",
+    "ko": "HTTP 요청 설정에서 버전, 시간 제한과 리디렉션 한도를 설정하세요. 일반적으로 인증서 검증을 켜두세요. 시간을 늘려도 잘못된 호스트나 포트는 해결되지 않습니다.",
+    "de": "Wählen Sie in den HTTP-Anfrageeinstellungen Version, Zeitlimit und Umleitungsgrenze. Lassen Sie Zertifikatsprüfung aktiviert. Mehr Zeit behebt keinen falschen Host oder Port."
+  },
+  "Review redirect options for preserving the original method, forwarding Authorization to another host, and Referer handling. Enable URL encoding when needed and disable the cookie jar only for requests that must not reuse login cookies. Inspect the final URL and headers before testing.": {
+    "zh-Hans": "检查重定向是否保留原方法、是否向其他主机转发 Authorization，以及 Referer 处理方式。按需要开启 URL 编码；仅在请求不应复用登录 Cookie 时禁用 Cookie 存储。测试前检查解析后的 URL 和请求头。",
+    "zh-Hant": "檢查重新導向方法、跨主機 Authorization 與 Referer。按需啟用 URL 編碼；僅在不應沿用登入 Cookie 時停用 Cookie 儲存。測試前檢查 URL 與標頭。",
+    "ja": "リダイレクト時のメソッド維持、別ホストへの Authorization 転送、Referer を確認します。必要な URL エンコードと Cookie 設定を選び、送信前に URL とヘッダーを確認します。",
+    "fr": "Vérifiez méthode, transfert d’Authorization vers un autre hôte et Referer lors des redirections. Réglez encodage URL et cookies selon le besoin, puis vérifiez URL et en-têtes.",
+    "pt-BR": "Confira método, envio de Authorization a outro host e Referer nos redirecionamentos. Ajuste codificação URL e cookies conforme necessário e revise URL e cabeçalhos.",
+    "es": "Revise método, envío de Authorization a otro host y Referer en redirecciones. Configure codificación URL y cookies según corresponda y revise URL y cabeceras.",
+    "ko": "리디렉션의 메서드 유지, 다른 호스트로 Authorization 전달 및 Referer를 확인하세요. 필요에 따라 URL 인코딩과 Cookie를 설정하고 URL과 헤더를 검토하세요.",
+    "de": "Prüfen Sie Methode, Authorization-Weitergabe an andere Hosts und Referer bei Umleitungen. Stellen Sie URL-Kodierung und Cookies passend ein und prüfen Sie URL und Header."
+  },
+  "App Defaults and iCloud": {
+    "zh-Hans": "应用默认值与 iCloud",
+    "zh-Hant": "應用程式預設值與 iCloud",
+    "ja": "アプリの既定値と iCloud",
+    "fr": "Valeurs par défaut et iCloud",
+    "pt-BR": "Padrões do app e iCloud",
+    "es": "Valores predeterminados e iCloud",
+    "ko": "앱 기본값과 iCloud",
+    "de": "App-Standardwerte und iCloud"
+  },
+  "In Settings, configure HTTP defaults, editor indentation, response filtering, and history limits. Review each existing request’s own settings separately. iCloud needs an eligible signed app and an Apple account; local ad hoc builds may disable CloudKit. Sync does not keep live socket connections running.": {
+    "zh-Hans": "在设置中配置 HTTP 默认值、编辑器缩进、响应过滤及历史记录上限；已有请求的独立设置需逐个检查。iCloud 需要具备相应签名权限的应用和 Apple 账户，本地临时签名构建可能停用 CloudKit。同步不会保持实时连接运行。",
+    "zh-Hant": "設定中調整 HTTP 預設值、縮排、回應篩選與歷史上限；既有請求設定須另行檢查。iCloud 需要合適簽章與 Apple 帳號，臨時簽章版可能停用 CloudKit。同步不會維持即時連線。",
+    "ja": "設定で HTTP 既定値、字下げ、応答フィルター、履歴上限を設定します。既存リクエストは個別確認します。iCloud には適切な署名と Apple アカウントが必要です。臨時署名版では CloudKit が無効な場合があります。接続は同期されません。",
+    "fr": "Réglez valeurs HTTP, indentation, filtres et historique dans les réglages. Vérifiez les requêtes existantes séparément. iCloud exige une signature adaptée et un compte Apple ; une version ad hoc peut désactiver CloudKit. Les connexions actives ne sont pas maintenues par la synchronisation.",
+    "pt-BR": "Configure padrões HTTP, indentação, filtros e histórico nos ajustes. Confira requisições existentes separadamente. iCloud exige assinatura adequada e conta Apple; builds ad hoc podem desativar CloudKit. A sincronização não mantém conexões ativas.",
+    "es": "Configure valores HTTP, sangría, filtros e historial en ajustes. Revise solicitudes existentes por separado. iCloud exige firma adecuada y cuenta Apple; compilaciones ad hoc pueden desactivar CloudKit. La sincronización no mantiene conexiones activas.",
+    "ko": "설정에서 HTTP 기본값, 들여쓰기, 응답 필터와 기록 한도를 조정하세요. 기존 요청은 따로 확인하세요. iCloud에는 적절한 서명과 Apple 계정이 필요하며 임시 서명 빌드는 CloudKit을 끌 수 있습니다. 동기화는 실시간 연결을 유지하지 않습니다.",
+    "de": "Konfigurieren Sie HTTP-Standardwerte, Einrückung, Filter und Verlauf in Einstellungen. Prüfen Sie bestehende Anfragen separat. iCloud braucht passende Signierung und Apple-Konto; Ad-hoc-Builds können CloudKit deaktivieren. Synchronisierung hält keine Verbindungen offen."
+  },
+  "Shortcuts and MCP": {
+    "zh-Hans": "快捷指令与 MCP",
+    "zh-Hant": "捷徑與 MCP",
+    "ja": "ショートカットと MCP",
+    "fr": "Raccourcis et MCP",
+    "pt-BR": "Atalhos e MCP",
+    "es": "Atajos y MCP",
+    "ko": "단축어와 MCP",
+    "de": "Kurzbefehle und MCP"
+  },
+  "In Apple Shortcuts, find RHEQ’s actions for HTTP, TCP, UDP, WebSocket, SSE, and gRPC. Configure the action’s fields, run a small test, and inspect its output before adding it to a larger automation. These actions are separate from saved HTTP workflows.": {
+    "zh-Hans": "在 Apple 快捷指令中查找 RHEQ 的 HTTP、TCP、UDP、WebSocket、SSE、gRPC 操作，填写该操作的参数，先小范围运行并检查输出，再加入更大的自动化。它们与应用内保存的 HTTP 工作流是不同的入口。",
+    "zh-Hant": "Apple 捷徑中選 RHEQ 的六種協定動作，填參數、先測試並檢查輸出，再加入自動化。這與已儲存 HTTP 工作流程是不同入口。",
+    "ja": "Apple ショートカットで RHEQ の各プロトコルのアクションを選び、項目を設定して小さなテストで出力を確認します。保存済み HTTP ワークフローとは別の機能です。",
+    "fr": "Dans Raccourcis Apple, choisissez une action RHEQ pour chaque protocole. Configurez les champs et testez sa sortie avant une automatisation plus large. Ces actions sont distinctes des workflows HTTP enregistrés.",
+    "pt-BR": "Nos Atalhos Apple, escolha ações RHEQ para cada protocolo. Preencha os campos e teste a saída antes de ampliar a automação. São diferentes dos fluxos HTTP salvos.",
+    "es": "En Atajos Apple, elija acciones RHEQ por protocolo. Complete campos y pruebe la salida antes de ampliar la automatización. Son distintas de los flujos HTTP guardados.",
+    "ko": "Apple 단축어에서 RHEQ의 프로토콜별 동작을 선택하고 필드를 입력하세요. 작은 테스트로 출력을 확인한 뒤 자동화에 추가하세요. 저장된 HTTP 워크플로와 별개입니다.",
+    "de": "Wählen Sie RHEQ-Protokollaktionen in Apple Kurzbefehle, konfigurieren Sie Felder und testen Sie die Ausgabe vor größerer Automatisierung. Sie sind von gespeicherten HTTP-Workflows getrennt."
+  },
+  "On macOS, enable MCP export in Settings and follow its Setup Guide to configure your client. MCP reads exported request and response data. Review bodies and custom fields for private content: an AI client may send what it reads to its provider. Disable export when no longer needed.": {
+    "zh-Hans": "macOS 在设置中启用 MCP 导出，按“设置指南”提供的配置接入客户端。MCP 读取导出的请求和响应数据。接入前检查正文和自定义字段中的私人内容：AI 客户端可能把读取的数据发送给其服务提供者。不再使用时关闭导出。",
+    "zh-Hant": "macOS 設定啟用 MCP 匯出並按指南配置用戶端。MCP 讀取匯出的請求、回應。先檢查正文和自訂欄位：AI 用戶端可能傳送資料至其服務商。不用時關閉。",
+    "ja": "macOS の設定で MCP エクスポートを有効にし、設定ガイドでクライアントを構成します。本文や独自項目を確認してください。AI クライアントが取得データをサービス提供者へ送る場合があります。不要時は無効にします。",
+    "fr": "Sur macOS, activez l’export MCP et suivez le guide pour le client. MCP lit les requêtes et réponses exportées. Vérifiez les données privées dans les corps : le client IA peut les transmettre à son fournisseur. Désactivez l’export après usage.",
+    "pt-BR": "No macOS, ative exportação MCP e siga o guia do cliente. MCP lê requisições e respostas exportadas. Revise conteúdo privado nos corpos: o cliente IA pode enviá-lo ao provedor. Desative quando não precisar.",
+    "es": "En macOS, active exportación MCP y siga la guía del cliente. MCP lee solicitudes y respuestas exportadas. Revise contenido privado: el cliente IA puede enviarlo a su proveedor. Desactive cuando no lo necesite.",
+    "ko": "macOS 설정에서 MCP 내보내기를 켜고 설정 안내로 클라이언트를 구성하세요. MCP는 내보낸 요청과 응답을 읽습니다. 본문의 개인정보를 확인하세요. AI 클라이언트가 공급자에 데이터를 보낼 수 있습니다. 필요 없으면 끄세요.",
+    "de": "Aktivieren Sie MCP-Export unter macOS und konfigurieren Sie den Client mit der Anleitung. MCP liest exportierte Anfragen und Antworten. Prüfen Sie private Inhalte: KI-Clients können Daten an ihren Anbieter senden. Deaktivieren Sie den Export nach Bedarf."
+  },
+  "Diagnosing Failed Requests": {
+    "zh-Hans": "请求失败排查",
+    "zh-Hant": "請求失敗排查",
+    "ja": "リクエスト失敗の診断",
+    "fr": "Diagnostiquer les échecs",
+    "pt-BR": "Diagnosticar falhas",
+    "es": "Diagnosticar errores",
+    "ko": "요청 실패 진단",
+    "de": "Fehlgeschlagene Anfragen prüfen"
+  },
+  "Start with the prepared URL, active environment, and missing variables. For 401 or 403, check credentials and permissions; for 400 or 415, check body shape and Content-Type. For connection or TLS errors, check host, port, protocol, and the certificate. Read the complete error before changing settings.": {
+    "zh-Hans": "先检查请求预览中的实际 URL、当前环境和缺失变量。401、403 检查凭据及权限；400、415 检查正文结构和 Content-Type。连接或 TLS 错误检查主机、端口、协议及证书。先阅读完整错误，再修改设置。",
+    "zh-Hant": "先看預覽 URL、環境與缺少變數。401/403 查憑證權限；400/415 查正文與 Content-Type。連線或 TLS 查主機、埠、協定與憑證。先讀完整錯誤再調整。",
+    "ja": "まず URL、環境、未定義変数を確認します。401/403 は認証と権限、400/415 は本文と Content-Type、接続/TLS はホスト、ポート、証明書を確認します。設定変更前にエラー全文を読みます。",
+    "fr": "Vérifiez URL, environnement et variables manquantes. Pour 401/403, vérifiez accès ; pour 400/415, corps et Content-Type ; pour connexion/TLS, hôte, port et certificat. Lisez toute l’erreur avant de modifier les réglages.",
+    "pt-BR": "Confira URL, ambiente e variáveis ausentes. Para 401/403, acesso; 400/415, corpo e Content-Type; conexão/TLS, host, porta e certificado. Leia o erro completo antes de alterar configurações.",
+    "es": "Revise URL, entorno y variables ausentes. Para 401/403, acceso; 400/415, cuerpo y Content-Type; conexión/TLS, host, puerto y certificado. Lea todo el error antes de cambiar ajustes.",
+    "ko": "URL, 환경과 누락 변수를 먼저 확인하세요. 401/403은 인증과 권한, 400/415는 본문과 Content-Type, 연결/TLS는 호스트, 포트와 인증서를 확인하세요. 설정 변경 전 오류 전체를 읽으세요.",
+    "de": "Prüfen Sie URL, Umgebung und fehlende Variablen. 401/403: Zugang und Rechte; 400/415: Body und Content-Type; Verbindung/TLS: Host, Port und Zertifikat. Lesen Sie den gesamten Fehler vor Änderungen."
+  },
+  "Run a failing workflow request individually first, then check its position, extraction path, and expected response. Data rows are isolated, so a previous row cannot supply the next row’s variables. Before resetting app data, export a backup and record the failing request’s error.": {
+    "zh-Hans": "工作流失败时先单独发送失败的请求，再检查顺序、提取路径及预期响应。数据行彼此隔离，上一行不能为下一行提供变量。重置应用数据前应导出备份，并记录失败请求的完整错误。",
+    "zh-Hant": "工作流程失敗先單獨測請求，再查順序、提取路徑與預期回應。資料列隔離，不能跨列取變數。重設資料前匯出備份並記錄完整錯誤。",
+    "ja": "失敗したリクエストを単独実行し、順番、抽出パス、応答を確認します。データ行間で変数は共有されません。データ初期化前にバックアップとエラーを保存します。",
+    "fr": "Testez d’abord la requête seule, puis ordre, extraction et réponse attendue. Les lignes ne partagent pas leurs variables. Exportez une sauvegarde et conservez l’erreur avant toute réinitialisation.",
+    "pt-BR": "Teste a requisição isolada, depois ordem, extração e resposta esperada. Linhas não compartilham variáveis. Exporte backup e registre o erro antes de redefinir dados.",
+    "es": "Pruebe la solicitud sola y luego orden, extracción y respuesta esperada. Las filas no comparten variables. Exporte copia y guarde el error antes de restablecer datos.",
+    "ko": "실패 요청을 단독 실행하고 순서, 추출 경로와 예상 응답을 확인하세요. 행 간 변수는 공유되지 않습니다. 데이터 초기화 전에 백업과 오류를 저장하세요.",
+    "de": "Testen Sie die Anfrage einzeln, dann Reihenfolge, Extraktion und erwartete Antwort. Datenzeilen teilen keine Variablen. Sichern Sie Daten und Fehlermeldung vor dem Zurücksetzen."
+  },
+  "HTTP": {
+    "zh-Hans": "HTTP",
+    "zh-Hant": "HTTP",
+    "ja": "HTTP",
+    "fr": "HTTP",
+    "pt-BR": "HTTP",
+    "es": "HTTP",
+    "ko": "HTTP",
+    "de": "HTTP"
+  },
+  "TCP/TLS": {
+    "zh-Hans": "TCP/TLS",
+    "zh-Hant": "TCP/TLS",
+    "ja": "TCP/TLS",
+    "fr": "TCP/TLS",
+    "pt-BR": "TCP/TLS",
+    "es": "TCP/TLS",
+    "ko": "TCP/TLS",
+    "de": "TCP/TLS"
+  },
+  "MCP": {
+    "zh-Hans": "MCP",
+    "zh-Hant": "MCP",
+    "ja": "MCP",
+    "fr": "MCP",
+    "pt-BR": "MCP",
+    "es": "MCP",
+    "ko": "MCP",
+    "de": "MCP"
+  },
+  "Shortcuts": {
+    "zh-Hans": "快捷指令",
+    "zh-Hant": "捷徑",
+    "ja": "ショートカット",
+    "fr": "Raccourcis",
+    "pt-BR": "Atalhos",
+    "es": "Atajos",
+    "ko": "단축어",
+    "de": "Kurzbefehle"
+  },
+  "Select an HTTP request and click the flowchart button in the editor toolbar. The panel contains Variables & Checks, Compare Responses, Run Requests, Inspect Request, and Project Files. You can also open this manual from Settings → User Manual.": {
+    "zh-Hans": "选中 HTTP 请求，点击编辑器工具栏的流程图按钮。面板包含变量与检查、响应对比、批量运行、检查请求和项目文件。也可从“设置 → 使用手册”打开本手册。",
+    "zh-Hant": "選 HTTP 請求並按工具列流程圖按鈕。面板含變數與檢查、回應比較、批次執行、檢查請求及專案檔案。設定 → 使用手冊也可開手冊。",
+    "ja": "HTTP リクエストでツールバーのフローチャートを押します。変数、比較、実行、確認、プロジェクトファイルがあります。設定の ユーザーマニュアルからも開けます。",
+    "fr": "Sélectionnez HTTP et cliquez sur le diagramme de la barre d’outils. Le panneau propose variables, comparaison, exécution, inspection et fichiers. Le manuel est aussi dans Réglages → Manuel d’utilisation.",
+    "pt-BR": "Selecione HTTP e clique no fluxograma da barra. O painel tem variáveis, comparação, execução, inspeção e arquivos. O manual também fica em Ajustes → Manual do usuário.",
+    "es": "Seleccione HTTP y pulse el diagrama de la barra. El panel incluye variables, comparación, ejecución, inspección y archivos. El manual está también en Ajustes → Manual de usuario.",
+    "ko": "HTTP 요청에서 도구 모음의 흐름도 버튼을 누르세요. 변수, 비교, 일괄 실행, 요청 확인, 프로젝트 파일을 제공합니다. 설정의 사용 설명서에서도 설명서를 열 수 있습니다.",
+    "de": "HTTP-Anfrage wählen und Flussdiagramm in der Werkzeugleiste öffnen. Bereiche: Variablen, Vergleich, Lauf, Prüfung, Dateien. Handbuch auch unter Einstellungen → Benutzerhandbuch."
+  },
+  "Open Settings → Appearance and choose Follow System, Light, or Dark. The choice is saved and applies to the workspace and Settings. Follow System switches with your device appearance.": {
+    "zh-Hans": "打开“设置 → 外观”，选择跟随系统、浅色或深色。选择会保存，并应用于工作空间和设置窗口。跟随系统会随设备外观切换。",
+    "zh-Hant": "開啟「設定 → 外觀」，選跟隨系統、淺色或深色。選擇會儲存並套用至工作空間與設定視窗。跟隨系統會依裝置外觀切換。",
+    "ja": "設定 → 外観で、システムに合わせる、ライト、ダークを選びます。選択は保存され、ワークスペースと設定に適用されます。システム設定に合わせると端末の外観に従います。",
+    "fr": "Dans Réglages → Apparence, choisissez système, clair ou sombre. Le choix est conservé pour l’espace de travail et les réglages. Le mode système suit votre appareil.",
+    "pt-BR": "Em Ajustes → Aparência, escolha sistema, claro ou escuro. A escolha é salva para o espaço de trabalho e os ajustes. O modo sistema acompanha o dispositivo.",
+    "es": "En Ajustes → Apariencia, elija sistema, claro u oscuro. La elección se guarda para el espacio de trabajo y los ajustes. El modo sistema sigue al dispositivo.",
+    "ko": "설정 → 모양에서 시스템 설정 따르기, 라이트 또는 다크를 선택하세요. 선택은 저장되고 작업 공간과 설정에 적용됩니다. 시스템 모드는 기기 모양을 따릅니다.",
+    "de": "Wählen Sie in Einstellungen → Darstellung System, Hell oder Dunkel. Die Auswahl wird für Arbeitsbereich und Einstellungen gespeichert. System folgt dem Gerät."
+  }
+}

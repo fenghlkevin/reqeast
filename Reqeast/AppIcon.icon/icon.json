@@ -1,82 +1,58 @@
 {
-  "fill-specializations" : [
+  "fill-specializations": [
     {
-      "value" : "system-light"
-    },
-    {
-      "appearance" : "dark",
-      "value" : {
-        "solid" : "srgb:0.00000,0.00000,0.00000,1.00000"
+      "value": {
+        "solid": "srgb:1.00000,1.00000,1.00000,1.00000"
       }
     }
   ],
-  "groups" : [
+  "groups": [
     {
-      "layers" : [
+      "layers": [
         {
-          "blend-mode-specializations" : [
+          "blend-mode-specializations": [
             {
-              "value" : "overlay"
-            },
-            {
-              "appearance" : "dark",
-              "value" : "overlay"
+              "value": "normal"
             }
           ],
-          "fill-specializations" : [
+          "fill-specializations": [
             {
-              "value" : {
-                "solid" : "display-p3:0.00000,0.00000,0.00000,1.00000"
-              }
-            },
-            {
-              "appearance" : "dark",
-              "value" : {
-                "solid" : "display-p3:1.00000,1.00000,1.00000,1.00000"
-              }
-            },
-            {
-              "appearance" : "tinted",
-              "value" : {
-                "solid" : "srgb:1.00000,1.00000,1.00000,1.00000"
+              "value": {
+                "solid": "srgb:0.09020,0.09412,0.10588,1.00000"
               }
             }
           ],
-          "glass-specializations" : [
+          "glass-specializations": [
             {
-              "value" : true
-            },
-            {
-              "appearance" : "dark",
-              "value" : true
+              "value": false
             }
           ],
-          "hidden" : false,
-          "image-name" : "ReqeastR 2.png",
-          "name" : "ReqeastR 2",
-          "position" : {
-            "scale" : 1.19,
-            "translation-in-points" : [
+          "hidden": false,
+          "image-name": "RHEQMark.png",
+          "name": "RHEQ Mark",
+          "position": {
+            "scale": 1.0,
+            "translation-in-points": [
               0,
               0
             ]
           }
         }
       ],
-      "shadow" : {
-        "kind" : "neutral",
-        "opacity" : 0.5
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.0
       },
-      "translucency" : {
-        "enabled" : true,
-        "value" : 0.5
+      "translucency": {
+        "enabled": false,
+        "value": 0.0
       }
     }
   ],
-  "supported-platforms" : {
-    "circles" : [
+  "supported-platforms": {
+    "circles": [
       "watchOS"
     ],
-    "squares" : "shared"
+    "squares": "shared"
   }
 }

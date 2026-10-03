@@ -1,3 +1,4 @@
+// Modified for RHEQ: sidebar brand and navigation.
 //
 //  RequestListView.swift
 //  Reqeast
@@ -53,6 +54,9 @@ struct RequestListView: View {
             }
         }
         .listStyle(.sidebar)
+        .modifier(WorkspaceSidebarChrome(request: store.requests.first {
+            $0.id == selectedRequestId && $0.deletedAt == nil
+        }))
         .onAppear {
             expandedFolderIds = Set(folders.map(\.id))
             if store.requests(for: project.id).isEmpty {

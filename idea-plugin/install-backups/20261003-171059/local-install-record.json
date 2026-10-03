@@ -1,0 +1,41 @@
+{
+  "ide": "/Applications/IntelliJ IDEA.app",
+  "ideVersion": "2026.2.3",
+  "ideBuild": "262.10968.63",
+  "pluginId": "com.rheq.idea.controller",
+  "pluginVersion": "0.1.0",
+  "packageSHA256": "e3208679b6fac359d452d41387d337b9eb3f1fd6b12f329f362fe5ef958ff061",
+  "installPath": "~/Library/Application Support/JetBrains/IntelliJIdea2026.2/plugins/rheq-controller-bridge",
+  "backupPath": "idea-plugin/install-backups/20261003-152017",
+  "previousSameIdPlugins": [],
+  "validation": [
+    "SDK compilation",
+    "isolated headless PSI integration",
+    "action registration",
+    "archive paths and plugin descriptor",
+    "40x40 white-background SVG inspection",
+    "nine language bundles"
+  ],
+  "status": "installed-and-loaded",
+  "pending": [],
+  "actualLoadEvidence": "Current IDEA startup log includes RHEQ Controller Bridge (0.1.0)",
+  "rheqDelivery": {
+    "application": "/Applications/RHEQ.app",
+    "processId": 3523,
+    "backup": "/tmp/rheq-before-gutter-20261003-164130.app",
+    "verified": [
+      "executable and assets match signed stage",
+      "code signature",
+      "new plugin 0.1.1 bundled",
+      "new manual illustrations bundled",
+      "process alive after 7 seconds"
+    ],
+    "legacyReqeastAppExists": false
+  },
+  "pendingUpdate": {
+    "pluginVersion": "0.1.1",
+    "packageSHA256": "8ca5dbda0a3b66e9cef33805cd53837c56f056f2a6e96e7fd1da4f700c5a0d12",
+    "status": "verified-package-awaiting-IDE-exit",
+    "reason": "Offline deployment requires IDEA to be stopped; user was asked to save and exit."
+  }
+}

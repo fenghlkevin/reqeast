@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  ImportBundleSheet.swift
 //  Reqeast
@@ -135,7 +136,7 @@ struct ImportBundleSheet: View {
     private var versionWarning: some View {
         if bundle.version > ExportBundle.currentVersion {
             Label(
-                "This file was created with a newer version of Reqeast. Some data may not import correctly.",
+                "This file was created with a newer version of RHEQ. Some data may not import correctly.",
                 systemImage: "exclamationmark.triangle.fill"
             )
             .font(.caption)

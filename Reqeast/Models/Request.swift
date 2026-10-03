@@ -47,6 +47,7 @@ struct Request: Codable, Identifiable, Hashable {
     var createdAt: Date
     var updatedAt: Date
     var deletedAt: Date?
+    var codeImport: CodeImportMetadata?
     var specIdentity: SpecOperationIdentity?
     var specLastSyncedAt: Date?
     var isSpecStale: Bool = false
@@ -117,6 +118,7 @@ struct Request: Codable, Identifiable, Hashable {
         sseData = try container.decodeIfPresent(SseRequestData.self, forKey: .sseData)
         grpcData = try container.decodeIfPresent(GrpcRequestData.self, forKey: .grpcData)
         deletedAt = try container.decodeIfPresent(Date.self, forKey: .deletedAt)
+        codeImport = try container.decodeIfPresent(CodeImportMetadata.self, forKey: .codeImport)
         specIdentity = try container.decodeIfPresent(SpecOperationIdentity.self, forKey: .specIdentity)
         specLastSyncedAt = try container.decodeIfPresent(Date.self, forKey: .specLastSyncedAt)
         isSpecStale = try container.decodeIfPresent(Bool.self, forKey: .isSpecStale) ?? false

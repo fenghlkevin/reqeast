@@ -1,3 +1,4 @@
+// Modified for RHEQ: application title.
 //
 //  ProjectManagerDetail.swift
 //  Reqeast
@@ -47,7 +48,7 @@ struct ProjectManagerDetailView: View {
                 onNewProject: onNewProject,
                 onImportSpec: { showingSpecImport = true }
             )
-            .navigationTitle("Reqeast")
+            .navigationTitle("RHEQ")
         }
     }
 }

@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SendGrpcRequestIntent.swift
 //  Reqeast
@@ -9,7 +10,7 @@ import Foundation
 struct SendGrpcRequestIntent: AppIntent {
     static var title: LocalizedStringResource = "Send gRPC Request"
     static var description = IntentDescription(
-        "Invoke a unary gRPC RPC from Reqeast and return the response JSON."
+        "Invoke a unary gRPC RPC from RHEQ and return the response JSON."
     )
     static var openAppWhenRun: Bool = false
 

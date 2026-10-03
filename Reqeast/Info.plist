@@ -2,18 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<!--
-		DO NOT REMOVE remote-notification. CKSyncEngine requires the Remote
-		Notifications entitlement to function at all. The engine registers its
-		own CKDatabaseSubscription and intercepts silent pushes internally.
-		Removing this key breaks iCloud sync entirely. See AGENTS.md > iCloud Sync.
-	-->
+	<key>CFBundleName</key>
+	<string>RHEQ</string>
 	<key>GitHubOAuthClientID</key>
 	<string>Iv1.8a61f03b3a7aba76</string>
 	<key>BGTaskSchedulerPermittedIdentifiers</key>
 	<array>
 		<string>app.reqeast.spec-background-check</string>
 	</array>
+	<!-- CKSyncEngine requires remote-notification. Keep iCloud and push support intact. -->
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
@@ -29,7 +26,7 @@
 				<string>public.json</string>
 			</array>
 			<key>UTTypeDescription</key>
-				<string>Reqeast Projects</string>
+			<string>RHEQ Projects</string>
 			<key>UTTypeIdentifier</key>
 			<string>app.reqeast.project-export</string>
 			<key>UTTypeIconName</key>
@@ -42,12 +39,31 @@
 				</array>
 			</dict>
 		</dict>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.json</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>RHEQ Controller Interfaces</string>
+			<key>UTTypeIdentifier</key>
+			<string>app.rheq.controller-import</string>
+			<key>UTTypeIconName</key>
+			<string>DocumentTypeIcon</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>rheqapi</string>
+				</array>
+			</dict>
+		</dict>
 	</array>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
 			<key>CFBundleTypeName</key>
-				<string>Reqeast Projects</string>
+			<string>RHEQ Projects</string>
 			<key>CFBundleTypeRole</key>
 			<string>Viewer</string>
 			<key>LSHandlerRank</key>
@@ -55,6 +71,18 @@
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>app.reqeast.project-export</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeName</key>
+			<string>RHEQ Controller Interfaces</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>app.rheq.controller-import</string>
 			</array>
 		</dict>
 	</array>

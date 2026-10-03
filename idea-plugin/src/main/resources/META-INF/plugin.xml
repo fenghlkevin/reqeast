@@ -1,0 +1,24 @@
+<idea-plugin>
+  <id>com.rheq.idea.controller</id>
+  <name>RHEQ Controller Bridge</name>
+  <version>0.1.1</version>
+  <vendor>RHEQ</vendor>
+  <description>Preview Java Spring Controller interfaces and import them into the local RHEQ API client.</description>
+  <idea-version since-build="262" until-build="262.*"/>
+  <depends>com.intellij.modules.platform</depends>
+  <depends>com.intellij.java</depends>
+  <resource-bundle>messages.BridgeBundle</resource-bundle>
+  <extensions defaultExtensionNs="com.intellij">
+    <codeInsight.lineMarkerProvider language="JAVA" implementationClass="com.rheq.idea.ControllerImportLineMarkerProvider"/>
+  </extensions>
+  <actions>
+    <group id="Rheq.ControllerBridge" text="RHEQ" popup="true">
+      <action id="Rheq.ExportMethod" class="com.rheq.idea.ExportAction$Method" text="Import Method into RHEQ"/>
+      <action id="Rheq.ExportController" class="com.rheq.idea.ExportAction$Controller" text="Import Controller into RHEQ"/>
+      <action id="Rheq.ExportModule" class="com.rheq.idea.ExportAction$Module" text="Import Module into RHEQ"/>
+      <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="last"/>
+      <add-to-group group-id="ToolsMenu" anchor="last"/>
+    </group>
+  </actions>
+</idea-plugin>

@@ -1,3 +1,4 @@
+// Modified for RHEQ: response navigation and restrained status treatment.
 //
 //  HttpResponseView.swift
 //  Reqeast
@@ -16,6 +17,7 @@ struct HttpResponseView: View {
         @Bindable var uiState = UIStateStore.shared
         VStack(spacing: 0) {
             HStack(spacing: 12) {
+                Text("Response").font(.subheadline.weight(.semibold))
                 HttpStatusBadge(response: response)
                 Spacer()
                 HttpTimingBadge(response: response)
@@ -30,16 +32,13 @@ struct HttpResponseView: View {
             }
             .padding(.horizontal, 12)
             .padding(.vertical, 8)
-            .glassEffect(.regular.tint(response.statusColor.opacity(0.3)), in: .rect(cornerRadius: 0))
+            .background(BrandTheme.panel)
 
-            Picker("", selection: $uiState.globalResponseTab) {
-                ForEach(HttpResponseTab.allCases, id: \.self) { tab in
-                    Text(tab.localizedName).tag(tab)
-                }
-            }
-            .pickerStyle(.segmented)
+            WorkspaceTabs(
+                items: HttpResponseTab.allCases.map { (value: $0, title: $0.localizedName) },
+                selection: $uiState.globalResponseTab
+            )
             .padding(.horizontal, 12)
-            .padding(.vertical, 8)
 
             Divider()
 

@@ -94,6 +94,7 @@ final class SessionPersistenceService {
         pendingFlush[requestId]?.cancel()
         pendingFlush.removeValue(forKey: requestId)
         deleteResponseBody(for: requestId)
+        try? FileManager.default.removeItem(at: baselineURL(for: requestId))
         let historyUrl = historyURL(for: requestId)
         try? FileManager.default.removeItem(at: historyUrl)
     }
@@ -131,5 +132,26 @@ final class SessionPersistenceService {
             guard !Task.isCancelled else { return }
             action()
         }
+    }
+}
+
+
+extension SessionPersistenceService {
+    func saveBaseline(_ response: HttpResponseData, for requestId: UUID) throws {
+        guard response.body.count <= ResponseJSONService.maxBytes else {
+            throw ResponseJSONService.failure(String(localized: "JSON tools support responses up to 1 MB."))
+        }
+        _ = try ResponseJSONService.parse(response.body)
+        try JSONEncoder().encode(response).write(to: baselineURL(for: requestId), options: .atomic)
+    }
+
+    func loadBaseline(for requestId: UUID) throws -> HttpResponseData? {
+        let url = baselineURL(for: requestId)
+        guard FileManager.default.fileExists(atPath: url.path) else { return nil }
+        return try JSONDecoder().decode(HttpResponseData.self, from: Data(contentsOf: url))
+    }
+
+    private func baselineURL(for requestId: UUID) -> URL {
+        sessionsDirectory.appendingPathComponent("\(requestId.uuidString)-baseline.json")
     }
 }

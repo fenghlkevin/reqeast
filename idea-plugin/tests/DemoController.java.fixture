@@ -1,0 +1,22 @@
+package demo;
+
+@org.springframework.web.bind.annotation.RestController
+@org.springframework.web.bind.annotation.RequestMapping(DemoController.ROOT)
+class DemoController {
+    public static final String ROOT = "/orders";
+    public String helper() { return ""; }
+    @org.springframework.web.bind.annotation.GetMapping("${runtime.path}")
+    public String dynamic() { return ""; }
+    @org.springframework.web.bind.annotation.GetMapping("/{id}")
+    @io.swagger.v3.oas.annotations.Operation(summary="Get order")
+    public String get(@org.springframework.web.bind.annotation.PathVariable("id") long id,
+        @org.springframework.web.bind.annotation.RequestParam(name="limit", defaultValue="10") int limit) { return ""; }
+
+    @org.springframework.web.bind.annotation.PostMapping
+    public String create(@org.springframework.web.bind.annotation.RequestBody OrderInput input) { return ""; }
+}
+class OrderInput {
+    @jakarta.validation.constraints.NotBlank public String name;
+    @jakarta.validation.constraints.Min(1) public int quantity;
+    public String[] tags;
+}

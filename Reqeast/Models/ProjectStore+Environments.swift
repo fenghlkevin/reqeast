@@ -32,6 +32,14 @@ extension ProjectStore {
         let updated = envs.map { env -> ApiEnvironment in
             var e = env
             e.updatedAt = now
+            if let previous = environments.first(where: { $0.id == env.id }) {
+                for index in e.variables.indices {
+                    if let old = previous.variables.first(where: { $0.id == e.variables[index].id }),
+                       old.value != e.variables[index].value || old.key != e.variables[index].key {
+                        e.variables[index].source = nil
+                    }
+                }
+            }
             return e
         }
         let removedIds = environments.filter { $0.projectId == projectId }.map(\.id)

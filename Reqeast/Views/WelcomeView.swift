@@ -1,3 +1,4 @@
+// Modified for RHEQ: welcome branding.
 //
 //  WelcomeView.swift
 //  Reqeast
@@ -14,7 +15,7 @@ struct WelcomeView: View {
             Spacer()
 
             VStack(spacing: 20) {
-                AppLogoView(size: 96, breathing: true)
+                AppLogoView(size: 80)
 
                 VStack(spacing: 6) {
                     HStack(spacing: 0) {
@@ -25,11 +26,11 @@ struct WelcomeView: View {
                     }
 
                     #if os(macOS)
-                    Text("Your API companion for macOS")
+                    Text("A workspace for your APIs")
                         .font(.body)
                         .foregroundStyle(.secondary)
                     #else
-                    Text("Your API companion")
+                    Text("A workspace for your APIs")
                         .font(.body)
                         .foregroundStyle(.secondary)
                     #endif

@@ -47,24 +47,24 @@ fi
 # Build for macOS arm64 (always)
 echo ""
 echo "Building for macOS arm64..."
-cargo build --release --target aarch64-apple-darwin
+cargo build --release --lib --target aarch64-apple-darwin
 
 if [ "$MACOS_ONLY" != "1" ]; then
     echo ""
     echo "Building for macOS x86_64..."
-    cargo build --release --target x86_64-apple-darwin
+    cargo build --release --lib --target x86_64-apple-darwin
 
     echo ""
     echo "Building for iOS arm64..."
-    cargo build --release --target aarch64-apple-ios
+    cargo build --release --lib --target aarch64-apple-ios
 
     echo ""
     echo "Building for iOS Simulator arm64..."
-    cargo build --release --target aarch64-apple-ios-sim
+    cargo build --release --lib --target aarch64-apple-ios-sim
 
     echo ""
     echo "Building for iOS Simulator x86_64..."
-    cargo build --release --target x86_64-apple-ios
+    cargo build --release --lib --target x86_64-apple-ios
 fi
 
 # Create output directories

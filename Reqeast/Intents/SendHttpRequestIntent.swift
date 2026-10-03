@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SendHttpRequestIntent.swift
 //  Reqeast
@@ -8,7 +9,7 @@ import Foundation
 
 struct SendHttpRequestIntent: AppIntent {
     static var title: LocalizedStringResource = "Send HTTP Request"
-    static var description = IntentDescription("Execute an HTTP request from Reqeast and return the response.")
+    static var description = IntentDescription("Execute an HTTP request from RHEQ and return the response.")
     static var openAppWhenRun: Bool = false
 
     @Parameter(title: "Project")

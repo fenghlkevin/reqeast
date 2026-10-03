@@ -1,0 +1,38 @@
+{
+  "ide": "/Applications/IntelliJ IDEA.app",
+  "ideVersion": "2026.2.3",
+  "ideBuild": "262.10968.63",
+  "pluginId": "com.rheq.idea.controller",
+  "pluginVersion": "0.1.1",
+  "packageSHA256": "8ca5dbda0a3b66e9cef33805cd53837c56f056f2a6e96e7fd1da4f700c5a0d12",
+  "installPath": "~/Library/Application Support/JetBrains/IntelliJIdea2026.2/plugins/rheq-controller-bridge",
+  "backupPath": "idea-plugin/install-backups/20261003-171059",
+  "previousSameIdPlugins": [],
+  "validation": [
+    "SDK compilation",
+    "isolated headless PSI integration",
+    "action registration",
+    "archive paths and plugin descriptor",
+    "40x40 white-background SVG inspection",
+    "nine language bundles",
+    "0.1.1 loaded by actual IDEA startup",
+    "16x16 method gutter icons packaged",
+    "single-method gutter provider registered in isolated PSI integration"
+  ],
+  "status": "installed-and-loaded",
+  "pending": [],
+  "actualLoadEvidence": "2026-10-03 17:11:00,400 [    336]   INFO - #c.i.p.i.b.AppStarter - Loaded custom plugins: Gradle for Java (262.10968.63), Protocol Buffers (262.10968.75), Spring Data (262.10968.63), Spring Boot (262.10968.63), Translation (3.9.1), Qoder - Agentic AI Coding Platform (2026.924.75731882), EnvFile (5.0.1), Nginx Configuration (2026.2.3), Jakarta EE Platform (262.10968.63), RHEQ Controller Bridge (0.1.1), Maven (262.10968.63), Jakarta EE: Persistence (JPA) (262.10968.63), Java (262.10968.63), MyBatis Log EasyPlus (5.0.8.2), Port Manager (1.1.2), Cool Request(REST Client) (2026.7.7), Package Checker (262.10968.63), RestfulToolkit-fix (2.1.7), YAML (262.10968.63), Natural Languages (262.10968.63), EditorConfig (262.10968.63), Liquibase (262.10968.63), JavaScript and TypeScript (262.10968.63), MavenHelper (5.1.0-IJ2026.1), Grep Console (13.3.0-IJ2023.3), MCP Server (262.10968.92), Spring Debugger (262.10315.19)",
+  "rheqDelivery": {
+    "application": "/Applications/RHEQ.app",
+    "processId": 3523,
+    "backup": "/tmp/rheq-before-gutter-20261003-164130.app",
+    "verified": [
+      "executable and assets match signed stage",
+      "code signature",
+      "new plugin 0.1.1 bundled",
+      "new manual illustrations bundled",
+      "process alive after 7 seconds"
+    ],
+    "legacyReqeastAppExists": false
+  }
+}

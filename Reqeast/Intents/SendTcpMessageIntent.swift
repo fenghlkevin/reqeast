@@ -1,3 +1,4 @@
+// Modified for RHEQ: user-facing product name.
 //
 //  SendTcpMessageIntent.swift
 //  Reqeast
@@ -8,7 +9,7 @@ import Foundation
 
 struct SendTcpMessageIntent: AppIntent {
     static var title: LocalizedStringResource = "Send TCP Message"
-    static var description = IntentDescription("Send a message over TCP from Reqeast and return the response.")
+    static var description = IntentDescription("Send a message over TCP from RHEQ and return the response.")
     static var openAppWhenRun: Bool = false
 
     @Parameter(title: "Project")

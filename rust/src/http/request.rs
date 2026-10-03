@@ -1,3 +1,4 @@
+// Modified for RHEQ: visual workflows and HTTP diagnostics.
 use std::sync::Arc;
 use std::sync::atomic::{AtomicU64, Ordering};
 use std::time::{Duration, Instant};
@@ -137,7 +138,6 @@ pub(crate) async fn send_async(config: HttpRequestConfig) -> Result<HttpResponse
       }
     }
 
-    let total_elapsed_ms = start.elapsed().as_millis() as u64;
     let ctx = ResponseContext {
       dns_elapsed_ns,
       redirect_chain,
@@ -146,7 +146,7 @@ pub(crate) async fn send_async(config: HttpRequestConfig) -> Result<HttpResponse
       request_headers: user_headers,
       request_body_size,
     };
-    return collect_response(response, total_elapsed_ms, ctx).await;
+    return collect_response(response, start, ctx).await;
   }
 }
 
@@ -206,7 +206,7 @@ fn is_cross_origin(original: &reqwest::Url, redirect: &reqwest::Url) -> bool {
 
 async fn collect_response(
   response: reqwest::Response,
-  total_elapsed_ms: u64,
+  request_start: Instant,
   ctx: ResponseContext,
 ) -> Result<HttpResponse, ReqeastError> {
   let status_code = response.status().as_u16();
@@ -268,7 +268,7 @@ async fn collect_response(
 
   // Calculate timing breakdown
   let dns_lookup_ms = ctx.dns_elapsed_ns.load(Ordering::Relaxed) as f64 / 1_000_000.0;
-  let total_ms = total_elapsed_ms as f64;
+  let total_ms = request_start.elapsed().as_secs_f64() * 1000.0;
   let connection_ms = (total_ms - dns_lookup_ms - download_ms).max(0.0);
 
   let timing = Some(HttpTimingBreakdown {
@@ -297,7 +297,7 @@ async fn collect_response(
     status_text,
     headers,
     body,
-    elapsed_ms: total_elapsed_ms,
+    elapsed_ms: total_ms as u64,
     body_size,
     final_url,
     cookies,

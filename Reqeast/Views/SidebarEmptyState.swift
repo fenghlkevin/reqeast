@@ -1,3 +1,4 @@
+// Modified for RHEQ: welcome branding.
 //
 //  SidebarEmptyState.swift
 //  Reqeast
@@ -14,7 +15,7 @@ struct SidebarEmptyState: View {
             Spacer()
 
             VStack(spacing: 20) {
-                AppLogoView(size: 96, breathing: true)
+                AppLogoView(size: 80)
 
                 VStack(spacing: 6) {
                     HStack(spacing: 0) {
@@ -24,7 +25,7 @@ struct SidebarEmptyState: View {
                         AppNameText(size: .largeTitle)
                     }
 
-                    Text("Your API companion")
+                    Text("A workspace for your APIs")
                         .font(.body)
                         .foregroundStyle(.secondary)
                 }

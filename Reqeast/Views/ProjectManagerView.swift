@@ -1,3 +1,4 @@
+// Modified for RHEQ: compact sidebar proportions.
 //
 //  ProjectManagerView.swift
 //  Reqeast
@@ -119,7 +120,7 @@ struct ProjectManagerView: View {
                 onNewProject: addProject,
                 onExportSpec: presentSpecExport
             )
-            .navigationSplitViewColumnWidth(min: 200, ideal: 290, max: 400)
+            .navigationSplitViewColumnWidth(min: 200, ideal: 260, max: 400)
         } detail: {
             // NavigationStack is required for detail `.navigationTitle` to appear in the
             // macOS title bar after the toolbar chips (references/mac-1: lights → chips → "Reqeast").

@@ -1,3 +1,4 @@
+// Modified for RHEQ: visual workflows and HTTP diagnostics.
 use std::net::SocketAddr;
 use std::sync::Arc;
 use std::sync::atomic::{AtomicU64, Ordering};
@@ -21,7 +22,7 @@ impl Resolve for TimedResolver {
       let host = format!("{}:0", name.as_str());
       let start = std::time::Instant::now();
       let addrs: Vec<SocketAddr> = tokio::net::lookup_host(host).await?.collect();
-      elapsed.store(start.elapsed().as_nanos() as u64, Ordering::Relaxed);
+      elapsed.fetch_add(start.elapsed().as_nanos() as u64, Ordering::Relaxed);
       let addrs: Addrs = Box::new(addrs.into_iter());
       Ok(addrs)
     })
